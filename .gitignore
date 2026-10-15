@@ -1,0 +1,9 @@
+# Release binaries are uploaded as GitHub Release assets.
+*.zip
+*.apk
+*.exe
+*.dll
+*.mp4
+*.wav
+.DS_Store
+Thumbs.db
