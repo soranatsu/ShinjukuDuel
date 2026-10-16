@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "combat camera starts locked",
+      "pass": true,
+      "detail": "locked=True"
+    },
+    {
+      "name": "lock can still be toggled twice",
+      "pass": true,
+      "detail": "initial=True final=True"
+    },
+    {
+      "name": "both fighters have keyless touch tutorial text",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop tutorial narrative uses technique names",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile breakthrough text names real techniques",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "chapter ranges are contiguous",
+      "pass": true,
+      "detail": "0-8 / 9-16 / 17-21"
+    },
+    {
+      "name": "full chapter covers all 22 steps",
+      "pass": true,
+      "detail": "0-21"
+    },
+    {
+      "name": "tutorial layouts stay inside desktop/mobile/tablet safe bounds",
+      "pass": true,
+      "detail": "desktop=(x:46.00, y:140.00, width:640.00, height:370.00) mobile=(x:46.00, y:140.00, width:640.00, height:388.00) tablet=(x:46.00, y:140.00, width:640.00, height:368.00)"
+    },
+    {
+      "name": "basic chapter starts at step 0 and ends at 8",
+      "pass": true,
+      "detail": "0/8"
+    },
+    {
+      "name": "technique chapter starts at step 9 and ends at 16",
+      "pass": true,
+      "detail": "9/16"
+    },
+    {
+      "name": "mechanics chapter starts at step 17 and ends at 21",
+      "pass": true,
+      "detail": "17/21"
+    },
+    {
+      "name": "live Gojo tutorial uses keyless touch text",
+      "pass": true,
+      "detail": "左摇杆"
+    },
+    {
+      "name": "lock button is editable and cancel restores it",
+      "pass": true,
+      "detail": "before=(x:612.05, y:668.70, width:137.51, height:63.15) edited=(x:1647.50, y:23.11, width:165.01, height:75.78) restored=(x:612.05, y:668.70, width:137.51, height:63.15)"
+    },
+    {
+      "name": "lock button uses a name instead of a key",
+      "pass": true,
+      "detail": "锁定"
+    }
+  ]
+}

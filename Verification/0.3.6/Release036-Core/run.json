@@ -1,0 +1,58 @@
+{
+  "build": "Builds/Release-0.3.6/ShinjukuDuel.exe",
+  "managedSHA256": "9F3D8BFB96E116D647453B19160CF4F9236036EEDFA2E54438BAB84B5AC7F884",
+  "passed": true,
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "finished": "2026-10-17T03:04:38.5704328+08:00",
+  "results": [
+    {
+      "exitCode": 0,
+      "source": "Builds/Release-0.3.6/ProjectileRuntime/result.json",
+      "passed": true,
+      "fresh": true,
+      "name": "projectiles",
+      "checks": 71
+    },
+    {
+      "exitCode": 0,
+      "source": "Builds/Release-0.3.6/AirMovementRuntime/result.json",
+      "passed": true,
+      "fresh": true,
+      "name": "air",
+      "checks": 15
+    },
+    {
+      "exitCode": 0,
+      "source": "Builds/Release-0.3.6/MovementRuntime/result.json",
+      "passed": true,
+      "fresh": true,
+      "name": "movement",
+      "checks": 9
+    },
+    {
+      "exitCode": 0,
+      "source": "Builds/Release-0.3.6/ActionFlowRuntime/result.json",
+      "passed": true,
+      "fresh": true,
+      "name": "actions",
+      "checks": 7
+    },
+    {
+      "exitCode": 0,
+      "source": "Builds/Release-0.3.6/Smoke/hotfix-mobile-result.json",
+      "passed": true,
+      "fresh": true,
+      "name": "mobile",
+      "checks": 14
+    },
+    {
+      "exitCode": 0,
+      "source": "Builds/Release-0.3.6/UIRuntime/tutorial-result.json",
+      "passed": true,
+      "fresh": true,
+      "name": "tutorial",
+      "checks": 0
+    }
+  ],
+  "complete": true
+}

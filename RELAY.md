@@ -1,3 +1,9 @@
+## 0.3.6-preview 状态
+
+两端升级至 0.3.6 后，可通过在线房间的邀请码加入对局。本版协议为 `shinjuku-lan-036-v1`；修复安卓联机蓄力显示、建筑同步、联机菜单滚动和关闭按钮。
+
+最终 Windows 公网 Relay 集成 203 项、连续移动 45 项均通过，另有 LAN 与核心检查，合计 415 项。验收由同机两个 Windows 进程完成；Android/Mac 包体已核验，真机与跨设备体验尚未验证。详见 [NETWORK.md](NETWORK.md) 和 [原始检查结果](Verification/0.3.6/Network-Verification-0.3.6.md)。
+
 ## 0.3.5-preview 状态
 
 0.3.5 使用 `shinjuku-lan-035-v1` 联机协议，双方必须使用同一版本，旧协议端拒绝连接。客户端纠偏现在先写入权威 Transform，再调用 `Physics.SyncTransforms`，然后重放 `motor.Move`；网络重绑时 reset 相关状态。本地预测避免预测与渲染帧重复推进，远端快照按槽位使用独立序号和 `Unreliable` 传输，超过 2 m 直接纠偏，否则以 18 的跟随参数插值。此前一次 Relay 观测受旧版测量/纠偏指标问题影响，不能作为本版的数值基线；Windows 最终构建主验收已完成，压力场景仍保留新鲜度限制。

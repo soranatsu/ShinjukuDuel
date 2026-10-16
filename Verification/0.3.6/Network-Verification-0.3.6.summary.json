@@ -1,0 +1,65 @@
+{
+  "touch": {
+    "passed": true,
+    "failures": 0,
+    "failureFile": "touch-failures.txt",
+    "mode": "touch"
+  },
+  "version": "0.3.6-preview",
+  "wallClimb": "16 wall jumps, 3.68 seconds, position (0.17,123.04,0) from floor y=80",
+  "macDeviceTested": false,
+  "checks": 415.0,
+  "managedSHA256": "9F3D8BFB96E116D647453B19160CF4F9236036EEDFA2E54438BAB84B5AC7F884",
+  "ui": {
+    "passed": true,
+    "captures": 4,
+    "onGuiObserved": true,
+    "gameDirector": true
+  },
+  "components": [
+    {
+      "passed": true,
+      "complete": true,
+      "name": "core",
+      "checks": 116.0,
+      "report": "Release036-Core/run.json",
+      "managedSHA256": "9F3D8BFB96E116D647453B19160CF4F9236036EEDFA2E54438BAB84B5AC7F884"
+    },
+    {
+      "passed": true,
+      "complete": true,
+      "name": "relay",
+      "checks": 203.0,
+      "report": "Release036-Relay/run.json",
+      "managedSHA256": "9F3D8BFB96E116D647453B19160CF4F9236036EEDFA2E54438BAB84B5AC7F884"
+    },
+    {
+      "passed": true,
+      "complete": true,
+      "name": "lanRoles",
+      "checks": 29.0,
+      "report": "Release036-LAN-Roles/run.json",
+      "managedSHA256": "9F3D8BFB96E116D647453B19160CF4F9236036EEDFA2E54438BAB84B5AC7F884"
+    },
+    {
+      "passed": true,
+      "complete": true,
+      "name": "continuousRelay",
+      "checks": 45.0,
+      "report": "continuous-Release036-Sukuna/run.json",
+      "managedSHA256": "9F3D8BFB96E116D647453B19160CF4F9236036EEDFA2E54438BAB84B5AC7F884"
+    },
+    {
+      "passed": true,
+      "complete": true,
+      "name": "reconciliation",
+      "checks": 22,
+      "report": "Release036-Presentation/reconciliation.json",
+      "managedSHA256": "9F3D8BFB96E116D647453B19160CF4F9236036EEDFA2E54438BAB84B5AC7F884"
+    }
+  ],
+  "crossDeviceTested": false,
+  "passed": true,
+  "finished": "2026-10-17T03:11:50.4865242+08:00",
+  "androidDeviceTested": false
+}

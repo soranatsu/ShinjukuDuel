@@ -1,0 +1,16 @@
+{
+  "versionCode": 21,
+  "deviceTested": false,
+  "buildLog": "Logs/build-android-0.3.6-final4.log",
+  "apkSHA256": "5DADC3FDE2A19EC97A65BDE958FD68037B268C23E01A4C49DC87A0EFF6EDA093",
+  "package": "com.shinjuku.fanduel",
+  "certificateSHA256": "0f3b7fc7871f6eb012258a53c85c74119d0e3c38f7ffdfd9160389af55a2048e",
+  "minSdk": 26,
+  "targetSdk": 36,
+  "versionName": "0.3.6",
+  "internetPermission": true,
+  "abis": [
+    "arm64-v8a"
+  ],
+  "signatureVerified": true
+}

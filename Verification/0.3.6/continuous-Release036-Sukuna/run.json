@@ -1,0 +1,36 @@
+{
+  "scenario": "Release036-Sukuna",
+  "transport": "relay",
+  "impaired": false,
+  "hostRole": "Sukuna",
+  "hostFps": 120,
+  "clientFps": 30,
+  "durationSeconds": 40,
+  "hostPort": 8034,
+  "clientPort": 8035,
+  "build": "Builds/Release-0.3.6/ShinjukuDuel.exe",
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "managedSHA256": "9F3D8BFB96E116D647453B19160CF4F9236036EEDFA2E54438BAB84B5AC7F884",
+  "complete": true,
+  "passed": true,
+  "results": [
+    {
+      "failures": [],
+      "passed": true,
+      "checks": 25,
+      "mode": "host",
+      "output": "Docs/Verification-Network/continuous-Release036-Sukuna/relay-net-test-host-8034.json",
+      "complete": true
+    },
+    {
+      "failures": [],
+      "passed": true,
+      "checks": 20,
+      "mode": "client",
+      "output": "Docs/Verification-Network/continuous-Release036-Sukuna/relay-net-test-client-8035.json",
+      "complete": true
+    }
+  ],
+  "started": "2026-10-17T03:03:27.9214558+08:00",
+  "finished": "2026-10-17T03:04:28.4430916+08:00"
+}

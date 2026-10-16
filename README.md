@@ -3,9 +3,11 @@
 基于 Unity 制作的第一人称单人人机对战游戏。选择五条悟或两面宿傩，在可破坏的城市街区中使用近战、术式、领域和防御技能进行战斗。
 
 **稳定版：0.3.1 · 2026-10-16**  
-**预览版：0.3.5-preview · 联机移动纠偏与角色流程修复预览**
+**预览版：0.3.6-preview · 战斗、移动端与联机范围更新**
 
-公开发布的 0.3.1 是稳定的离线单人版本。0.3.2-preview、0.3.3-preview 和 0.3.4-preview 链接继续保留；0.3.5-preview 修正联机移动权威纠偏与网络重绑状态，并保留角色预选流程。Windows 最终构建的 429 项主验收已通过；受限压力场景仍有 2 项快照新鲜度超限，范围与平台限制见 [NETWORK.md](NETWORK.md)。
+0.3.1 保留为离线单人稳定版。最新 **0.3.6-preview** 提供 LAN / Relay 联机，修复安卓联机蓄力显示、建筑同步、连续贴墙跳、菜单裁字与滚动，并重新适配手机和平板按键。教学与战斗提示统一使用技能名称。联机双方都需升级到 0.3.6。
+
+最终 Windows 版本的 **415 项自动检查通过**，另完成教学、触控与界面检查。Android 安装包签名、版本和 ARM64 架构，以及 macOS 通用包的 Intel / Apple Silicon 架构与文件完整性均已核验；Android、Mac 真机与跨设备体验尚未验证。详见 [验证记录](Verification/0.3.6/Network-Verification-0.3.6.md)。
 
 ## 下载与安装
 
@@ -24,6 +26,9 @@
 | Windows x64（0.3.5-preview） | [下载 Windows ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.5-preview/ShinjukuDuel-0.3.5-windows-x64.zip) | 必须双方使用同一 0.3.5 构建；Windows 主验收 429 项通过，受限压力场景仍有 2 项快照新鲜度超限。 |
 | Android ARM64（0.3.5-preview） | [下载安卓 APK](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.5-preview/ShinjukuDuel-0.3.5-android-arm64.apk) | 已完成 ARM64 构建与元数据核验，versionName 0.3.5、versionCode 20、API 26—36；Android 真机及跨设备联机尚未验证。 |
 | macOS Universal（0.3.5-preview） | [下载 macOS ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.5-preview/ShinjukuDuel-0.3.5-macos-universal.zip) | Universal 包已构建并核验 x86_64+arm64 原生 Mach-O、Info.plist 版本 0.3.5、最低 macOS 12.0；Mac 真机、Developer ID 签名、公证和跨设备联机仍未验证。 |
+| Windows x64（0.3.6-preview） | [下载 Windows ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.6-preview/ShinjukuDuel-0.3.6-windows-x64.zip) | 含战斗、联机和世界同步更新，协议 `shinjuku-lan-036-v1`；Windows 415 项自动检查通过。 |
+| Android ARM64（0.3.6-preview） | [下载安卓 APK](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.6-preview/ShinjukuDuel-0.3.6-android-arm64.apk) | versionCode 21、ARM64、API 26—36，APK 构建核验已完成；真机及跨设备联机待核验。 |
+| macOS Universal（0.3.6-preview） | [下载 macOS ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.6-preview/ShinjukuDuel-0.3.6-macos-universal.zip) | 协议 `shinjuku-lan-036-v1`；macOS Universal 已构建并核验 x86_64+arm64 架构、版本 0.3.6、最低 macOS 12.0；Mac 实机、Developer ID 签名、公证和跨设备联机仍未验证。 |
 
 [全部发布文件](https://github.com/soranatsu/ShinjukuDuel/releases/latest) · [安装与操作说明](INSTALL.md) · [macOS 说明](MACOS.md) · [更新说明](CHANGELOG.md) · [LAN 联机指南](LAN.md) · [Relay 状态](RELAY.md) · [NETWORK 验证说明](NETWORK.md) · [SHA-256 校验](SHA256SUMS.txt)
 
@@ -32,6 +37,8 @@
 [0.3.4-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.4-preview) · [SHA-256 校验](SHA256SUMS-0.3.4.txt)
 
 [0.3.5-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.5-preview) · [SHA-256 校验](SHA256SUMS-0.3.5.txt)
+
+[0.3.6-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.6-preview) · [SHA-256 校验](SHA256SUMS-0.3.6.txt)
 
 GitHub 自动生成的 `Source code` ZIP/TAR 是本仓库的说明文档快照。游玩请下载上表中对应平台的文件。
 
@@ -113,11 +120,11 @@ R 键短按释放，长按蓄力，最高达到 **200% 伤害倍率**。蓄力�
 
 ### 教学、难度与操作设置
 
-包含基础、术式、机制三个章节的 **22 步引导教学**，可从主界面直接选择，也可以连续学习全部内容；当前实战课程使用五条悟视角。教学逐步练习移动、术式、领域对抗、黑闪和防御结界。教学敌人生命值为 1000，伤害和攻击频率降低，技能冷却最多 3 秒；每步完成后停留 1.5 秒，G 可跳步、V 可重练，结束后返回主界面。安卓教程使用苍、赫、茈、解、捌、开及领域和防御术式名称，PC 仍保留键位提示。
+包含基础、术式、机制三个章节的 **22 步引导教学**，可从主界面直接选择，也可以连续学习全部内容；当前实战课程使用五条悟视角。教学逐步练习移动、术式、领域对抗、黑闪和防御结界。教学敌人生命值为 1000，伤害和攻击频率降低，技能冷却最多 3 秒；每步完成后停留 1.5 秒，G 可跳步、V 可重练，结束后返回主界面。桌面与安卓教程使用苍、赫、茈、解、捌、开及领域和防御术式名称，桌面仍保留键位提示。
 
 提供三档 AI 难度。较低难度的攻击欲望、小技能频率和反应速度更低；更高难度的敌人会更积极地交战，敌方领域的控制、耐久或持续时间也会按角色与难度调整。起跳后保留水平惯性，普通空中移动和滞空不会被 WASD 即时转向；二段跳、踏墙跳和闪避仍可改变路径，落地后恢复正常移动。
 
-首页和暂停菜单均可调整音量、按键、视角灵敏度、镜头动态和伤害飘字。手机和平板使用左侧摇杆、右侧技能按钮，可以拖动位置并缩放至 70%—160%，分别保存布局。
+首页和暂停菜单均可调整音量、按键、视角灵敏度、镜头动态和伤害飘字。手机和平板使用左侧摇杆、右侧技能按钮；默认手游布局按实际屏幕适配比例、尺寸、字体和大攻击键，可以在设置中恢复默认，并保留自定义位置与缩放值。
 
 ### 0.3.3-preview 联机预览
 

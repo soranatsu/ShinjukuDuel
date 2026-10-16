@@ -1,0 +1,32 @@
+{
+  "scenario": "Release036-Relay",
+  "complete": true,
+  "passed": true,
+  "build": "Builds/Release-0.3.6/ShinjukuDuel.exe",
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "sourceWindowsBuildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "managedSHA256": "9F3D8BFB96E116D647453B19160CF4F9236036EEDFA2E54438BAB84B5AC7F884",
+  "hostRole": "Gojo",
+  "hostPort": 8030,
+  "clientPort": 8031,
+  "transport": "relay",
+  "relayRunId": "Release036-Relay",
+  "results": [
+    {
+      "checks": 153,
+      "complete": true,
+      "mode": "host",
+      "failures": [],
+      "passed": true
+    },
+    {
+      "checks": 50,
+      "complete": true,
+      "mode": "client",
+      "failures": [],
+      "passed": true
+    }
+  ],
+  "started": "2026-10-17T03:01:24.5816561+08:00",
+  "finished": "2026-10-17T03:03:26.7890561+08:00"
+}

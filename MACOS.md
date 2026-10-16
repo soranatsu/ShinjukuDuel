@@ -1,14 +1,14 @@
 # macOS 使用说明
 
-0.3.5 macOS 预览包已完成 Universal 构建核验，支持 Intel 与 Apple Silicon，最低 macOS 12.0；6 个原生 Mach-O 均为 x86_64+arm64，Info.plist 版本为 0.3.5。ZIP 大小 94,604,128 bytes，SHA-256：`B099BF924218991A0D0B0CAFBD4E402CC7FD1CF55BE714E0C2E2C183B42085AF`。Mac 实机、Developer ID 签名、公证和跨设备联机仍待验证。
+0.3.6-preview 更新战斗、联机菜单、触控布局和世界同步范围，联机协议为 `shinjuku-lan-036-v1`；首页仅保留右下角版本号，桌面教学与状态使用苍、赫、茈、解、捌、开等技能名。macOS Universal 已构建并核验 x86_64+arm64 架构、版本 0.3.6、最低 macOS 12.0；Mac 实机、Developer ID 签名、公证和跨设备联机仍未验证。
 
-1. 解压 `ShinjukuDuel-0.3.5-macos-universal.zip`，保留完整的 `ShinjukuDuel.app` 包内容。
+1. 解压 `ShinjukuDuel-0.3.6-macos-universal.zip`，保留完整的 `ShinjukuDuel.app` 包内容。
 2. 将 `.app` 拖到“应用程序”文件夹，或放到自己的用户文件夹中。
 3. 双击启动即可，不需要安装 Unity 或其他运行环境。
 
 鼠标左键普攻、右键格挡，中键锁定目标。触控板没有实体中键时，建议进入设置重新绑定锁定键；也可在那里调整鼠标灵敏度、音乐和音效音量。
 
-Relay 邀请码和 LAN 联机使用与 Windows/Android 配套的 `shinjuku-lan-035-v1` 协议，双方必须使用同一版本，旧端会被拒绝。0.3.5 移动纠偏已在 Windows 最终构建主验收中验证；macOS 包本身已完成构建核验，但当前没有 Mac 实机或跨平台联机验证，因此 macOS 联机体验仍待确认。
+Relay 邀请码和 LAN 联机使用与 Windows/Android 配套的 `shinjuku-lan-036-v1` 协议，双方必须使用同一 0.3.6 版本，旧端会被拒绝。macOS Universal 构建已核验；Mac 实机、Developer ID 签名、公证和跨设备联机仍待验证，因此 macOS 联机体验仍待确认。
 
 当前 macOS 预览包没有 Apple Developer ID 签名和公证。首次打开若被系统拦截：
 

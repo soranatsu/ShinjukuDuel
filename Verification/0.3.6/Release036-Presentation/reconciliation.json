@@ -1,0 +1,115 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "cross-platform world identity ignores collider epsilon",
+      "pass": true,
+      "detail": "desktopHash=E74031C8A963B215 mobileHash=E74031C8A963B215"
+    },
+    {
+      "name": "world topology mismatch changes layout hash",
+      "pass": true,
+      "detail": "expected different stable block ID, hash=FB63805414D66600"
+    },
+    {
+      "name": "world support parent mismatch changes layout hash",
+      "pass": true,
+      "detail": "same block ID with a different structural parent"
+    },
+    {
+      "name": "duplicate block IDs cannot masquerade as distinct topology",
+      "pass": true,
+      "detail": "duplicate=5318795DEFD0C459 distinct=9AA2808607FA38E8"
+    },
+    {
+      "name": "reconciliation fixture available",
+      "pass": true,
+      "detail": "running=True motorEnabled=True"
+    },
+    {
+      "name": "baseline ApplyNetworkState uses enabled CharacterController",
+      "pass": true,
+      "detail": "applied=True motorEnabled=True"
+    },
+    {
+      "name": "authoritative 30m correction is applied immediately",
+      "pass": true,
+      "detail": "applied=True error=0.000"
+    },
+    {
+      "name": "acknowledged pending move returns to stable authority",
+      "pass": true,
+      "detail": "applied=True beforeX=20.000 afterX=20.000 authorityX=20.000 error=0.000"
+    },
+    {
+      "name": "60Hz prediction plus 120Hz render stays near 15m/s",
+      "pass": true,
+      "detail": "resetApplied=True displacement=15.000 expected=15.000 range=[14.250,15.750]"
+    },
+    {
+      "name": "rebinding accepts a fresh snapshot sequence",
+      "pass": true,
+      "detail": "applied=True error=0.000 position=(25.00, 0.08, 0.00)"
+    },
+    {
+      "name": "Gojo remote charge survives held windup and repeated snapshots",
+      "pass": true,
+      "detail": "applied=True charging=True visual=True"
+    },
+    {
+      "name": "Gojo remote charge clears on release",
+      "pass": true,
+      "detail": "released snapshot removes presentation"
+    },
+    {
+      "name": "Gojo remote charge clears on cancellation",
+      "pass": true,
+      "detail": "idle snapshot removes presentation"
+    },
+    {
+      "name": "Gojo local charge survives held windup and repeated snapshots",
+      "pass": true,
+      "detail": "applied=True charging=True visual=True"
+    },
+    {
+      "name": "Gojo local charge clears on release",
+      "pass": true,
+      "detail": "released snapshot removes presentation"
+    },
+    {
+      "name": "Gojo local charge clears on cancellation",
+      "pass": true,
+      "detail": "idle snapshot removes presentation"
+    },
+    {
+      "name": "Sukuna remote charge survives held windup and repeated snapshots",
+      "pass": true,
+      "detail": "applied=True charging=True visual=True"
+    },
+    {
+      "name": "Sukuna remote charge clears on release",
+      "pass": true,
+      "detail": "released snapshot removes presentation"
+    },
+    {
+      "name": "Sukuna remote charge clears on cancellation",
+      "pass": true,
+      "detail": "idle snapshot removes presentation"
+    },
+    {
+      "name": "Sukuna local charge survives held windup and repeated snapshots",
+      "pass": true,
+      "detail": "applied=True charging=True visual=True"
+    },
+    {
+      "name": "Sukuna local charge clears on release",
+      "pass": true,
+      "detail": "released snapshot removes presentation"
+    },
+    {
+      "name": "Sukuna local charge clears on cancellation",
+      "pass": true,
+      "detail": "idle snapshot removes presentation"
+    }
+  ]
+}

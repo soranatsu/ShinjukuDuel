@@ -1,0 +1,360 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "ordinary Blue starts, turns toward a lateral target, and expires",
+      "pass": true,
+      "detail": "started=True turned=True angle=8.92 hits=0"
+    },
+    {
+      "name": "ordinary projectile has no duplicate victim hit",
+      "pass": true,
+      "detail": "hits=0"
+    },
+    {
+      "name": "Sukuna E 30 FPS E lateral inside 3.200m",
+      "pass": true,
+      "detail": "fps=30 lateral=1.500 y=80.050 hit=True expected=True damage=33.58"
+    },
+    {
+      "name": "Sukuna E 30 FPS E lateral outside 3.200m",
+      "pass": true,
+      "detail": "fps=30 lateral=2.230 y=80.050 hit=False expected=False damage=0.00"
+    },
+    {
+      "name": "Sukuna E 30 FPS E vertical outside 3.200m",
+      "pass": true,
+      "detail": "fps=30 lateral=0.000 y=83.000 hit=False expected=False damage=0.00"
+    },
+    {
+      "name": "Sukuna E 120 FPS E lateral inside 3.200m",
+      "pass": true,
+      "detail": "fps=120 lateral=1.500 y=80.050 hit=True expected=True damage=33.58"
+    },
+    {
+      "name": "Sukuna E 120 FPS E lateral outside 3.200m",
+      "pass": true,
+      "detail": "fps=120 lateral=2.230 y=80.050 hit=False expected=False damage=0.00"
+    },
+    {
+      "name": "Sukuna E 120 FPS E vertical outside 3.200m",
+      "pass": true,
+      "detail": "fps=120 lateral=0.000 y=83.000 hit=False expected=False damage=0.00"
+    },
+    {
+      "name": "Sukuna Q 30 FPS Q lateral inside 3.000m",
+      "pass": true,
+      "detail": "fps=30 lateral=1.400 y=80.050 hit=True expected=True damage=67.17"
+    },
+    {
+      "name": "Sukuna Q 30 FPS Q lateral outside 3.000m",
+      "pass": true,
+      "detail": "fps=30 lateral=2.130 y=80.050 hit=False expected=False damage=0.00"
+    },
+    {
+      "name": "Sukuna Q 30 FPS Q vertical outside 3.000m",
+      "pass": true,
+      "detail": "fps=30 lateral=0.000 y=83.000 hit=False expected=False damage=0.00"
+    },
+    {
+      "name": "Sukuna Q 120 FPS Q lateral inside 3.000m",
+      "pass": true,
+      "detail": "fps=120 lateral=1.400 y=80.050 hit=True expected=True damage=67.17"
+    },
+    {
+      "name": "Sukuna Q 120 FPS Q lateral outside 3.000m",
+      "pass": true,
+      "detail": "fps=120 lateral=2.130 y=80.050 hit=False expected=False damage=0.00"
+    },
+    {
+      "name": "Sukuna Q 120 FPS Q vertical outside 3.000m",
+      "pass": true,
+      "detail": "fps=120 lateral=0.000 y=83.000 hit=False expected=False damage=0.00"
+    },
+    {
+      "name": "Void stops outbound Gojo technique at its boundary",
+      "pass": true,
+      "detail": "started=True outsideLoss=0.00 domain=True"
+    },
+    {
+      "name": "external Shrine technique damages shell without body double-hit",
+      "pass": true,
+      "detail": "started=True shell=31.50 body=0.00"
+    },
+    {
+      "name": "near-wall Shrine sweep stops at shell without body hit",
+      "pass": true,
+      "detail": "started=True shell=42.00 body=0.00"
+    },
+    {
+      "name": "outside Shrine R explosion consumes shell without body hit",
+      "pass": true,
+      "detail": "started=True shell=187.50 body=0.00"
+    },
+    {
+      "name": "internal Shrine technique hits body without shell debit",
+      "pass": true,
+      "detail": "started=True body=42.00 shell=0.00"
+    },
+    {
+      "name": "post-shell-break Shrine projectile is not still blocked",
+      "pass": true,
+      "detail": "broken=True started=True bodyLoss=31.50"
+    },
+    {
+      "name": "released build uses final R stats for both fighters",
+      "pass": true,
+      "detail": "Blue44, R187.5 / 375, 16s, 9.6m radius, 1.1s homing"
+    },
+    {
+      "name": "release projectile speeds retain matchup ordering",
+      "pass": true,
+      "detail": "Blue36 Red42 Purple52 / Dismantle85 Cleave95 m/s"
+    },
+    {
+      "name": "ordinary Red tracks during its 1.5-second window then stops turning",
+      "pass": true,
+      "detail": "started=True activeTurn=9.53 postWindowTurn=0.00 hasProjectile=True"
+    },
+    {
+      "name": "Sukuna Q reaches a 72 m target through a destructible building at 30 FPS F",
+      "pass": true,
+      "detail": "fps=30 attack=Q width=4 started=True targetHit=True targetDamage=63.00 buildingBroken=True range=72.0"
+    },
+    {
+      "name": "Sukuna Q reaches a 72 m target through a destructible building at 120 FPS F",
+      "pass": true,
+      "detail": "fps=120 attack=Q width=10 started=True targetHit=True targetDamage=63.00 buildingBroken=True range=72.0"
+    },
+    {
+      "name": "Sukuna E reaches a 72 m target through a destructible building at 30 FPS E",
+      "pass": true,
+      "detail": "fps=30 attack=E width=4 started=True targetHit=True targetDamage=31.50 buildingBroken=True range=75.0"
+    },
+    {
+      "name": "Sukuna E reaches a 72 m target through a destructible building at 120 FPS E",
+      "pass": true,
+      "detail": "fps=120 attack=E width=10 started=True targetHit=True targetDamage=31.50 buildingBroken=True range=75.0"
+    },
+    {
+      "name": "Gojo E cuts through a 4 m building at 30 FPS narrow",
+      "pass": true,
+      "detail": "fps=30 attack=E started=True targetHit=True targetDamage=33.00 buildingBroken=True range=44.0"
+    },
+    {
+      "name": "Gojo E cuts through a 10 m building at 120 FPS wide",
+      "pass": true,
+      "detail": "fps=120 attack=E started=True targetHit=True targetDamage=33.00 buildingBroken=True range=44.0"
+    },
+    {
+      "name": "Gojo Q cuts through a 4 m building at 30 FPS Red",
+      "pass": true,
+      "detail": "fps=30 attack=Q started=True targetHit=True targetDamage=54.75 buildingBroken=True range=60.0"
+    },
+    {
+      "name": "Gojo Q cuts through a 10 m building at 120 FPS Red",
+      "pass": true,
+      "detail": "fps=120 attack=Q started=True targetHit=True targetDamage=54.75 buildingBroken=True range=60.0"
+    },
+    {
+      "name": "Gojo R cuts through a 10 m building at 30 FPS R",
+      "pass": true,
+      "detail": "fps=30 attack=R started=True targetHit=True targetDamage=140.63 buildingBroken=True range=150.0"
+    },
+    {
+      "name": "Gojo R cuts through a 10 m building at 120 FPS R",
+      "pass": true,
+      "detail": "fps=120 attack=R started=True targetHit=True targetDamage=140.63 buildingBroken=True range=150.0"
+    },
+    {
+      "name": "Gojo Red ignores already broken wall debris",
+      "pass": true,
+      "detail": "started=True broken=True targetDamage=54.75"
+    },
+    {
+      "name": "Gojo Red reaches a target behind the broken building",
+      "pass": true,
+      "detail": "targetDamage=54.75"
+    },
+    {
+      "name": "central Red/R-scale blast breaks the struck storey",
+      "pass": true,
+      "detail": "broken=True"
+    },
+    {
+      "name": "corner blast preserves the storey shell",
+      "pass": true,
+      "detail": "broken=False grazingPoint=(33.50, 81.01, 5.50)"
+    },
+    {
+      "name": "corner blast generates local chips",
+      "pass": true,
+      "detail": "fragments=118->119 nearImpact=True"
+    },
+    {
+      "name": "Gojo R reaches a 130 m target inside the 150 m envelope",
+      "pass": true,
+      "detail": "started=True hits=1 damage=140.63 range=150.0"
+    },
+    {
+      "name": "single-domain E reaches a laterally moved target exactly once",
+      "pass": true,
+      "detail": "expanded=True started=True hits=1"
+    },
+    {
+      "name": "sure-hit retains normal guard damage reduction",
+      "pass": true,
+      "detail": "damage=21.24 raw=44.00"
+    },
+    {
+      "name": "domain sure-hit remains disabled after the domain grant is gone",
+      "pass": true,
+      "detail": "projectile grant state"
+    },
+    {
+      "name": "single-domain E bypasses dodge during an actual hit",
+      "pass": true,
+      "detail": "expanded=True started=True dash=True hits=1 hitDuringDodge=True"
+    },
+    {
+      "name": "ordinary damage is immune through .55 s of Shift invulnerability",
+      "pass": true,
+      "detail": "dash=True early=False mid=False invuln=0.000"
+    },
+    {
+      "name": "ordinary damage lands after the independent .6 s Shift window",
+      "pass": true,
+      "detail": "accepted=True damage=20.00 invuln=0.000"
+    },
+    {
+      "name": "R blast damages a Shift-invulnerable target through the real projectile path",
+      "pass": true,
+      "detail": "started=True dash=True hits=1 dodgeInvuln=True damage=187.50"
+    },
+    {
+      "name": "domain clash disables an already flying sure-hit projectile",
+      "pass": true,
+      "detail": "gojo=True sukuna=True started=True sureHit=False"
+    },
+    {
+      "name": "Sukuna AI-height R release re-aims after target movement without self blast",
+      "pass": true,
+      "detail": "started=True selfDamage=0.00 targetDamage=257.21 aim=(0.00, -1.00, 0.00)"
+    },
+    {
+      "name": "Gojo AI-height R release re-aims after target movement without self blast",
+      "pass": true,
+      "detail": "started=True selfDamage=0.00 targetDamage=256.73 aim=(0.00, -1.00, 0.00)"
+    },
+    {
+      "name": "Sukuna AI R cancels when target closes during charge",
+      "pass": true,
+      "detail": "started=True selfDamage=0.00 projectile=False"
+    },
+    {
+      "name": "Gojo AI R cancels when target closes during charge",
+      "pass": true,
+      "detail": "started=True selfDamage=0.00 projectile=False"
+    },
+    {
+      "name": "R still explodes on a real ground impact",
+      "pass": true,
+      "detail": "started=True selfDamage=37.50"
+    },
+    {
+      "name": "uncharged Gojo R self-damages its source once",
+      "pass": true,
+      "detail": "started=True damage=37.50 expected=37.50"
+    },
+    {
+      "name": "fully charged Gojo R self-damage scales with charge",
+      "pass": true,
+      "detail": "started=True damage=75.00 expected=75.00"
+    },
+    {
+      "name": "R explosion outside source capsule causes no self-damage",
+      "pass": true,
+      "detail": "started=True damage=0.00"
+    },
+    {
+      "name": "Gojo E never uses the R self-damage rule",
+      "pass": true,
+      "detail": "started=True damage=0.00"
+    },
+    {
+      "name": "uncharged Sukuna R self-damages its source once",
+      "pass": true,
+      "detail": "started=True damage=37.50 expected=37.50"
+    },
+    {
+      "name": "fully charged Sukuna R self-damage scales with charge",
+      "pass": true,
+      "detail": "started=True damage=75.00 expected=75.00"
+    },
+    {
+      "name": "heavy attack entry is disabled while enum remains compatible",
+      "pass": true,
+      "detail": "TryAttack returned false"
+    },
+    {
+      "name": "R charge keeps holding below cumulative interruption damage",
+      "pass": true,
+      "detail": "started=True first=True second=True held1=True held2=True damage=50.00"
+    },
+    {
+      "name": "R charge cancels exactly at cumulative 50 real damage",
+      "pass": true,
+      "detail": "third=True charging=False accumulated=0.00"
+    },
+    {
+      "name": "a new R charge starts with a fresh interruption budget",
+      "pass": true,
+      "detail": "restarted=True charging=True accumulated=0.00"
+    },
+    {
+      "name": "right-button guard auto-counters a nearby punch once",
+      "pass": true,
+      "detail": "punch=True punchAt=78.335 counterHits=1 damage=30.00"
+    },
+    {
+      "name": "guard after the .3 s window does not auto-counter",
+      "pass": true,
+      "detail": "punch=True counterHits=0 guard=True"
+    },
+    {
+      "name": "Gojo E survives ordinary hit during windup and releases",
+      "pass": true,
+      "detail": "started=True ordinary=True selfDamage=20.00 hits=1 released=True cd=2.92"
+    },
+    {
+      "name": "Gojo Q survives ordinary hit during windup and releases",
+      "pass": true,
+      "detail": "started=True ordinary=True selfDamage=20.00 hits=1 released=True cd=3.38"
+    },
+    {
+      "name": "Sukuna E survives ordinary hit during windup and releases",
+      "pass": true,
+      "detail": "started=True ordinary=True selfDamage=20.00 hits=1 released=True cd=2.80"
+    },
+    {
+      "name": "Sukuna Q survives ordinary hit during windup and releases",
+      "pass": true,
+      "detail": "started=True ordinary=True selfDamage=20.00 hits=1 released=True cd=3.82"
+    },
+    {
+      "name": "ordinary hit preserves immediate melee input",
+      "pass": true,
+      "detail": "hit=True attack=True attacking=True stun=0.00"
+    },
+    {
+      "name": "Gojo E is cancelled by true domain freeze",
+      "pass": true,
+      "detail": "started=True attacking=False projectile=False frozen=True"
+    },
+    {
+      "name": "Sukuna Q is cancelled by true domain freeze",
+      "pass": true,
+      "detail": "started=True attacking=False projectile=False frozen=True"
+    }
+  ]
+}

@@ -9,6 +9,10 @@
 
 0.3.2-preview、0.3.3-preview、0.3.4-preview 和 0.3.5-preview 联机包：下载表中的对应 preview ZIP，完整解压后运行同名 EXE。0.3.5-preview 必须双方使用同一构建，协议为 `shinjuku-lan-035-v1`，旧端会被拒绝；Windows 主验收 429 项已通过，受限压力场景仍有 2 项快照新鲜度超限。
 
+最新联机预览版请下载 `ShinjukuDuel-0.3.6-windows-x64.zip`，按上述方式解压运行。双方必须使用 0.3.6。手机默认布局已重新适配；原有自定义布局会保留，可在布局设置选择“默认”启用新版排列。
+
+Windows 自动检查共 415 项通过。Android 与 macOS 包体核验已完成，真机与跨设备联机体验尚未验证，详见 [验证记录](Verification/0.3.6/Network-Verification-0.3.6.md)。
+
 ## Android
 
 - 下载并安装 `ShinjukuDuel-0.3.1-android-arm64.apk`。
@@ -20,11 +24,15 @@
 
 当前稳定 APK 为 0.3.1、versionCode 为 16，使用既有 Android Debug 签名。公开 0.3.1 为离线单人版本。0.3.5-preview Android APK 已完成 ARM64 构建与元数据核验，versionName 为 0.3.5、versionCode 为 20；Android 真机及跨设备联机仍待验收。证书 SHA-256：`0f3b7fc7871f6eb012258a53c85c74119d0e3c38f7ffdfd9160389af55a2048e`；APK SHA-256：`070166081B7D871BF415714CFDCD6867543424AADA5483B7BF4EAC2F468C15FF`。
 
+0.3.6-preview Android versionCode 为 21，目标 ARM64、API 26—36，包含当前战斗参数、R 蓄力网络恢复、移动端特效和按屏幕适配的默认手游布局；APK 构建核验已完成（SHA-256 `5DADC3FDE2A19EC97A65BDE958FD68037B268C23E01A4C49DC87A0EFF6EDA093`），Windows 触控预览与截图通过，Android 真机及跨设备联机仍待验证。
+
 0.3.2-preview Android 包面向 ARM64、API 26—36。尚未进行 Android 真机验证；遇到安装或触控问题请优先使用稳定版 0.3.1。预览包不是应用商店签名版本。
 
 ## macOS Universal 预览包
 
-- 下载 `ShinjukuDuel-0.3.5-macos-universal.zip`，解压后保留完整的 `ShinjukuDuel.app`。
+- 0.3.6-preview 更新战斗、联机和世界同步范围；协议为 `shinjuku-lan-036-v1`，macOS Universal 已构建并核验 x86_64+arm64 架构、版本 0.3.6、最低 macOS 12.0；Mac 实机、Developer ID 签名、公证和跨设备联机仍未验证。
+
+- 下载 `ShinjukuDuel-0.3.6-macos-universal.zip`，解压后保留完整的 `ShinjukuDuel.app`。
 - 支持 Intel 与 Apple Silicon，最低 macOS 12.0；可将 `.app` 拖到“应用程序”或用户文件夹，不需要安装 Unity。
 - 0.3.5 的 Relay/LAN 功能使用 `shinjuku-lan-035-v1` 协议与 Windows、Android 配套；macOS Universal 已完成构建并核验原生 x86_64+arm64 Mach-O、最低 macOS 12.0。ZIP 大小 94,604,128 bytes，SHA-256：`B099BF924218991A0D0B0CAFBD4E402CC7FD1CF55BE714E0C2E2C183B42085AF`；尚无 Mac 实机或跨平台联机测试，且无 Developer ID 签名和公证。
 - 当前预览包没有 Apple Developer ID 签名和公证。首次被拦截时，先尝试打开一次，再到“系统设置 > 隐私与安全性”选择“仍要打开”。不需要关闭 Gatekeeper。

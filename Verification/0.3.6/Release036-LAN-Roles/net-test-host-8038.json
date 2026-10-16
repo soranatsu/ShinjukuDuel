@@ -1,0 +1,92 @@
+{
+  "mode": "host",
+  "output": "C:/Users/sora/AppData/LocalLow/Shinjuku Fan Project/新宿决战/net-test-host-8038.json",
+  "complete": true,
+  "checks": [
+    {
+      "name": "host_offline_gojo_selection",
+      "detail": "unconnected Gojo selection slot=0",
+      "pass": true
+    },
+    {
+      "name": "host_offline_sukuna_selection",
+      "detail": "unconnected Sukuna selection slot=1",
+      "pass": true
+    },
+    {
+      "name": "host_offline_preselection",
+      "detail": "final unconnected preselection slot=0",
+      "pass": true
+    },
+    {
+      "name": "host_preselection_retained",
+      "detail": "host slot after StartLanHost=0",
+      "pass": true
+    },
+    {
+      "name": "no_remote_swap_blocked",
+      "detail": "request before remote join",
+      "pass": true
+    },
+    {
+      "name": "handshake",
+      "detail": "另一位玩家已加入，请准备",
+      "pass": true
+    },
+    {
+      "name": "role_setup",
+      "detail": "host preselection retained and client conflict did not change it",
+      "pass": true
+    },
+    {
+      "name": "accept_host_request",
+      "detail": "roles exchanged and pending cleared",
+      "pass": true
+    },
+    {
+      "name": "client_request_received",
+      "detail": "server observed client request",
+      "pass": true
+    },
+    {
+      "name": "accept_client_request",
+      "detail": "roles exchanged back and pending cleared",
+      "pass": true
+    },
+    {
+      "name": "decline_request",
+      "detail": "decline clears request",
+      "pass": true
+    },
+    {
+      "name": "ready_blocked",
+      "detail": "ready cannot be set while swap is pending; cleared=True",
+      "pass": true
+    },
+    {
+      "name": "ready_phase_cleared_ack",
+      "detail": "client observed pending=false before the next request",
+      "pass": true
+    },
+    {
+      "name": "invalid_self_response",
+      "detail": "pending=True,stillPending=True,ack=True,cleared=True",
+      "pass": true
+    },
+    {
+      "name": "request_timeout",
+      "detail": "20 second server expiry",
+      "pass": true
+    },
+    {
+      "name": "active_match_swap_blocked",
+      "detail": "swap rejected during match",
+      "pass": true
+    },
+    {
+      "name": "client_complete",
+      "detail": "client completed matching checks",
+      "pass": true
+    }
+  ]
+}

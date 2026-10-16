@@ -1,0 +1,73 @@
+{
+  "product": "ShinjukuDuel",
+  "version": "0.3.6",
+  "bundle": "ShinjukuDuel.app",
+  "executable": "新宿决战",
+  "architectures": [
+    "arm64",
+    "x86_64"
+  ],
+  "nativeMachO": [
+    {
+      "path": "Contents/Frameworks/libmono-native.dylib",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ]
+    },
+    {
+      "path": "Contents/Frameworks/libmonobdwgc-2.0.dylib",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ]
+    },
+    {
+      "path": "Contents/Frameworks/libMonoPosixHelper.dylib",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ]
+    },
+    {
+      "path": "Contents/Frameworks/UnityPlayer.dylib",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ]
+    },
+    {
+      "path": "Contents/MacOS/新宿决战",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ]
+    },
+    {
+      "path": "Contents/PlugIns/lib_burst_generated.bundle",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ]
+    }
+  ],
+  "copiedDocs": [
+    "AudioCredits.md",
+    "CityAssetCredits.md",
+    "FontCredits.md",
+    "MangaBackgroundCredits.md",
+    "Relay设置.md",
+    "Relay邀请码联机.md",
+    "SharingReview.md",
+    "ShinjukuLandmarkCredits.md",
+    "TripoCharacterCredits.md",
+    "UserGojoCredits.md",
+    "UserSukunaObj.md",
+    "使用说明.txt",
+    "局域网联机说明.md",
+    "本版更新说明.md",
+    "macOS-使用说明.md"
+  ],
+  "macRuntimeTested": false,
+  "notarized": false
+}

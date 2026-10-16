@@ -1,0 +1,10 @@
+{
+  "version": "0.3.6",
+  "archive": "ShinjukuDuel-0.3.6-windows-x64.zip",
+  "archiveSHA256": "F8D9B45BAB444DBEC02FB80787A25B5F5D703600E7184C91603FD4C31B288651",
+  "archiveBytes": 84496435,
+  "managedSHA256": "9F3D8BFB96E116D647453B19160CF4F9236036EEDFA2E54438BAB84B5AC7F884",
+  "manifestFilesVerified": 207,
+  "crcVerified": true,
+  "requiredRuntimeVerified": true
+}
