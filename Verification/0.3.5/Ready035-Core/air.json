@@ -1,0 +1,75 @@
+{
+    "passed": true,
+    "checks": [
+        {
+            "name": "air movement fixtures available",
+            "pass": true,
+            "detail": "player and ground"
+        },
+        {
+            "name": "jump and wall buffer network state survives JSON round trip",
+            "pass": true,
+            "detail": "json={\"epoch\":1,\"sequence\":1,\"slot\":0,\"position\":{\"x\":0.0,\"y\":80.03500366210938,\"z\":0.0},\"rotation\":{\"x\":0.0,\"y\":0.3895239531993866,\"z\":0.0,\"w\":0.9210163950920105},\"velocity\":{\"x\":0.0,\"y\":-0.9696192741394043,\"z\":0.0},\"horizontalVelocity\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"verticalVelocity\":-0.9696192741394043,\"externalVelocity\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"aimDirection\":{\"x\":0.9999988675117493,\"y\":-0.0014930936740711331,\"z\":1.5792336682807218e-7},\"health\":2000.0,\"alive\":true,\"attacking\":false,\"attack\":0,\"actionProgress\":0.0,\"actionDuration\":0.5,\"stunRemaining\":0.0,\"burnoutRemaining\":0.0,\"dodgeRemaining\":0.0,\"dodgeInvulnerabilityRemaining\":0.0,\"dashCooldownRemaining\":0.0,\"dashVelocity\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"healCooldownRemaining\":0.0,\"guardHeld\":false,\"barrierActive\":false,\"barrierRemaining\":0.0,\"barrierShield\":0.0,\"barrierCooldownRemaining\":0.0,\"domainFreeze\":false,\"grounded\":true,\"jumpQueued\":true,\"jumpInputHeld\":true,\"hoverQueued\":true,\"airHorizontalLocked\":true,\"wallJumpNormal\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"wallContactRemaining\":0.0,\"wallJumpInputBufferRemaining\":0.11999999731779099,\"wallJumpCooldownRemaining\":0.0,\"ledgeClimbCooldownRemaining\":0.0,\"airJumpsRemaining\":1,\"hoverBudget\":0.0,\"hovering\":false,\"chargingUltimate\":false,\"ultimateChargeProgress\":0.0,\"ultimateChargeDamageTaken\":0.0,\"cooldowns\":[0.0,0.0,0.0,0.0,0.0,0.0],\"projectile\":{\"id\":0,\"active\":false,\"attack\":0,\"position\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"direction\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"distance\":0.0,\"damage\":0.0,\"sureHit\":false},\"additionalProjectiles\":[],\"ackInputSequence\":0} jumpQueued=True/True jumpHeld=True/True hover=True/True wallBuffer=0.120/0.120"
+        },
+        {
+            "name": "ground movement follows current input",
+            "pass": true,
+            "detail": "dx=2.00"
+        },
+        {
+            "name": "takeoff uses the current input instead of stale horizontal velocity",
+            "pass": true,
+            "detail": "dx=0.25 vx=14.90"
+        },
+        {
+            "name": "airborne reverse input does not turn horizontal velocity",
+            "pass": true,
+            "detail": "initialVx=15.00 laterVx=12.79"
+        },
+        {
+            "name": "neutral air input brakes the captured path without reversing it",
+            "pass": true,
+            "detail": "initialVx=15.00 laterVx=10.70 dx=4.59"
+        },
+        {
+            "name": "hover keeps the captured horizontal path",
+            "pass": true,
+            "detail": "hovering=True vx=14.90"
+        },
+        {
+            "name": "second jump explicitly redirects horizontal velocity",
+            "pass": true,
+            "detail": "remaining=0 vx=-14.90"
+        },
+        {
+            "name": "air dash explicitly redirects and preserves the path",
+            "pass": true,
+            "detail": "airborne=True started=True vx=-30.00 dx=-5.50"
+        },
+        {
+            "name": "wall jump explicitly redirects through wall normal",
+            "pass": true,
+            "detail": "wallJumps=1 vx=-3.67"
+        },
+        {
+            "name": "wall jump buffer works on a diagonal approach to a real wall",
+            "pass": true,
+            "detail": "buffered=True wallJumps=1 x=1.36 vx=-3.67"
+        },
+        {
+            "name": "ledge assist climbs from outside onto the rear roof",
+            "pass": true,
+            "detail": "grounded=True pos=(2.04, 84.04, 0.00) wallJumps=0"
+        },
+        {
+            "name": "low ledge ceiling blocks the climb without penetration",
+            "pass": true,
+            "detail": "x=0.22 y=87.86 ceilingBottom=84.38 separated=True"
+        },
+        {
+            "name": "landing restores horizontal input control",
+            "pass": true,
+            "detail": "timedOut=False dx=-6.54"
+        }
+    ]
+}

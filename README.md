@@ -3,9 +3,9 @@
 基于 Unity 制作的第一人称单人人机对战游戏。选择五条悟或两面宿傩，在可破坏的城市街区中使用近战、术式、领域和防御技能进行战斗。
 
 **稳定版：0.3.1 · 2026-10-16**  
-**预览版：0.3.4-preview · 大厅角色预选与换位流程预览**
+**预览版：0.3.5-preview · 联机移动纠偏与角色流程修复预览**
 
-公开发布的 0.3.1 是稳定的离线单人版本。0.3.2-preview 和 0.3.3-preview 链接继续保留；0.3.4-preview 修正开房前角色预选，并保留创建 LAN/Relay 房间时的角色选择。加入已有房间后分配房主尚未选择的另一角色，可请求对方同意换位。Windows、Android 和 macOS 构建均已完成；网络验收范围与平台限制见 [NETWORK.md](NETWORK.md)。
+公开发布的 0.3.1 是稳定的离线单人版本。0.3.2-preview、0.3.3-preview 和 0.3.4-preview 链接继续保留；0.3.5-preview 修正联机移动权威纠偏与网络重绑状态，并保留角色预选流程。Windows 最终构建的 429 项主验收已通过；受限压力场景仍有 2 项快照新鲜度超限，范围与平台限制见 [NETWORK.md](NETWORK.md)。
 
 ## 下载与安装
 
@@ -21,12 +21,17 @@
 | Windows x64（0.3.4-preview） | [下载 Windows ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.4-preview/ShinjukuDuel-0.3.4-windows-x64.zip) | LAN/Relay 角色流程已验收，详细范围见 NETWORK.md。 |
 | Android ARM64（0.3.4-preview） | [下载安卓 APK](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.4-preview/ShinjukuDuel-0.3.4-android-arm64.apk) | versionCode 19，ARM64，API 26—36；真机尚未验证。 |
 | macOS Universal（0.3.4-preview） | [下载 macOS ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.4-preview/ShinjukuDuel-0.3.4-macos-universal.zip) | 原生 x86_64+arm64 架构已核验；ZIP、实机签名、公证或联机验收仍待确认。 |
+| Windows x64（0.3.5-preview） | [下载 Windows ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.5-preview/ShinjukuDuel-0.3.5-windows-x64.zip) | 必须双方使用同一 0.3.5 构建；Windows 主验收 429 项通过，受限压力场景仍有 2 项快照新鲜度超限。 |
+| Android ARM64（0.3.5-preview） | [下载安卓 APK](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.5-preview/ShinjukuDuel-0.3.5-android-arm64.apk) | 已完成 ARM64 构建与元数据核验，versionName 0.3.5、versionCode 20、API 26—36；Android 真机及跨设备联机尚未验证。 |
+| macOS Universal（0.3.5-preview） | [下载 macOS ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.5-preview/ShinjukuDuel-0.3.5-macos-universal.zip) | Universal 包已构建并核验 x86_64+arm64 原生 Mach-O、Info.plist 版本 0.3.5、最低 macOS 12.0；Mac 真机、Developer ID 签名、公证和跨设备联机仍未验证。 |
 
 [全部发布文件](https://github.com/soranatsu/ShinjukuDuel/releases/latest) · [安装与操作说明](INSTALL.md) · [macOS 说明](MACOS.md) · [更新说明](CHANGELOG.md) · [LAN 联机指南](LAN.md) · [Relay 状态](RELAY.md) · [NETWORK 验证说明](NETWORK.md) · [SHA-256 校验](SHA256SUMS.txt)
 
 [0.3.3-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.3-preview) · [预览包 SHA-256](SHA256SUMS-0.3.3.txt) · [0.3.2-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.2-preview)
 
 [0.3.4-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.4-preview) · [SHA-256 校验](SHA256SUMS-0.3.4.txt)
+
+[0.3.5-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.5-preview) · [SHA-256 校验](SHA256SUMS-0.3.5.txt)
 
 GitHub 自动生成的 `Source code` ZIP/TAR 是本仓库的说明文档快照。游玩请下载上表中对应平台的文件。
 

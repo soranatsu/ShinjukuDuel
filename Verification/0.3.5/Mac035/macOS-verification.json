@@ -1,0 +1,73 @@
+{
+  "product": "ShinjukuDuel",
+  "version": "0.3.5",
+  "bundle": "ShinjukuDuel.app",
+  "executable": "\u65b0\u5bbf\u51b3\u6218",
+  "architectures": [
+    "arm64",
+    "x86_64"
+  ],
+  "nativeMachO": [
+    {
+      "path": "Contents/Frameworks/libmono-native.dylib",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ]
+    },
+    {
+      "path": "Contents/Frameworks/libmonobdwgc-2.0.dylib",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ]
+    },
+    {
+      "path": "Contents/Frameworks/libMonoPosixHelper.dylib",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ]
+    },
+    {
+      "path": "Contents/Frameworks/UnityPlayer.dylib",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ]
+    },
+    {
+      "path": "Contents/MacOS/\u65b0\u5bbf\u51b3\u6218",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ]
+    },
+    {
+      "path": "Contents/PlugIns/lib_burst_generated.bundle",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ]
+    }
+  ],
+  "copiedDocs": [
+    "AudioCredits.md",
+    "CityAssetCredits.md",
+    "FontCredits.md",
+    "MangaBackgroundCredits.md",
+    "Relay\u9080\u8bf7\u7801\u8054\u673a.md",
+    "SharingReview.md",
+    "ShinjukuLandmarkCredits.md",
+    "TripoCharacterCredits.md",
+    "UserGojoCredits.md",
+    "UserSukunaObj.md",
+    "\u4f7f\u7528\u8bf4\u660e.txt",
+    "\u5c40\u57df\u7f51\u8054\u673a\u8bf4\u660e.md",
+    "\u672c\u7248\u66f4\u65b0\u8bf4\u660e.md",
+    "macOS-\u4f7f\u7528\u8bf4\u660e.md"
+  ],
+  "macRuntimeTested": false,
+  "notarized": false,
+  "zipSHA256": "B099BF924218991A0D0B0CAFBD4E402CC7FD1CF55BE714E0C2E2C183B42085AF"
+}

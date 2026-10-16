@@ -1,0 +1,42 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "name": "projectiles",
+      "passed": true,
+      "exitCode": 0,
+      "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.5\\ProjectileRuntime\\result.json",
+      "checks": 71,
+      "fresh": true
+    },
+    {
+      "name": "air",
+      "passed": true,
+      "exitCode": 0,
+      "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.5\\AirMovementRuntime\\result.json",
+      "checks": 14,
+      "fresh": true
+    },
+    {
+      "name": "movement",
+      "passed": true,
+      "exitCode": 0,
+      "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.5\\MovementRuntime\\result.json",
+      "checks": 9,
+      "fresh": true
+    },
+    {
+      "name": "actions",
+      "passed": true,
+      "exitCode": 0,
+      "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.5\\ActionFlowRuntime\\result.json",
+      "checks": 7,
+      "fresh": true
+    }
+  ],
+  "finished": "2026-10-17T00:56:56.9628364+08:00",
+  "build": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.5\\ShinjukuDuel.exe",
+  "managedSHA256": "F67B174C856CA41C4C45BE382EECEA426E9CEA9A9783D7D73CF60699547073FB",
+  "passed": true,
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60"
+}

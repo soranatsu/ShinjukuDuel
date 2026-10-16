@@ -1,0 +1,13 @@
+{
+  "version": "0.3.5",
+  "versionCode": 20,
+  "package": "com.shinjuku.fanduel",
+  "abi": "arm64-v8a",
+  "minSdk": 26,
+  "targetSdk": 36,
+  "internetPermission": true,
+  "sha256": "070166081B7D871BF415714CFDCD6867543424AADA5483B7BF4EAC2F468C15FF",
+  "certificateSHA256": "0f3b7fc7871f6eb012258a53c85c74119d0e3c38f7ffdfd9160389af55a2048e",
+  "deviceTested": false,
+  "crossDeviceTested": false
+}

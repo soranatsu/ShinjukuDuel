@@ -1,0 +1,41 @@
+{
+  "scenario": "Ready035-Gojo-Relay",
+  "transport": "relay",
+  "impaired": false,
+  "hostRole": "Gojo",
+  "hostFps": 30,
+  "clientFps": 120,
+  "durationSeconds": 40,
+  "hostPort": 8450,
+  "clientPort": 8451,
+  "build": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.5\\ShinjukuDuel.exe",
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "managedSHA256": "F67B174C856CA41C4C45BE382EECEA426E9CEA9A9783D7D73CF60699547073FB",
+  "complete": true,
+  "passed": true,
+  "runnerPid": 57632,
+  "processes": [
+    48224,
+    39784
+  ],
+  "results": [
+    {
+      "complete": true,
+      "mode": "host",
+      "output": "G:\\Application\\Steam\\Games\\Gojo\\Docs\\Verification-Network\\continuous-Ready035-Gojo-Relay\\relay-net-test-host-8450.json",
+      "passed": true,
+      "checks": 25,
+      "failures": []
+    },
+    {
+      "complete": true,
+      "mode": "client",
+      "output": "G:\\Application\\Steam\\Games\\Gojo\\Docs\\Verification-Network\\continuous-Ready035-Gojo-Relay\\relay-net-test-client-8451.json",
+      "passed": true,
+      "checks": 20,
+      "failures": []
+    }
+  ],
+  "started": "2026-10-17T00:55:05.8488995+08:00",
+  "finished": "2026-10-17T00:56:05.6771094+08:00"
+}

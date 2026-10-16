@@ -1,0 +1,35 @@
+{
+    "passed": true,
+    "checks": [
+        {
+            "name": "reconciliation fixture available",
+            "pass": true,
+            "detail": "running=True motorEnabled=True"
+        },
+        {
+            "name": "baseline ApplyNetworkState uses enabled CharacterController",
+            "pass": true,
+            "detail": "applied=True motorEnabled=True"
+        },
+        {
+            "name": "authoritative 30m correction is applied immediately",
+            "pass": true,
+            "detail": "applied=True error=0.000"
+        },
+        {
+            "name": "acknowledged pending move returns to stable authority",
+            "pass": true,
+            "detail": "applied=True beforeX=20.000 afterX=20.000 authorityX=20.000 error=0.000"
+        },
+        {
+            "name": "60Hz prediction plus 120Hz render stays near 15m/s",
+            "pass": true,
+            "detail": "resetApplied=True displacement=15.000 expected=15.000 range=[14.250,15.750]"
+        },
+        {
+            "name": "rebinding accepts a fresh snapshot sequence",
+            "pass": true,
+            "detail": "applied=True error=0.000 position=(25.00, 0.08, 0.00)"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "passed": true,
+    "checks": [
+        {
+            "name": "movement fixtures available",
+            "pass": true,
+            "detail": "player and CharacterController"
+        },
+        {
+            "name": "ground jump launches",
+            "pass": true,
+            "detail": "grounded=True vy=14.20"
+        },
+        {
+            "name": "one complete second air jump is available",
+            "pass": true,
+            "detail": "vy=14.00 remaining=0"
+        },
+        {
+            "name": "third jump press is rejected",
+            "pass": true,
+            "detail": "remaining=0"
+        },
+        {
+            "name": "landing resets one air jump",
+            "pass": true,
+            "detail": "grounded=True remaining=1"
+        },
+        {
+            "name": "time stop rejects jump input",
+            "pass": true,
+            "detail": "stopped=True remaining=1 vy=0.00"
+        },
+        {
+            "name": "shortened Shift dash stays near 12 metres on clear ground",
+            "pass": true,
+            "detail": "started=True distance=12.000 speed=30.0"
+        },
+        {
+            "name": "neutral ground input brakes without a long slide",
+            "pass": true,
+            "detail": "releaseSpeed=15.00 stoppedSpeed=0.00 drift=0.87"
+        },
+        {
+            "name": "dash returns to the normal speed cap after its active window",
+            "pass": true,
+            "detail": "airborne=True started=True recoveredSpeed=15.00 recoveryDistance=4.73 vx=15.00"
+        }
+    ]
+}

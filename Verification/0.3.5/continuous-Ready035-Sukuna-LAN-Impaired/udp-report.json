@@ -1,0 +1,17 @@
+{
+  "listenPort": 8455,
+  "serverPort": 8454,
+  "oneWayDelayMs": 70.0,
+  "jitterMs": 20.0,
+  "lossProbability": 0.03,
+  "seed": 8137,
+  "clientToServerReceived": 1592,
+  "serverToClientReceived": 3662,
+  "clientToServerDropped": 49,
+  "serverToClientDropped": 127,
+  "clientToServerDelivered": 1541,
+  "serverToClientDelivered": 3530,
+  "deliveredBytes": 2506917,
+  "elapsedSeconds": 45.203,
+  "pendingPackets": 7
+}

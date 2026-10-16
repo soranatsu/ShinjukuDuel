@@ -1,0 +1,16 @@
+{
+  "managedSHA256": "F67B174C856CA41C4C45BE382EECEA426E9CEA9A9783D7D73CF60699547073FB",
+  "values": {
+    "BlueHomingDuration": 1.2,
+    "BlueProjectileSpeed": 40.0,
+    "RedProjectileSpeed": 48.0,
+    "PurpleProjectileSpeed": 52.0,
+    "RedHomingDuration": 1.2,
+    "SukunaProjectileSpeedE": 80.0,
+    "SukunaProjectileSpeedQ": 90.0,
+    "DodgeDuration": 0.4,
+    "DodgeInvulnerabilityDuration": 0.6,
+    "DodgeSpeed": 30.0,
+    "DodgeCooldown": 0.7
+  }
+}

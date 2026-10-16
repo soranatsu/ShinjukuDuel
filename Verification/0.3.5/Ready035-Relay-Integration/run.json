@@ -1,0 +1,48 @@
+{
+  "scenario": "Ready035-Relay-Integration",
+  "complete": true,
+  "passed": true,
+  "runnerPid": 71712,
+  "build": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.5\\ShinjukuDuel.exe",
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "sourceWindowsBuildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "managedSHA256": "F67B174C856CA41C4C45BE382EECEA426E9CEA9A9783D7D73CF60699547073FB",
+  "hostRole": "Gojo",
+  "hostPort": 8464,
+  "clientPort": 8465,
+  "transport": "relay",
+  "relayProfiles": [
+    "relayhost033",
+    "relayclient033"
+  ],
+  "relayRunId": "Ready035-Relay-Integration",
+  "joinCodeFile": "G:\\Application\\Steam\\Games\\Gojo\\Docs\\Verification-Network\\Ready035-Relay-Integration\\relay-joincode.txt",
+  "processes": [
+    74648,
+    21776
+  ],
+  "results": [
+    {
+      "resultCopy": "G:\\Application\\Steam\\Games\\Gojo\\Docs\\Verification-Network\\Ready035-Relay-Integration\\relay-net-test-host-8464.json",
+      "passed": true,
+      "complete": true,
+      "mode": "host",
+      "checks": 153,
+      "failures": [],
+      "resultSource": "G:\\Application\\Steam\\Games\\Gojo\\Docs\\Verification-Network\\Ready035-Relay-Integration\\relay-net-test-host-8464.json",
+      "profile": "relayhost033"
+    },
+    {
+      "resultCopy": "G:\\Application\\Steam\\Games\\Gojo\\Docs\\Verification-Network\\Ready035-Relay-Integration\\relay-net-test-client-8465.json",
+      "passed": true,
+      "complete": true,
+      "mode": "client",
+      "checks": 50,
+      "failures": [],
+      "resultSource": "G:\\Application\\Steam\\Games\\Gojo\\Docs\\Verification-Network\\Ready035-Relay-Integration\\relay-net-test-client-8465.json",
+      "profile": "relayclient033"
+    }
+  ],
+  "started": "2026-10-17T00:58:22.0145922+08:00",
+  "finished": "2026-10-17T01:00:17.5036433+08:00"
+}

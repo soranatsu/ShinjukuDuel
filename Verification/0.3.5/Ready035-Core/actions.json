@@ -1,0 +1,40 @@
+{
+    "passed": true,
+    "checks": [
+        {
+            "name": "action flow fixtures available",
+            "pass": true,
+            "detail": "player, enemy and CharacterController"
+        },
+        {
+            "name": "valid light hit can transition into E",
+            "pass": true,
+            "detail": "lightStarted=True lightHit=True hit=Light eStarted=True current=E"
+        },
+        {
+            "name": "F cannot replace E during its windup",
+            "pass": true,
+            "detail": "eStarted=True fDuringWindup=False current=E projectile=False"
+        },
+        {
+            "name": "F after E launch cancels the action while the E projectile remains effective",
+            "pass": true,
+            "detail": "eStarted=True projectile=True fStarted=True coexist=True eHitsAfterF=1 eDamage=40.52 hpLoss=40.52"
+        },
+        {
+            "name": "E cooldown and active action cannot be bypassed",
+            "pass": true,
+            "detail": "first=True immediate=False duringAction=False cooldown=0.00"
+        },
+        {
+            "name": "R supports distinct short release and held charge input",
+            "pass": true,
+            "detail": "short=True/True long=True charging=True progress=0.13 released=True"
+        },
+        {
+            "name": "skill request and R release buffers preserve distinct input edges",
+            "pass": true,
+            "detail": "light=True queuedE=True eFromBuffer=True lightForR=True rBuffered=True r=True charging=True released=True"
+        }
+    ]
+}

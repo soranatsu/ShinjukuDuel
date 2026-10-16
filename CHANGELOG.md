@@ -1,3 +1,15 @@
+# 0.3.5-preview
+
+2026-10-17 · 联机移动纠偏修复预览
+
+- 修正客户端纠偏顺序：先写入权威 Transform，再调用 `Physics.SyncTransforms`，然后重放待处理的 `motor.Move`；网络重绑同时 reset 移动与纠偏状态。
+- 本地移动改为单一预测步进，避免预测与渲染帧重复推进；重放会消耗冲刺、硬直和冷却时长。远端快照按槽位使用独立序号和 `Unreliable` 传输，超过 2 m 直接纠偏，否则以 18 的跟随参数插值。
+- 此前一次 Relay 观测受旧版测量/纠偏指标问题影响，不能作为本版的数值基线；远端跟随参数已调整为 18，修复后实际结果待本版复测。
+- 0.3.5 联机协议为 `shinjuku-lan-035-v1`，双方必须使用同一版本，旧协议端应被拒绝。
+- 术式飞行速度为：苍 40 m/s、赫 48 m/s、茈（Purple）52 m/s；解 80 m/s、捌 90 m/s、开（Fuga）42 m/s。苍与赫索敌时长均为 1.2 s；伤害、范围、冷却和转向不变。
+- 闪避无敌时间由 0.5 s 调整为 0.6 s；闪避持续时间 0.4 s、速度 30、冷却 0.7 s 保持不变。
+- Windows 最终构建的 Core 101、Reconciliation 6、LAN 角色 29、真实 Relay 连续移动 GojoHost 45 + SukunaHost 45 和完整 Relay 集成 203 项均通过，共 429 项；持续 Ready 035 Sukuna LAN Impaired 压力场景 35/37 项通过，但有 2 项快照新鲜度最大值 0.867 s 超过 0.5 s 限值，因此不宣称压力场景全绿。Android 0.3.5 已完成 ARM64 构建与元数据核验（versionCode 20，APK SHA-256 `070166081B7D871BF415714CFDCD6867543424AADA5483B7BF4EAC2F468C15FF`），但 Android 真机、跨设备联机仍未验证。macOS Universal 已完成构建核验（原生 x86_64+arm64、最低 macOS 12.0，ZIP SHA-256 `B099BF924218991A0D0BCAFBD4E402CC7FD1CF55BE714E0C2E2C183B42085AF`），但 Mac 实机、Developer ID 签名、公证和跨设备联机仍未验证。
+
 # 0.3.4-preview
 
 2026-10-16 · 联机大厅角色流程预览

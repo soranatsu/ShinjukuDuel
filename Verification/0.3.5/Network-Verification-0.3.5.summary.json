@@ -1,0 +1,182 @@
+{
+  "version": "0.3.5",
+  "managedSha256": "F67B174C856CA41C4C45BE382EECEA426E9CEA9A9783D7D73CF60699547073FB",
+  "buildSha256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "status": "complete_with_latency_limit",
+  "statusReason": "Six normal/Relay/regression groups contain 429 passed checks. A separate impaired LAN observation contains 35 passed and 2 freshness failures; total 466 checks, 464 passed and 2 failed.",
+  "executedGroups": [
+    {
+      "id": "Ready035-Core",
+      "status": "passed",
+      "checks": 101,
+      "source": "Docs/Verification-Network/Ready035-Core/run.json",
+      "managedSha256": "F67B174C856CA41C4C45BE382EECEA426E9CEA9A9783D7D73CF60699547073FB",
+      "suites": {
+        "projectiles": 71,
+        "air": 14,
+        "movement": 9,
+        "actions": 7
+      }
+    },
+    {
+      "id": "Reconciliation035-Ready",
+      "status": "passed",
+      "checks": 6,
+      "source": "Docs/Verification-Network/Reconciliation035-Ready/result.json",
+      "managedSha256": "F67B174C856CA41C4C45BE382EECEA426E9CEA9A9783D7D73CF60699547073FB",
+      "details": "Runner input and actual executable hash validated; result JSON itself has no SHA."
+    },
+    {
+      "id": "Ready035-LAN-Roles",
+      "status": "passed",
+      "checks": 29,
+      "source": "Docs/Verification-Network/Ready035-LAN-Roles/run.json",
+      "managedSha256": "F67B174C856CA41C4C45BE382EECEA426E9CEA9A9783D7D73CF60699547073FB",
+      "details": "SukunaHost LAN: host 17, client 12."
+    },
+    {
+      "id": "continuous-Ready035-Gojo-Relay",
+      "status": "passed",
+      "checks": 45,
+      "source": "Docs/Verification-Network/continuous-Ready035-Gojo-Relay/summary.json",
+      "managedSha256": "F67B174C856CA41C4C45BE382EECEA426E9CEA9A9783D7D73CF60699547073FB",
+      "raw": {
+        "host": "Docs/Verification-Network/continuous-Ready035-Gojo-Relay/relay-net-test-host-8450.json",
+        "client": "Docs/Verification-Network/continuous-Ready035-Gojo-Relay/relay-net-test-client-8451.json"
+      }
+    },
+    {
+      "id": "continuous-Ready035-Sukuna-Relay",
+      "status": "passed",
+      "checks": 45,
+      "source": "Docs/Verification-Network/continuous-Ready035-Sukuna-Relay/summary.json",
+      "managedSha256": "F67B174C856CA41C4C45BE382EECEA426E9CEA9A9783D7D73CF60699547073FB",
+      "raw": {
+        "host": "Docs/Verification-Network/continuous-Ready035-Sukuna-Relay/relay-net-test-host-8460.json",
+        "client": "Docs/Verification-Network/continuous-Ready035-Sukuna-Relay/relay-net-test-client-8461.json"
+      }
+    },
+    {
+      "id": "Ready035-Relay-Integration",
+      "status": "passed",
+      "checks": 203,
+      "source": "Docs/Verification-Network/Ready035-Relay-Integration/run.json",
+      "managedSha256": "F67B174C856CA41C4C45BE382EECEA426E9CEA9A9783D7D73CF60699547073FB",
+      "details": "host 153 + client 50; both complete/passed."
+    }
+  ],
+  "roleMetrics": [
+    {
+      "scenario": "Gojo Relay",
+      "mode": "host",
+      "gojoLightHits": 9,
+      "gojoQHits": 4,
+      "sukunaLightHits": 9,
+      "sukunaQHits": 4,
+      "totalHits": 26,
+      "maxLocalError": 0,
+      "p95LocalError": 0,
+      "maxRemoteError": 0,
+      "finalDistanceDifference": 0,
+      "nativeCenterAlignmentMax": 0,
+      "maxSnapshotAge": 0
+    },
+    {
+      "scenario": "Gojo Relay",
+      "mode": "client",
+      "gojoLightHits": 0,
+      "gojoQHits": 0,
+      "sukunaLightHits": 0,
+      "sukunaQHits": 0,
+      "totalHits": 0,
+      "maxLocalError": 14.45241928100586,
+      "p95LocalError": 4.250093460083008,
+      "maxRemoteError": 1.6512099504470825,
+      "finalDistanceDifference": 1.430511474609375e-06,
+      "nativeCenterAlignmentMax": 0,
+      "maxSnapshotAge": 0.13333892822265625
+    },
+    {
+      "scenario": "Sukuna Relay",
+      "mode": "host",
+      "gojoLightHits": 8,
+      "gojoQHits": 4,
+      "sukunaLightHits": 9,
+      "sukunaQHits": 4,
+      "totalHits": 25,
+      "maxLocalError": 0,
+      "p95LocalError": 0,
+      "maxRemoteError": 0,
+      "finalDistanceDifference": 0,
+      "nativeCenterAlignmentMax": 0,
+      "maxSnapshotAge": 0
+    },
+    {
+      "scenario": "Sukuna Relay",
+      "mode": "client",
+      "gojoLightHits": 0,
+      "gojoQHits": 0,
+      "sukunaLightHits": 0,
+      "sukunaQHits": 0,
+      "totalHits": 0,
+      "maxLocalError": 6.555315017700195,
+      "p95LocalError": 3.0000343322753906,
+      "maxRemoteError": 1.0921630859375,
+      "finalDistanceDifference": 0,
+      "nativeCenterAlignmentMax": 0,
+      "maxSnapshotAge": 0.13347625732421875
+    }
+  ],
+  "quietInvariant": {
+    "eligibility": "measuring and first 6 s; verticalVelocity <= .05, dashVelocity.sqrMagnitude <= .0025, externalVelocity.sqrMagnitude <= .0025, !view.IsAttacking, DodgeRemaining <= .001",
+    "bound": "horizontalRawLead <= moveSpeed * (pendingDeltaTime + snapshotAge) + 0.25",
+    "snapshotAgeMeaning": "client-local Time.unscaledTime - lastSnapshotAt[slot], elapsed since receipt, not server-to-client one-way latency",
+    "pendingDeltaMeaning": "accumulated time of unacknowledged/in-flight inputs",
+    "supportingProbe": {
+      "gojoRelayQuietLocalMax": 3.4699089527130127,
+      "gojoRelayQuietLocalP95": 2.750455617904663,
+      "sukunaRelayQuietLocalMax": 3.0003228187561035,
+      "sukunaRelayQuietLocalP95": 2.600126266479492,
+      "gojoRelayFinalStaticDistanceDifference": 1.430511474609375e-06,
+      "sukunaRelayFinalStaticDistanceDifference": 0,
+      "nativeCenterAlignmentMax": 0,
+      "sources": [
+        "Docs/Verification-Network/continuous-Ready035-Gojo-Relay/relay-net-test-client-8451.json",
+        "Docs/Verification-Network/continuous-Ready035-Sukuna-Relay/relay-net-test-client-8461.json"
+      ]
+    }
+  },
+  "separateObservations": [
+    {
+      "id": "continuous-Ready035-Sukuna-LAN-Impaired",
+      "status": "failed_freshness",
+      "checks": 37,
+      "source": "Docs/Verification-Network/continuous-Ready035-Sukuna-LAN-Impaired/run.json",
+      "managedSha256": "F67B174C856CA41C4C45BE382EECEA426E9CEA9A9783D7D73CF60699547073FB",
+      "failedChecks": [
+        {
+          "name": "snapshot_freshness_slot0",
+          "detail": "maxAge=0.867s"
+        },
+        {
+          "name": "snapshot_freshness_slot1",
+          "detail": "maxAge=0.867s ack=2493"
+        }
+      ],
+      "details": "Separate impaired LAN stress observation: 35 passed and 2 freshness failures; retain as an independent meaningful group."
+    }
+  ],
+  "limitations": [
+    "Public Relay and LAN evidence are two local processes, not cross-device/remote-site validation.",
+    "Android/macOS physical gameplay and GUI pixels are not validated here.",
+    "Raw lead is prediction lead; final static distance and native alignment do not prove continuous feel or competitive fairness."
+  ],
+  "counts": {
+    "totalChecks": 466,
+    "passedChecks": 464,
+    "failedChecks": 2,
+    "normalRelayRegressionPassedChecks": 429,
+    "impairedLanObservationChecks": 37,
+    "impairedLanObservationPassedChecks": 35
+  }
+}

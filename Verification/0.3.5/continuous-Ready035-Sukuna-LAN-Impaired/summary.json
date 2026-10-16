@@ -1,0 +1,53 @@
+{
+  "scenario": "Ready035-Sukuna-LAN-Impaired",
+  "transport": "lan",
+  "impaired": true,
+  "hostRole": "Sukuna",
+  "hostFps": 120,
+  "clientFps": 30,
+  "durationSeconds": 40,
+  "hostPort": 8454,
+  "clientPort": 8455,
+  "build": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.5\\ShinjukuDuel.exe",
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "managedSHA256": "F67B174C856CA41C4C45BE382EECEA426E9CEA9A9783D7D73CF60699547073FB",
+  "complete": true,
+  "passed": false,
+  "runnerPid": 72796,
+  "processes": [
+    69416,
+    49060,
+    64252
+  ],
+  "results": [
+    {
+      "checks": 21,
+      "mode": "host",
+      "complete": true,
+      "output": "G:\\Application\\Steam\\Games\\Gojo\\Docs\\Verification-Network\\continuous-Ready035-Sukuna-LAN-Impaired\\continuous-net-test-host-8454.json",
+      "failures": [],
+      "passed": true
+    },
+    {
+      "checks": 16,
+      "mode": "client",
+      "complete": true,
+      "output": "G:\\Application\\Steam\\Games\\Gojo\\Docs\\Verification-Network\\continuous-Ready035-Sukuna-LAN-Impaired\\continuous-net-test-client-8455.json",
+      "failures": [
+        {
+          "name": "snapshot_freshness_slot0",
+          "detail": "maxAge=0.867s",
+          "pass": false
+        },
+        {
+          "name": "snapshot_freshness_slot1",
+          "detail": "maxAge=0.867s ack=2493",
+          "pass": false
+        }
+      ],
+      "passed": false
+    }
+  ],
+  "started": "2026-10-17T00:55:05.8492742+08:00",
+  "finished": "2026-10-17T00:55:52.3930092+08:00"
+}

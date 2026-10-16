@@ -1,3 +1,9 @@
+## 0.3.5-preview 状态
+
+0.3.5 使用 `shinjuku-lan-035-v1` 联机协议，双方必须使用同一版本，旧协议端拒绝连接。客户端纠偏现在先写入权威 Transform，再调用 `Physics.SyncTransforms`，然后重放 `motor.Move`；网络重绑时 reset 相关状态。本地预测避免预测与渲染帧重复推进，远端快照按槽位使用独立序号和 `Unreliable` 传输，超过 2 m 直接纠偏，否则以 18 的跟随参数插值。此前一次 Relay 观测受旧版测量/纠偏指标问题影响，不能作为本版的数值基线；Windows 最终构建主验收已完成，压力场景仍保留新鲜度限制。
+
+Windows 最终构建的 Core 101、Reconciliation 6、LAN 角色 29、真实 Relay 连续移动 GojoHost 45 + SukunaHost 45 和完整 Relay 集成 203 项均通过，共 429 项。持续 Ready 035 Sukuna LAN Impaired 压力场景 35/37 项通过，仅 2 项快照新鲜度最大值 0.867 s 超过 0.5 s 限值；该压力场景不宣称全绿。Android 0.3.5 已完成 ARM64 构建与元数据核验（versionCode 20，APK SHA-256 `070166081B7D871BF415714CFDCD6867543424AADA5483B7BF4EAC2F468C15FF`），但 Android 真机、跨设备联机仍未验证。macOS Universal 已完成构建核验（原生 x86_64+arm64、最低 macOS 12.0，ZIP SHA-256 `B099BF924218991A0D0B0CAFBD4E402CC7FD1CF55BE714E0C2E2C183B42085AF`），但 Mac 实机、签名、公证和跨设备联机仍未验证。
+
 # Unity Relay 接入状态与设置
 
 ## 0.3.4-preview 玩家流程

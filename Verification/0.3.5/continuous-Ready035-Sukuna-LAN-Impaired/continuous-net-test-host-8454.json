@@ -1,0 +1,2673 @@
+{
+    "mode": "host",
+    "transport": "lan",
+    "profile": "",
+    "runId": "",
+    "output": "C:/Users/sora/AppData/LocalLow/Shinjuku Fan Project/新宿决战\\continuous-net-test-host-8454.json",
+    "complete": true,
+    "checks": [
+        {
+            "name": "handshake",
+            "detail": "另一位玩家已加入，请准备",
+            "pass": true
+        },
+        {
+            "name": "match",
+            "detail": "epoch=1 slot=1",
+            "pass": true
+        },
+        {
+            "name": "single_authoritative_setup",
+            "detail": "authority fixture prepared: Bootstrap",
+            "pass": true
+        },
+        {
+            "name": "client_setup_ack",
+            "detail": "camera and driver enabled",
+            "pass": true
+        },
+        {
+            "name": "initial_snapshot_settled",
+            "detail": "both slots received and local error <3m",
+            "pass": true
+        },
+        {
+            "name": "snapshots_received",
+            "detail": "authority sends snapshots; client counts incoming snapshots",
+            "pass": true
+        },
+        {
+            "name": "snapshot_freshness_slot0",
+            "detail": "authority report; incoming age is measured on client",
+            "pass": true
+        },
+        {
+            "name": "snapshot_freshness_slot1",
+            "detail": "authority report; incoming age is measured on client",
+            "pass": true
+        },
+        {
+            "name": "quiet_local_physical_bound",
+            "detail": "samples=720 invalid=0 maxExcess=0.000 rawMax=0.000 rawP95=0.000",
+            "pass": true
+        },
+        {
+            "name": "quiet_local_raw_diagnostic",
+            "detail": "rawMax=0.000 rawP95=0.000",
+            "pass": true
+        },
+        {
+            "name": "quiet_remote_render_error",
+            "detail": "max=0.000 p95=0.000",
+            "pass": true
+        },
+        {
+            "name": "final_local_static_error",
+            "detail": "max=0.000",
+            "pass": true
+        },
+        {
+            "name": "final_remote_static_error",
+            "detail": "max=0.000",
+            "pass": true
+        },
+        {
+            "name": "collider_alignment",
+            "detail": "max=0.000",
+            "pass": true
+        },
+        {
+            "name": "raw_local_lead_diagnostic",
+            "detail": "max=0.000 p95=0.000; no combat hard threshold",
+            "pass": true
+        },
+        {
+            "name": "snapshot_wire_size_diagnostic",
+            "detail": "quietJson=1615 quietWire=654 combatJson=1881 combatWire=892",
+            "pass": true
+        },
+        {
+            "name": "gojo_light_hit",
+            "detail": "count=6",
+            "pass": true
+        },
+        {
+            "name": "sukuna_light_hit",
+            "detail": "count=8",
+            "pass": true
+        },
+        {
+            "name": "gojo_E_or_F_hit",
+            "detail": "E_or_F=3",
+            "pass": true
+        },
+        {
+            "name": "sukuna_E_or_F_hit",
+            "detail": "E_or_F=4",
+            "pass": true
+        },
+        {
+            "name": "client_final_distance",
+            "detail": "client final snapshot/distance check passed",
+            "pass": true
+        }
+    ],
+    "gojoLightHits": 6,
+    "gojoQHits": 3,
+    "sukunaLightHits": 8,
+    "sukunaQHits": 4,
+    "totalHits": 21,
+    "maxLocalError": 0.0,
+    "p95LocalError": 0.0,
+    "maxRemoteError": 0.0,
+    "p95RemoteError": 0.0,
+    "quietLocalMax": 0.0,
+    "quietLocalP95": 0.0,
+    "quietRemoteMax": 0.0,
+    "quietRemoteP95": 0.0,
+    "finalLocalMax": 0.0,
+    "finalRemoteMax": 0.0,
+    "finalDistanceDifference": 0.0,
+    "nativeCenterAlignmentMax": 0.0,
+    "quietBoundMaxExcess": 0.0,
+    "quietSampleCount": 720,
+    "quietInvalidCount": 0,
+    "quietSnapshotMaxJsonBytes": 1615,
+    "quietSnapshotMaxWireBytes": 654,
+    "combatSnapshotMaxJsonBytes": 1881,
+    "combatSnapshotMaxWireBytes": 892,
+    "warmupMaxLocalError": 0.0,
+    "warmupMaxRemoteError": 0.0,
+    "maxSnapshotAgeBySlot": [
+        0.0,
+        0.0
+    ],
+    "lastLocalSequence": 0,
+    "lastRemoteSequence": 0,
+    "lastAckSequence": 0,
+    "snapshots": 0,
+    "worstLocalSamples": [
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 3.885709047317505,
+            "serverTick": 233,
+            "snapshotSequence": 233,
+            "ackInputSequence": 120,
+            "driverSentSequence": 120,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 3.0,
+                "y": 0.07999999821186066,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 3.0,
+                "y": 0.07999999821186066,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 0.0,
+                "y": -1.201074481010437,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 0.0,
+                "y": -1.201074481010437,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 3.0,
+                "y": 1.0550000667572021,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 3.0,
+                "y": 0.07999999821186066,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1560,
+            "snapshotWireBytes": 622
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 4.035732746124268,
+            "serverTick": 242,
+            "snapshotSequence": 242,
+            "ackInputSequence": 129,
+            "driverSentSequence": 129,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 1.749645709991455,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 1.749645709991455,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -15.0,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -15.0,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 1.749645709991455,
+                "y": 1.0674999952316284,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 1.749645709991455,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1581,
+            "snapshotWireBytes": 637
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 4.0190653800964355,
+            "serverTick": 241,
+            "snapshotSequence": 241,
+            "ackInputSequence": 128,
+            "driverSentSequence": 128,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 1.9996521472930908,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 1.9996521472930908,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -15.0,
+                "y": -1.2000064849853516,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -15.0,
+                "y": -1.2000064849853516,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 1.9996521472930908,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 1.9996521472930908,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1581,
+            "snapshotWireBytes": 637
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 4.002398490905762,
+            "serverTick": 240,
+            "snapshotSequence": 240,
+            "ackInputSequence": 127,
+            "driverSentSequence": 127,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 2.241349458694458,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 2.241349458694458,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -13.002721786499023,
+                "y": -1.2000017166137695,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -13.002721786499023,
+                "y": -1.2000017166137695,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 2.241349458694458,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 2.241349458694458,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1608,
+            "snapshotWireBytes": 649
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 3.994065046310425,
+            "serverTick": 239,
+            "snapshotSequence": 239,
+            "ackInputSequence": 126,
+            "driverSentSequence": 126,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 2.3497064113616943,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 2.3497064113616943,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -12.002713203430176,
+                "y": -1.2000062465667725,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -12.002713203430176,
+                "y": -1.2000062465667725,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 2.3497064113616943,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 2.3497064113616943,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1609,
+            "snapshotWireBytes": 653
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 3.985731363296509,
+            "serverTick": 239,
+            "snapshotSequence": 239,
+            "ackInputSequence": 126,
+            "driverSentSequence": 126,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 2.4497320652008057,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 2.4497320652008057,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -11.002681732177734,
+                "y": -1.1999943256378174,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -11.002681732177734,
+                "y": -1.1999943256378174,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 2.4497320652008057,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 2.4497320652008057,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1610,
+            "snapshotWireBytes": 651
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 3.97739839553833,
+            "serverTick": 238,
+            "snapshotSequence": 238,
+            "ackInputSequence": 125,
+            "driverSentSequence": 125,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 2.5414185523986816,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 2.5414185523986816,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -10.00270938873291,
+                "y": -1.200148105621338,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -10.00270938873291,
+                "y": -1.200148105621338,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 2.5414185523986816,
+                "y": 1.0674999952316284,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 2.5414185523986816,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1604,
+            "snapshotWireBytes": 646
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 3.9690587520599365,
+            "serverTick": 238,
+            "snapshotSequence": 238,
+            "ackInputSequence": 125,
+            "driverSentSequence": 125,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 2.6248362064361572,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 2.6248362064361572,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -9.001968383789063,
+                "y": -1.2000328302383423,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -9.001968383789063,
+                "y": -1.2000328302383423,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 2.6248362064361572,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 2.6248362064361572,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1606,
+            "snapshotWireBytes": 649
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 3.960724115371704,
+            "serverTick": 237,
+            "snapshotSequence": 237,
+            "ackInputSequence": 124,
+            "driverSentSequence": 124,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 2.6998648643493652,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 2.6998648643493652,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -8.00180435180664,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -8.00180435180664,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 2.6998648643493652,
+                "y": 1.0674999952316284,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 2.6998648643493652,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1605,
+            "snapshotWireBytes": 650
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 4.044066429138184,
+            "serverTick": 242,
+            "snapshotSequence": 242,
+            "ackInputSequence": 129,
+            "driverSentSequence": 129,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 1.6246432065963745,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 1.6246432065963745,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -15.0,
+                "y": -1.2000041007995605,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -15.0,
+                "y": -1.2000041007995605,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 1.6246432065963745,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 1.6246432065963745,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1580,
+            "snapshotWireBytes": 638
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 4.027399063110352,
+            "serverTick": 241,
+            "snapshotSequence": 241,
+            "ackInputSequence": 128,
+            "driverSentSequence": 128,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 1.874648094177246,
+                "y": 0.09249968826770782,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 1.874648094177246,
+                "y": 0.09249968826770782,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -15.0,
+                "y": -1.2000064849853516,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -15.0,
+                "y": -1.2000064849853516,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 1.874648094177246,
+                "y": 1.0674997568130493,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 1.874648094177246,
+                "y": 0.09249968826770782,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1580,
+            "snapshotWireBytes": 637
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 3.9357235431671143,
+            "serverTick": 236,
+            "snapshotSequence": 236,
+            "ackInputSequence": 123,
+            "driverSentSequence": 123,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 2.874912977218628,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 2.874912977218628,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -5.001744270324707,
+                "y": -1.2000041007995605,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -5.001744270324707,
+                "y": -1.2000041007995605,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 2.874912977218628,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 2.874912977218628,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1607,
+            "snapshotWireBytes": 649
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 3.9273900985717773,
+            "serverTick": 235,
+            "snapshotSequence": 235,
+            "ackInputSequence": 122,
+            "driverSentSequence": 122,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 2.916594982147217,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 2.916594982147217,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -4.001723766326904,
+                "y": -1.2000062465667725,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -4.001723766326904,
+                "y": -1.2000062465667725,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 2.916594982147217,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 2.916594982147217,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1606,
+            "snapshotWireBytes": 650
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 3.9190564155578613,
+            "serverTick": 235,
+            "snapshotSequence": 235,
+            "ackInputSequence": 122,
+            "driverSentSequence": 122,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 2.949943780899048,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 2.949943780899048,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -3.001692295074463,
+                "y": -1.2001265287399292,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -3.001692295074463,
+                "y": -1.2001265287399292,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 2.949943780899048,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 2.949943780899048,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1606,
+            "snapshotWireBytes": 649
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 3.9107179641723633,
+            "serverTick": 234,
+            "snapshotSequence": 234,
+            "ackInputSequence": 121,
+            "driverSentSequence": 121,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 2.974973678588867,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 2.974973678588867,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -2.0010595321655273,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -2.0010595321655273,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 2.974973678588867,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 2.974973678588867,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1607,
+            "snapshotWireBytes": 645
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 3.9023845195770264,
+            "serverTick": 234,
+            "snapshotSequence": 234,
+            "ackInputSequence": 121,
+            "driverSentSequence": 121,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 2.9916493892669678,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 2.9916493892669678,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -1.001039981842041,
+                "y": -1.2002079486846924,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -1.001039981842041,
+                "y": -1.2002079486846924,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 2.9916493892669678,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 2.9916493892669678,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1606,
+            "snapshotWireBytes": 651
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 3.894042491912842,
+            "serverTick": 233,
+            "snapshotSequence": 233,
+            "ackInputSequence": 120,
+            "driverSentSequence": 120,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 3.0,
+                "y": 0.07999999821186066,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 3.0,
+                "y": 0.07999999821186066,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 0.0,
+                "y": -1.1999990940093994,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 0.0,
+                "y": -1.1999990940093994,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 3.0,
+                "y": 1.0550000667572021,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 3.0,
+                "y": 0.07999999821186066,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1560,
+            "snapshotWireBytes": 617
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 3.944056987762451,
+            "serverTick": 236,
+            "snapshotSequence": 236,
+            "ackInputSequence": 123,
+            "driverSentSequence": 123,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 2.824897289276123,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 2.824897289276123,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -6.001763820648193,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -6.001763820648193,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 2.824897289276123,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 2.824897289276123,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1607,
+            "snapshotWireBytes": 652
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 3.952390670776367,
+            "serverTick": 237,
+            "snapshotSequence": 237,
+            "ackInputSequence": 124,
+            "driverSentSequence": 124,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 2.766547918319702,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 2.766547918319702,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -7.001784324645996,
+                "y": -1.2000041007995605,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -7.001784324645996,
+                "y": -1.2000041007995605,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 2.766547918319702,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 2.766547918319702,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1607,
+            "snapshotWireBytes": 652
+        },
+        {
+            "side": "Sukuna",
+            "error": 0.0,
+            "clientRealTime": 4.010732173919678,
+            "serverTick": 240,
+            "snapshotSequence": 240,
+            "ackInputSequence": 127,
+            "driverSentSequence": 127,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": 2.1246562004089355,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": 2.1246562004089355,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": -14.002753257751465,
+                "y": -1.2000062465667725,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": -14.002753257751465,
+                "y": -1.2000062465667725,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": 2.1246562004089355,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": 2.1246562004089355,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": true,
+            "snapshotJsonBytes": 1608,
+            "snapshotWireBytes": 651
+        }
+    ],
+    "worstRemoteSamples": [
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 3.885709047317505,
+            "serverTick": 233,
+            "snapshotSequence": 233,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -2.9498188495635986,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -2.9498188495635986,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 3.0054244995117188,
+                "y": -1.201074481010437,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 3.0054244995117188,
+                "y": -1.201074481010437,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -2.9498188495635986,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -2.9498188495635986,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1602,
+            "snapshotWireBytes": 649
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 4.035732746124268,
+            "serverTick": 242,
+            "snapshotSequence": 242,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -1.2489676475524902,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -1.2489676475524902,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 15.0,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 15.0,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -1.2489676475524902,
+                "y": 1.0674999952316284,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -1.2489676475524902,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1576,
+            "snapshotWireBytes": 633
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 4.0190653800964355,
+            "serverTick": 241,
+            "snapshotSequence": 241,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -1.4989742040634155,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -1.4989742040634155,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 15.0,
+                "y": -1.2000064849853516,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 15.0,
+                "y": -1.2000064849853516,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -1.4989742040634155,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -1.4989742040634155,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1576,
+            "snapshotWireBytes": 634
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 4.002398490905762,
+            "serverTick": 240,
+            "snapshotSequence": 240,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -1.7489821910858154,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -1.7489821910858154,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 15.0,
+                "y": -1.2000017166137695,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 15.0,
+                "y": -1.2000017166137695,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -1.7489821910858154,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -1.7489821910858154,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1576,
+            "snapshotWireBytes": 634
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 3.994065046310425,
+            "serverTick": 239,
+            "snapshotSequence": 239,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -1.8739832639694214,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -1.8739832639694214,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 15.0,
+                "y": -1.2000062465667725,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 15.0,
+                "y": -1.2000062465667725,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -1.8739832639694214,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -1.8739832639694214,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1576,
+            "snapshotWireBytes": 636
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 3.985731363296509,
+            "serverTick": 239,
+            "snapshotSequence": 239,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -1.9989871978759766,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -1.9989871978759766,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 15.0,
+                "y": -1.1999943256378174,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 15.0,
+                "y": -1.1999943256378174,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -1.9989871978759766,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -1.9989871978759766,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1576,
+            "snapshotWireBytes": 636
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 3.97739839553833,
+            "serverTick": 238,
+            "snapshotSequence": 238,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -2.12398362159729,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -2.12398362159729,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 14.00812816619873,
+                "y": -1.200148105621338,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 14.00812816619873,
+                "y": -1.200148105621338,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -2.12398362159729,
+                "y": 1.0674999952316284,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -2.12398362159729,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1598,
+            "snapshotWireBytes": 647
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 3.9690587520599365,
+            "serverTick": 238,
+            "snapshotSequence": 238,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -2.240804433822632,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -2.240804433822632,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 13.007387161254883,
+                "y": -1.2000328302383423,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 13.007387161254883,
+                "y": -1.2000328302383423,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -2.240804433822632,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -2.240804433822632,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1603,
+            "snapshotWireBytes": 647
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 3.960724115371704,
+            "serverTick": 237,
+            "snapshotSequence": 237,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -2.349217176437378,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -2.349217176437378,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 12.007223129272461,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 12.007223129272461,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -2.349217176437378,
+                "y": 1.0674999952316284,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -2.349217176437378,
+                "y": 0.09249992668628693,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1603,
+            "snapshotWireBytes": 648
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 4.044066429138184,
+            "serverTick": 242,
+            "snapshotSequence": 242,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -1.1239651441574097,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -1.1239651441574097,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 15.0,
+                "y": -1.2000041007995605,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 15.0,
+                "y": -1.2000041007995605,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -1.1239651441574097,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -1.1239651441574097,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1576,
+            "snapshotWireBytes": 636
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 4.027399063110352,
+            "serverTick": 241,
+            "snapshotSequence": 241,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -1.3739701509475708,
+                "y": 0.09249968826770782,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -1.3739701509475708,
+                "y": 0.09249968826770782,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 15.0,
+                "y": -1.2000064849853516,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 15.0,
+                "y": -1.2000064849853516,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -1.3739701509475708,
+                "y": 1.0674997568130493,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -1.3739701509475708,
+                "y": 0.09249968826770782,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1576,
+            "snapshotWireBytes": 634
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 3.9357235431671143,
+            "serverTick": 236,
+            "snapshotSequence": 236,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -2.6244025230407715,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -2.6244025230407715,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 9.007164001464844,
+                "y": -1.2000041007995605,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 9.007164001464844,
+                "y": -1.2000041007995605,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -2.6244025230407715,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -2.6244025230407715,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1602,
+            "snapshotWireBytes": 648
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 3.9273900985717773,
+            "serverTick": 235,
+            "snapshotSequence": 235,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -2.6994638442993164,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -2.6994638442993164,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 8.0071439743042,
+                "y": -1.2000062465667725,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 8.0071439743042,
+                "y": -1.2000062465667725,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -2.6994638442993164,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -2.6994638442993164,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1598,
+            "snapshotWireBytes": 646
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 3.9190564155578613,
+            "serverTick": 235,
+            "snapshotSequence": 235,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -2.7661921977996826,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -2.7661921977996826,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 7.007112503051758,
+                "y": -1.2001265287399292,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 7.007112503051758,
+                "y": -1.2001265287399292,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -2.7661921977996826,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -2.7661921977996826,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1602,
+            "snapshotWireBytes": 650
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 3.9107179641723633,
+            "serverTick": 234,
+            "snapshotSequence": 234,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -2.8246216773986816,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -2.8246216773986816,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 6.006479740142822,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 6.006479740142822,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -2.8246216773986816,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -2.8246216773986816,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1602,
+            "snapshotWireBytes": 649
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 3.9023845195770264,
+            "serverTick": 234,
+            "snapshotSequence": 234,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -2.8746767044067383,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -2.8746767044067383,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 5.006460189819336,
+                "y": -1.2002079486846924,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 5.006460189819336,
+                "y": -1.2002079486846924,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -2.8746767044067383,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -2.8746767044067383,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1602,
+            "snapshotWireBytes": 649
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 3.894042491912842,
+            "serverTick": 233,
+            "snapshotSequence": 233,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -2.916440486907959,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -2.916440486907959,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 4.005420207977295,
+                "y": -1.1999990940093994,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 4.005420207977295,
+                "y": -1.1999990940093994,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -2.916440486907959,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -2.916440486907959,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1601,
+            "snapshotWireBytes": 647
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 3.944056987762451,
+            "serverTick": 236,
+            "snapshotSequence": 236,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -2.5410077571868896,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -2.5410077571868896,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 10.007183074951172,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 10.007183074951172,
+                "y": -1.2000038623809814,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -2.5410077571868896,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -2.5410077571868896,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1604,
+            "snapshotWireBytes": 647
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 3.952390670776367,
+            "serverTick": 237,
+            "snapshotSequence": 237,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -2.449279308319092,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -2.449279308319092,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 11.007203102111816,
+                "y": -1.2000041007995605,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 11.007203102111816,
+                "y": -1.2000041007995605,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -2.449279308319092,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -2.449279308319092,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1603,
+            "snapshotWireBytes": 648
+        },
+        {
+            "side": "Gojo",
+            "error": 0.0,
+            "clientRealTime": 4.010732173919678,
+            "serverTick": 240,
+            "snapshotSequence": 240,
+            "ackInputSequence": 35,
+            "driverSentSequence": 0,
+            "pendingInputCount": 0,
+            "pendingDeltaTime": 0.0,
+            "viewPosition": {
+                "x": -1.6239782571792603,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotPosition": {
+                "x": -1.6239782571792603,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "snapshotVelocity": {
+                "x": 15.0,
+                "y": -1.2000062465667725,
+                "z": 0.0
+            },
+            "snapshotExternalVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "snapshotDashVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "viewVelocity": {
+                "x": 15.0,
+                "y": -1.2000062465667725,
+                "z": 0.0
+            },
+            "motorCenter": {
+                "x": -1.6239782571792603,
+                "y": 1.0674998760223389,
+                "z": 0.0
+            },
+            "transformCenter": {
+                "x": -1.6239782571792603,
+                "y": 0.09249980747699738,
+                "z": 0.0
+            },
+            "motorCenterOffset": {
+                "x": 0.0,
+                "y": 0.9750000834465027,
+                "z": 0.0
+            },
+            "quietBound": 0.25,
+            "quietExcess": -0.25,
+            "horizontalRawLead": 0.0,
+            "snapshotAge": 0.0,
+            "quietEligible": false,
+            "snapshotJsonBytes": 1576,
+            "snapshotWireBytes": 636
+        }
+    ]
+}

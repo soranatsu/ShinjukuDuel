@@ -1,0 +1,36 @@
+{
+  "scenario": "Ready035-LAN-Roles",
+  "complete": true,
+  "passed": true,
+  "runnerPid": 12608,
+  "build": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.5\\ShinjukuDuel.exe",
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "hostRole": "Sukuna",
+  "hostPort": 8468,
+  "clientPort": 8468,
+  "impaired": false,
+  "domainOnly": false,
+  "started": "2026-10-17T00:57:23.0212392+08:00",
+  "processes": [
+    68768,
+    43548
+  ],
+  "results": [
+    {
+      "failures": [],
+      "checks": 17,
+      "mode": "host",
+      "complete": true,
+      "passed": true
+    },
+    {
+      "failures": [],
+      "checks": 12,
+      "mode": "client",
+      "complete": true,
+      "passed": true
+    }
+  ],
+  "managedSHA256": "F67B174C856CA41C4C45BE382EECEA426E9CEA9A9783D7D73CF60699547073FB",
+  "finished": "2026-10-17T00:57:54.6154562+08:00"
+}
