@@ -1,0 +1,42 @@
+{
+  "build": "builds/Release-0.3.3/ShinjukuDuel.exe",
+  "managedSHA256": "F228E0E3E464074D6A9E1FC3FD1EF4F3DFB85A90A4043465B24CC2E9CA8DF9EE",
+  "finished": "2026-10-16T18:32:30.5985526+08:00",
+  "results": [
+    {
+      "name": "air",
+      "checks": 14,
+      "exitCode": 0,
+      "fresh": true,
+      "passed": true,
+      "source": "Verification/0.3.3/Final033-Feel/air.json"
+    },
+    {
+      "name": "movement",
+      "checks": 9,
+      "exitCode": 0,
+      "fresh": true,
+      "passed": true,
+      "source": "Verification/0.3.3/Final033-Feel/movement.json"
+    },
+    {
+      "name": "actions",
+      "checks": 7,
+      "exitCode": 0,
+      "fresh": true,
+      "passed": true,
+      "source": "Verification/0.3.3/Final033-Feel/actions.json"
+    },
+    {
+      "name": "tutorial",
+      "checks": 0,
+      "exitCode": 0,
+      "fresh": true,
+      "passed": true,
+      "source": "Verification/0.3.3/Final033-Feel/tutorial.json"
+    }
+  ],
+  "complete": true,
+  "passed": true,
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60"
+}

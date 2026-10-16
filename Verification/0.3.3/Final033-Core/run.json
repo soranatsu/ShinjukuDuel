@@ -1,0 +1,42 @@
+{
+  "managedSHA256": "F228E0E3E464074D6A9E1FC3FD1EF4F3DFB85A90A4043465B24CC2E9CA8DF9EE",
+  "passed": false,
+  "build": "builds/Release-0.3.3/ShinjukuDuel.exe",
+  "results": [
+    {
+      "passed": true,
+      "fresh": true,
+      "checks": 81,
+      "exitCode": 0,
+      "source": "Verification/0.3.3/Final033-Core/domains.json",
+      "name": "domains"
+    },
+    {
+      "passed": true,
+      "fresh": true,
+      "checks": 70,
+      "exitCode": 0,
+      "source": "Verification/0.3.3/Final033-Core/projectiles.json",
+      "name": "projectiles"
+    },
+    {
+      "passed": true,
+      "fresh": true,
+      "checks": 14,
+      "exitCode": 0,
+      "source": "Verification/0.3.3/Final033-Core/mobile.json",
+      "name": "mobile"
+    },
+    {
+      "passed": false,
+      "fresh": true,
+      "checks": 4,
+      "exitCode": 1,
+      "source": "Verification/0.3.3/Final033-Core/jump.json",
+      "name": "jump"
+    }
+  ],
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "complete": true,
+  "finished": "2026-10-16T18:35:16.4523751+08:00"
+}

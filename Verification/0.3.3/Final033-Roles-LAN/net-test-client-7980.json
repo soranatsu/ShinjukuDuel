@@ -1,0 +1,47 @@
+{
+  "mode": "client",
+  "output": "Final033-Roles-LAN/net-test-client-7980.json",
+  "complete": true,
+  "checks": [
+    {
+      "name": "handshake",
+      "detail": "已连接，请选择角色并准备",
+      "pass": true
+    },
+    {
+      "name": "accept_host_observed",
+      "detail": "client observed accepted swap",
+      "pass": true
+    },
+    {
+      "name": "client_request_pending",
+      "detail": "requester observed server pending state",
+      "pass": true
+    },
+    {
+      "name": "accept_client_observed",
+      "detail": "client observed roles exchanged back",
+      "pass": true
+    },
+    {
+      "name": "client_ready_blocked",
+      "detail": "ready cannot be set while swap is pending",
+      "pass": true
+    },
+    {
+      "name": "client_ready_phase_cleared",
+      "detail": "client observed pending=false before self-response phase",
+      "pass": true
+    },
+    {
+      "name": "client_rejects_self_response_phase",
+      "detail": "opponent rejects after requester self-response check",
+      "pass": true
+    },
+    {
+      "name": "client_active_match_swap_blocked",
+      "detail": "client swap rejected during match",
+      "pass": true
+    }
+  ]
+}

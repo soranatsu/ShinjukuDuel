@@ -1,0 +1,25 @@
+{
+    "passed": false,
+    "checks": [
+        {
+            "name": "jump fixtures start at 2000 HP",
+            "pass": true,
+            "detail": "initialHP=2000.0/2000.0"
+        },
+        {
+            "name": "jump fixtures settle on expanded ground",
+            "pass": true,
+            "detail": "grounded=True/True pos=(-4.00, 80.04, 0.00)/(4.00, 80.04, 0.00) running=True"
+        },
+        {
+            "name": "both highest AI perform real combat jumps",
+            "pass": false,
+            "detail": "elapsed=15.01 gojoJumps=0 sukunaJumps=8 aiCount=0/0 gojoPeak=0.00 sukunaPeak=4.59 alive=True/True hp=99409.1/99415.5 pos=(77.33, 80.04, -0.16)/(121.02, 80.04, 7.96) running=True groundCollider=True"
+        },
+        {
+            "name": "time stopped AI does not jump",
+            "pass": true,
+            "detail": "stopped=True yDelta=0.000"
+        }
+    ]
+}

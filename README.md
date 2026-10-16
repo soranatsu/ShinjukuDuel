@@ -3,9 +3,9 @@
 基于 Unity 制作的第一人称单人人机对战游戏。选择五条悟或两面宿傩，在可破坏的城市街区中使用近战、术式、领域和防御技能进行战斗。
 
 **稳定版：0.3.1 · 2026-10-16**  
-**预览版：0.3.2-preview · 联机功能预览**
+**预览版：0.3.3-preview · Relay/LAN 联机与操作衔接预览**
 
-公开发布的 0.3.1 是稳定的离线单人版本。0.3.2-preview 已提供局域网两人联机预览；实际验证范围与已知限制见 [NETWORK.md](NETWORK.md)。
+公开发布的 0.3.1 是稳定的离线单人版本。0.3.2-preview 链接继续保留；0.3.3-preview 增加 Relay 邀请码联机入口与操作衔接改进。实际验证范围与已知限制见 [NETWORK.md](NETWORK.md)。
 
 ## 下载与安装
 
@@ -15,10 +15,12 @@
 | Android ARM64 | [下载安卓 APK](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.1/ShinjukuDuel-0.3.1-android-arm64.apk) | Android 8.0 及以上，下载后安装，横屏游玩。 |
 | Windows x64（0.3.2-preview） | [下载 Windows ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.2-preview/ShinjukuDuel-0.3.2-windows-x64.zip) | 联机预览包；完整解压后运行 `ShinjukuDuel.exe`。 |
 | Android ARM64（0.3.2-preview） | [下载安卓 APK](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.2-preview/ShinjukuDuel-0.3.2-android-arm64.apk) | 联机预览包；Android 8.0 及以上，横屏游玩。 |
+| Windows x64（0.3.3-preview） | [下载 Windows ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.3-preview/ShinjukuDuel-0.3.3-windows-x64.zip) | Relay/LAN 联机与操作衔接预览；完整解压后运行。 |
+| Android ARM64（0.3.3-preview） | [下载安卓 APK](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.3-preview/ShinjukuDuel-0.3.3-android-arm64.apk) | 配套预览包；最终 APK 已完成编译，发布附件与签名状态以发布流程核验为准，Android 真机尚未验证。 |
 
 [全部发布文件](https://github.com/soranatsu/ShinjukuDuel/releases/latest) · [安装与操作说明](INSTALL.md) · [更新说明](CHANGELOG.md) · [LAN 联机指南](LAN.md) · [Relay 状态](RELAY.md) · [NETWORK 验证说明](NETWORK.md) · [SHA-256 校验](SHA256SUMS.txt)
 
-[0.3.2-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.2-preview)
+[0.3.3-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.3-preview) · [预览包 SHA-256](SHA256SUMS-0.3.3.txt) · [0.3.2-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.2-preview)
 
 GitHub 自动生成的 `Source code` ZIP/TAR 是本仓库的说明文档快照。游玩请下载上表中对应平台的文件。
 
@@ -88,6 +90,8 @@ R 键短按释放，长按蓄力，最高达到 **200% 伤害倍率**。蓄力�
 
 普攻有 **20% 概率触发黑闪**，基础伤害为 **72**，带有击退效果，实际伤害仍受空中、领域加成及防御影响。黑闪实际造成生命值伤害后，会立即修复自己的术式熔断并刷新 Q 冷却；本版黑闪不会使对方进入熔断。
 
+0.3.3-preview 增加玩家有效出手后的 E/F/R/领域后摇取消，约保留 0.22 秒的略早输入缓冲；已发射飞弹独立继续飞行，伤害与技能冷却规则不变。F 仍对应宿傩的捌/五条悟的赫。
+
 ### 简易领域与弥虚葛笼
 
 按 X 展开，**持续 2 秒，冷却 30 秒**，结界会跟随角色移动，松开按键不会提前取消。
@@ -104,11 +108,11 @@ R 键短按释放，长按蓄力，最高达到 **200% 伤害倍率**。蓄力�
 
 首页和暂停菜单均可调整音量、按键、视角灵敏度、镜头动态和伤害飘字。手机和平板使用左侧摇杆、右侧技能按钮，可以拖动位置并缩放至 70%—160%，分别保存布局。
 
-### 0.3.2-preview 联机预览
+### 0.3.3-preview 联机预览
 
 主界面进入“联机对战”后，可以选择局域网创建或加入。创建者先选择 Gojo 或 Sukuna 并创建房间；加入者输入主机 IP 和端口后加入，再选择另一角色。双方都点击准备后才会开始对战。房间内显示的地址可用于同一局域网设备连接，Android 端可手动输入地址。
 
-Relay 云房间入口保留在预览界面，但当前云项目尚未关联，不能使用 Relay 创建或加入；请使用局域网流程。预览版主菜单和暂停菜单提供“退出游戏”按钮，浏览器 WebGL 版本无法关闭浏览器标签页，会显示相应提示。
+Relay 云房间使用邀请码创建或加入；局域网仍支持输入主机 IPv4。双方角色互斥，换位须双方同意并重新准备。主机退出会结束对局，当前没有主机迁移。预览版主菜单和暂停菜单提供“退出游戏”按钮，浏览器 WebGL 版本无法关闭浏览器标签页，会显示相应提示。
 
 **快来打一场酣畅淋漓的新宿决战吧！**
 
@@ -126,7 +130,9 @@ Relay 云房间入口保留在预览界面，但当前云项目尚未关联，�
 
 ## 验证范围
 
-Windows 0.3.2-preview 和 Android 预览包已生成供联机流程检查；本页不宣称所有自动回归或联机场景全部通过。Android 预览包目标为 ARM64、API 26—36，尚未进行真机性能、触控、发热和兼容性验收。当前 APK 使用既有 Android Debug 证书，属于直接安装的测试构建，并非应用商店签名版本。
+0.3.3-preview 最终 Windows 构建的真实 Relay 验收完成两轮，两种主机角色各通过主机 153 项、客户端 50 项检查，共 406 项；LAN 角色与操作专项也已完成验收。AI 跳跃随机对战观测有一次未触发，独立同构建四项复测通过；未确定根因，也不证明 15 秒内必跳。Android 预览包目标为 ARM64、API 26—36，最终 APK 已完成编译，发布附件与签名状态以发布流程核验为准，Android 真机性能、触控、发热和兼容性尚未验收。APK 使用既有 Android Debug 证书，属于直接安装的测试构建，并非应用商店签名版本。
+
+最终 APK：`com.shinjuku.fanduel`，versionName `0.3.3`，versionCode `18`，ARM64，API 26—36；使用既有 Android Debug 证书（SHA-256 `0f3b7fc7871f6eb012258a53c85c74119d0e3c38f7ffdfd9160389af55a2048e`），可覆盖同签名版本。真机尚未验证。
 
 本仓库用于保存发布包说明，安装包位于 Releases。源工程、模型原件、私人照片、开发工具和历史版本归档不随仓库上传。
 

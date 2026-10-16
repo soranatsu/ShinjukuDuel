@@ -1,0 +1,47 @@
+{
+  "scenario": "Final033-Relay-GojoHost",
+  "complete": true,
+  "passed": true,
+  "runnerPid": 63072,
+  "build": "builds/Release-0.3.3/ShinjukuDuel.exe",
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "sourceWindowsBuildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "managedSHA256": "F228E0E3E464074D6A9E1FC3FD1EF4F3DFB85A90A4043465B24CC2E9CA8DF9EE",
+  "hostRole": "Gojo",
+  "hostPort": 7970,
+  "clientPort": 7971,
+  "transport": "relay",
+  "relayProfiles": [
+    "relayhost033",
+    "relayclient033"
+  ],
+  "relayRunId": "Final033-Relay-GojoHost",
+  "processes": [
+    62124,
+    68008
+  ],
+  "results": [
+    {
+      "failures": [],
+      "resultCopy": "Verification/0.3.3/Final033-Relay-GojoHost/relay-net-test-host-7970.json",
+      "resultSource": "Verification/0.3.3/Final033-Relay-GojoHost/relay-net-test-host-7970.json",
+      "checks": 153,
+      "complete": true,
+      "passed": true,
+      "profile": "relayhost033",
+      "mode": "host"
+    },
+    {
+      "failures": [],
+      "resultCopy": "Verification/0.3.3/Final033-Relay-GojoHost/relay-net-test-client-7971.json",
+      "resultSource": "Verification/0.3.3/Final033-Relay-GojoHost/relay-net-test-client-7971.json",
+      "checks": 50,
+      "complete": true,
+      "passed": true,
+      "profile": "relayclient033",
+      "mode": "client"
+    }
+  ],
+  "started": "2026-10-16T18:29:56.8714435+08:00",
+  "finished": "2026-10-16T18:32:47.8079249+08:00"
+}

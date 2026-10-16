@@ -1,0 +1,18 @@
+{
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "managedSHA256": "F228E0E3E464074D6A9E1FC3FD1EF4F3DFB85A90A4043465B24CC2E9CA8DF9EE",
+  "complete": true,
+  "results": [
+    {
+      "name": "jump",
+      "exitCode": 0,
+      "source": "Verification/0.3.3/Final033-Jump-Recheck/jump.json",
+      "fresh": true,
+      "checks": 4,
+      "passed": true
+    }
+  ],
+  "finished": "2026-10-16T18:38:54.4905947+08:00",
+  "passed": true,
+  "build": "builds/Release-0.3.3/ShinjukuDuel.exe"
+}

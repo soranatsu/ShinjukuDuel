@@ -1,4 +1,12 @@
-# 0.3.2 Publish 联机网络验收记录
+# 0.3.3-preview 联机网络验收记录
+
+## 0.3.3-preview 当前状态
+
+0.3.3-preview 已关联 Unity Cloud Project，并提供 Relay 邀请码与 LAN 联机入口。最终 Windows 构建已完成两种角色主机方向的 Relay 双进程验收：每种角色主机 153 项、客户端 50 项，共 406 项；LAN 角色与操作专项也已完成验收。
+
+本轮操作更新包含移动收速、墙跳输入缓冲、有界楼沿辅助，以及玩家有效出手后的 E/F/R/领域后摇取消和约 0.22 秒输入缓冲；已发射飞弹独立继续，伤害与技能冷却未改变。AI 跳跃随机对战观测有一次未触发，独立同构建四项复测通过，未确定根因，也不证明 15 秒内必跳。跨异地、Android 真机和连续体验仍待验证。
+
+最终 APK 元数据：`com.shinjuku.fanduel`，versionName `0.3.3`，versionCode `18`，ARM64，API 26—36；使用既有 Android Debug 证书，真机尚未验证。
 
 本记录只使用相同 Publish managed SHA 的四场 `Publish032-*` 2×2 本机双进程矩阵。此前 Transport/Canonical/Delivery/Verified 结果保留为历史，不与本矩阵合并。
 
@@ -60,11 +68,11 @@
 
 ## 离线专项
 
-- `Publish032-Offline`：domains 81、projectiles 70、air 9、mobile 14、jump 4、relay 6 均 fresh/pass；tutorial 独立结果 `passed=true, failures=0`（内部 93 checks）。总 JSON checks=184；tutorial runner 的 JSON checks 字段为 0。
+- `Final033-Feel`：air 14、movement 9、actions 7，tutorial suite 通过；`Final033-Core`：domains 81、projectiles 70、mobile 14，AI jump 原始随机观测一次未触发，独立同构建四项复测通过，未确定根因。
 
 ## 历史与限制
 
 - Transport/Canonical/Delivery/Verified 早期失败批次保留在当前目录，属于历史测试夹具/观察记录，不混入本 Publish 矩阵。
 - 主机退出结束对局，没有主机迁移。
-- 当前证据仅来自本机双进程；没有真实异地、跨设备、Android 真机或 Relay/云项目连接证据。
+- Publish032、Transport032 等早期批次保留为历史；本页开头的 0.3.3-preview Relay 结果来自最终 Windows 构建。所有当前网络结果仍限于本机双进程，未扩展为连续手感、真实异地、Android 真机或跨设备证明。
 - 机器可读明细：[Network-Verification-0.3.2.summary.json](Verification/0.3.2/summary.json)。

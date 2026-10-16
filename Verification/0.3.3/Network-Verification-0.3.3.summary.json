@@ -1,0 +1,313 @@
+{
+  "version": "0.3.3",
+  "generatedAt": "2026-10-16T18:43:31.5398718+08:00",
+  "status": "passed_with_observation",
+  "managedSHA256": "F228E0E3E464074D6A9E1FC3FD1EF4F3DFB85A90A4043465B24CC2E9CA8DF9EE",
+  "scenarios": [
+    {
+      "name": "Final033-Feel",
+      "kind": "offline-feel",
+      "status": "passed",
+      "run": "Verification/0.3.3/Final033-Feel/run.json",
+      "build": "builds/Release-0.3.3/ShinjukuDuel.exe",
+      "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "sourceWindowsBuildSHA256": "",
+      "managedSHA256": "F228E0E3E464074D6A9E1FC3FD1EF4F3DFB85A90A4043465B24CC2E9CA8DF9EE",
+      "suites": [
+        {
+          "name": "air",
+          "mode": "",
+          "path": "Verification/0.3.3/Final033-Feel/air.json",
+          "checks": 14,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "name": "movement",
+          "mode": "",
+          "path": "Verification/0.3.3/Final033-Feel/movement.json",
+          "checks": 9,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "name": "actions",
+          "mode": "",
+          "path": "Verification/0.3.3/Final033-Feel/actions.json",
+          "checks": 7,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "name": "tutorial",
+          "mode": "",
+          "path": "Verification/0.3.3/Final033-Feel/tutorial.json",
+          "checks": null,
+          "suiteOnly": true,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        }
+      ],
+      "observation": null
+    },
+    {
+      "name": "Final033-Core",
+      "kind": "offline-core",
+      "status": "passed_with_observation",
+      "run": "Verification/0.3.3/Final033-Core/run.json",
+      "build": "builds/Release-0.3.3/ShinjukuDuel.exe",
+      "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "sourceWindowsBuildSHA256": "",
+      "managedSHA256": "F228E0E3E464074D6A9E1FC3FD1EF4F3DFB85A90A4043465B24CC2E9CA8DF9EE",
+      "suites": [
+        {
+          "name": "domains",
+          "mode": "",
+          "path": "Verification/0.3.3/Final033-Core/domains.json",
+          "checks": 81,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "name": "projectiles",
+          "mode": "",
+          "path": "Verification/0.3.3/Final033-Core/projectiles.json",
+          "checks": 70,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "name": "mobile",
+          "mode": "",
+          "path": "Verification/0.3.3/Final033-Core/mobile.json",
+          "checks": 14,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "name": "jump",
+          "mode": "",
+          "path": "Verification/0.3.3/Final033-Core/jump.json",
+          "checks": 4,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": false,
+          "failures": [
+            {
+              "name": "both highest AI perform real combat jumps",
+              "detail": "elapsed=15.01 gojoJumps=0 sukunaJumps=8 aiCount=0/0 gojoPeak=0.00 sukunaPeak=4.59 alive=True/True hp=99409.1/99415.5 pos=(77.33, 80.04, -0.16)/(121.02, 80.04, 7.96) running=True groundCollider=True",
+              "pass": false
+            }
+          ],
+          "originalRunResult": {
+            "passed": false,
+            "fresh": true,
+            "exitCode": 1,
+            "checks": 4,
+            "source": "Builds\\Release-0.3.3\\AiJumpRuntime\\result.json"
+          }
+        }
+      ],
+      "observation": {
+        "original": {
+          "name": "jump",
+          "mode": "",
+          "path": "Verification/0.3.3/Final033-Core/jump.json",
+          "checks": 4,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": false,
+          "failures": [
+            {
+              "name": "both highest AI perform real combat jumps",
+              "detail": "elapsed=15.01 gojoJumps=0 sukunaJumps=8 aiCount=0/0 gojoPeak=0.00 sukunaPeak=4.59 alive=True/True hp=99409.1/99415.5 pos=(77.33, 80.04, -0.16)/(121.02, 80.04, 7.96) running=True groundCollider=True",
+              "pass": false
+            }
+          ],
+          "originalRunResult": {
+            "passed": false,
+            "fresh": true,
+            "exitCode": 1,
+            "checks": 4,
+            "source": "Verification/0.3.3/Final033-Core/jump.json"
+          }
+        },
+        "retry": {
+          "name": "jump",
+          "mode": "",
+          "path": "Verification/0.3.3/Final033-Jump-Recheck/jump.json",
+          "checks": 4,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        },
+        "retryRun": "Verification/0.3.3/Final033-Jump-Recheck/run.json",
+        "note": "随机对战跳跃观测一次未触发，独立复测通过；可能受随机对战机会、距离和测试中3s冷却影响；未逐帧记录门控，尚不能确认根因。不证明15s内必跳。"
+      }
+    },
+    {
+      "name": "Final033-Relay-GojoHost",
+      "kind": "relay",
+      "status": "passed",
+      "run": "Verification/0.3.3/Final033-Relay-GojoHost/run.json",
+      "build": "builds/Release-0.3.3/ShinjukuDuel.exe",
+      "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "sourceWindowsBuildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "managedSHA256": "F228E0E3E464074D6A9E1FC3FD1EF4F3DFB85A90A4043465B24CC2E9CA8DF9EE",
+      "suites": [
+        {
+          "name": "host",
+          "mode": "host",
+          "path": "Verification/0.3.3/Final033-Relay-GojoHost/relay-net-test-host-7970.json",
+          "checks": 153,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "name": "client",
+          "mode": "client",
+          "path": "Verification/0.3.3/Final033-Relay-GojoHost/relay-net-test-client-7971.json",
+          "checks": 50,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        }
+      ],
+      "observation": null
+    },
+    {
+      "name": "Final033-Relay-SukunaHost",
+      "kind": "relay",
+      "status": "passed",
+      "run": "Verification/0.3.3/Final033-Relay-SukunaHost/run.json",
+      "build": "builds/Release-0.3.3/ShinjukuDuel.exe",
+      "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "sourceWindowsBuildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "managedSHA256": "F228E0E3E464074D6A9E1FC3FD1EF4F3DFB85A90A4043465B24CC2E9CA8DF9EE",
+      "suites": [
+        {
+          "name": "host",
+          "mode": "host",
+          "path": "Verification/0.3.3/Final033-Relay-SukunaHost/relay-net-test-host-7972.json",
+          "checks": 153,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "name": "client",
+          "mode": "client",
+          "path": "Verification/0.3.3/Final033-Relay-SukunaHost/relay-net-test-client-7973.json",
+          "checks": 50,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        }
+      ],
+      "observation": null
+    },
+    {
+      "name": "Final033-Roles-LAN",
+      "kind": "roles-lan",
+      "status": "passed",
+      "run": "Verification/0.3.3/Final033-Roles-LAN/run.json",
+      "build": "builds/Release-0.3.3/ShinjukuDuel.exe",
+      "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "sourceWindowsBuildSHA256": "",
+      "managedSHA256": "F228E0E3E464074D6A9E1FC3FD1EF4F3DFB85A90A4043465B24CC2E9CA8DF9EE",
+      "suites": [
+        {
+          "name": "host",
+          "mode": "host",
+          "path": "Verification/0.3.3/Final033-Roles-LAN/net-test-host-7980.json",
+          "checks": 13,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "name": "client",
+          "mode": "client",
+          "path": "Verification/0.3.3/Final033-Roles-LAN/net-test-client-7980.json",
+          "checks": 8,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        }
+      ],
+      "observation": null
+    },
+    {
+      "name": "Final033-Roles-Impaired",
+      "kind": "roles-impaired",
+      "status": "passed",
+      "run": "Verification/0.3.3/Final033-Roles-Impaired/run.json",
+      "build": "builds/Release-0.3.3/ShinjukuDuel.exe",
+      "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "sourceWindowsBuildSHA256": "",
+      "managedSHA256": "F228E0E3E464074D6A9E1FC3FD1EF4F3DFB85A90A4043465B24CC2E9CA8DF9EE",
+      "suites": [
+        {
+          "name": "host",
+          "mode": "host",
+          "path": "Verification/0.3.3/Final033-Roles-Impaired/net-test-host-7982.json",
+          "checks": 13,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "name": "client",
+          "mode": "client",
+          "path": "Verification/0.3.3/Final033-Roles-Impaired/net-test-client-7983.json",
+          "checks": 8,
+          "suiteOnly": false,
+          "complete": true,
+          "passed": true,
+          "failures": []
+        }
+      ],
+      "observation": null
+    }
+  ],
+  "scope": {
+    "relay": "真实公共 Relay 双进程验收；仍限于同机进程，未证明异地或跨设备。",
+    "lan": "LAN 角色交换场景；Impaired 为本机网络条件。",
+    "android": "Android 编译、签名与真机验证由发布流程另行登记。",
+    "gui": "未进行实际 GUI 像素级验收。"
+  },
+  "history": [
+    {
+      "scenario": "Feel033-r5",
+      "note": "历史失败来自测试时序/动作衔接夹具，保留原始报告；不并入最终矩阵。",
+      "path": "Verification/0.3.3/Feel033-r5/run.json"
+    },
+    {
+      "scenario": "Relay033-GojoHost-r1",
+      "note": "历史失败因空 ProjectID 导致云初始化超时，保留原始报告；不并入最终矩阵。",
+      "path": "Verification/0.3.3/Relay033-GojoHost-r1/run.json"
+    }
+  ]
+}

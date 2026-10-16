@@ -1,0 +1,31 @@
+{
+  "version": "0.3.3-preview",
+  "builtAt": "2026-10-16T18:49:10.1252360+08:00",
+  "windowsManagedSHA256": "F228E0E3E464074D6A9E1FC3FD1EF4F3DFB85A90A4043465B24CC2E9CA8DF9EE",
+  "frozenSourceFiles": 190,
+  "verifiedWindowsFiles": 209,
+  "windows": {
+    "bytes": 84483149,
+    "file": "ShinjukuDuel-0.3.3-windows-x64.zip",
+    "sha256": "818B0889882152A6CC2A281BB752C164153F76CEC0661F7D81321F134A494399"
+  },
+  "android": {
+    "version": "0.3.3",
+    "versionCode": 18,
+    "package": "com.shinjuku.fanduel",
+    "abi": "arm64-v8a",
+    "minSdk": 26,
+    "targetSdk": 36,
+    "apkSHA256": "9ABE316C4A58B5E5D17FA75728033E77B98D93F38E0E95A1C6C0AD37F74FFB1C",
+    "bytes": 74450135,
+    "build": "ANDROID_BUILD_PASS",
+    "signature": "verified",
+    "signerCertificateSHA256": "0f3b7fc7871f6eb012258a53c85c74119d0e3c38f7ffdfd9160389af55a2048e",
+    "sameSignerAs032": true,
+    "signingType": "Android Debug",
+    "deviceTested": false
+  },
+  "relayCheckCount": 406,
+  "validationStatus": "passed_with_observation",
+  "report": "Docs/Verification-Network/Network-Verification-0.3.3.summary.json"
+}
