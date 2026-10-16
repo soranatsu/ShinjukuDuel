@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0",
-  "buildDate": "2026-10-15",
-  "buildRevision": "0.3.0-ai-jump-20261015",
+  "version": "0.3.1",
+  "buildDate": "2026-10-16",
+  "buildRevision": "0.3.1-offline-hotfix-20261016",
   "repository": "https://github.com/soranatsu/ShinjukuDuel",
-  "releaseTag": "v0.3.0",
+  "releaseTag": "v0.3.1",
   "platforms": {
     "windows": {
       "architecture": "x64",
@@ -14,45 +14,41 @@
       "architecture": "arm64-v8a",
       "minimumAPI": 26,
       "targetAPI": 36,
-      "versionCode": 15,
+      "versionCode": 16,
       "signing": "existing Android Debug certificate",
       "signerSHA256": "0f3b7fc7871f6eb012258a53c85c74119d0e3c38f7ffdfd9160389af55a2048e",
       "physicalDeviceTested": false
     }
   },
   "verification": {
-    "runtimeFilesUnchanged": true,
-    "originalFilesHashMatched": 167,
-    "changedOriginalFiles": [
-      "AudioCredits.md",
-      "UserGojoCredits.md",
-      "SHA256SUMS.txt"
-    ],
-    "addedFiles": [
-      "CURRENT-ASSETS.md"
-    ],
-    "apkMatchesOriginal": true
+    "version": "0.3.1",
+    "date": "2026-10-16",
+    "status": "TARGETED_REGRESSION_PASS",
+    "domains": 81,
+    "projectiles": 70,
+    "airMovement": 9,
+    "mobileAndChapters": 14,
+    "aiJump": 4,
+    "tutorial": 93,
+    "assertions": 271,
+    "legacyFullSmokeStatus": "FAIL - 39 retired assertions in 440 checks, audited separately",
+    "legacyAudit": "legacy-smoke-audit.json",
+    "windowsPackageFiles": 169,
+    "windowsHashMismatches": 0,
+    "androidSignature": "PASS-v2",
+    "androidPhysicalDeviceTested": false,
+    "networkStatus": "in development; not part of offline 0.3.1"
   },
   "assets": [
     {
-      "name": "ShinjukuDuel-0.3.0-windows-x64.zip",
-      "bytes": 82621963,
-      "sha256": "5D7B0A383A9B5D9B0D79DEFC5E677A18E8A0F099A5DB024D33D8294F0B430443"
+      "name": "ShinjukuDuel-0.3.1-windows-x64.zip",
+      "bytes": 82637971,
+      "sha256": "97861FF8C79D0BF237B0B65D1372930482289E71ADBB3F2A3364E9BE88C4619E"
     },
     {
-      "name": "ShinjukuDuel-0.3.0-android-arm64.apk",
-      "bytes": 63408714,
-      "sha256": "DC7D100C4EE6C5DB3B85DACC6EA0820AA4086CAFF7D36094E223B80F33CF6F78"
-    },
-    {
-      "name": "INSTALL.md",
-      "bytes": 1965,
-      "sha256": "C63A80E67784AE8AE3AE3FD3958C10AF6E9BFCD47C3CBD7B17AB0D812D5250AD"
-    },
-    {
-      "name": "CHANGELOG.md",
-      "bytes": 1975,
-      "sha256": "C121EB5B2C655305E2709DA020EEA3DF8CD3BF6735E6784579B1E1B1EC56D20D"
+      "name": "ShinjukuDuel-0.3.1-android-arm64.apk",
+      "bytes": 63466914,
+      "sha256": "3C52E8FFC796EF7EE9B6308366F852AD89A413222746ECDA4428E2D1DC2AA0FA"
     }
   ]
 }
