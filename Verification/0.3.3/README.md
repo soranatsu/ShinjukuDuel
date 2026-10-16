@@ -11,3 +11,4 @@
 Relay 测试真实经过公共 Unity Relay，但两端在同一台 Windows 电脑运行。跨设备、跨网络体验和 Android 真机尚未验证；界面尚未做像素级验收。
 
 Final033-Core/jump.json 保留一次随机 AI 战斗未触发双方起跳的原始结果；Final033-Jump-Recheck/jump.json 是相同构建的独立复测，通过四项。根因未确定，不能据此保证每次15秒对战都发生起跳。
+[macOS 构建与包体核验](mac-verification.json)：6 个原生文件均包含 arm64 与 x86_64，214 个文件哈希及 Unix 执行权限已核验。Mac 真机和跨平台联机未验证，无 Developer ID 签名和公证。

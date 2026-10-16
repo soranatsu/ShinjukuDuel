@@ -17,8 +17,9 @@
 | Android ARM64（0.3.2-preview） | [下载安卓 APK](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.2-preview/ShinjukuDuel-0.3.2-android-arm64.apk) | 联机预览包；Android 8.0 及以上，横屏游玩。 |
 | Windows x64（0.3.3-preview） | [下载 Windows ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.3-preview/ShinjukuDuel-0.3.3-windows-x64.zip) | Relay/LAN 联机与操作衔接预览；完整解压后运行。 |
 | Android ARM64（0.3.3-preview） | [下载安卓 APK](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.3-preview/ShinjukuDuel-0.3.3-android-arm64.apk) | 配套预览包；最终 APK 已完成编译，发布附件与签名状态以发布流程核验为准，Android 真机尚未验证。 |
+| macOS Universal（0.3.3-preview） | [下载 macOS ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.3-preview/ShinjukuDuel-0.3.3-macos-universal.zip) | Intel 与 Apple Silicon 预览包；尚无 Mac 实机或跨平台联机验证，无 Developer ID 签名和公证。 |
 
-[全部发布文件](https://github.com/soranatsu/ShinjukuDuel/releases/latest) · [安装与操作说明](INSTALL.md) · [更新说明](CHANGELOG.md) · [LAN 联机指南](LAN.md) · [Relay 状态](RELAY.md) · [NETWORK 验证说明](NETWORK.md) · [SHA-256 校验](SHA256SUMS.txt)
+[全部发布文件](https://github.com/soranatsu/ShinjukuDuel/releases/latest) · [安装与操作说明](INSTALL.md) · [macOS 说明](MACOS.md) · [更新说明](CHANGELOG.md) · [LAN 联机指南](LAN.md) · [Relay 状态](RELAY.md) · [NETWORK 验证说明](NETWORK.md) · [SHA-256 校验](SHA256SUMS.txt)
 
 [0.3.3-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.3-preview) · [预览包 SHA-256](SHA256SUMS-0.3.3.txt) · [0.3.2-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.2-preview)
 

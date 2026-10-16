@@ -22,6 +22,14 @@
 
 0.3.2-preview Android 包面向 ARM64、API 26—36。尚未进行 Android 真机验证；遇到安装或触控问题请优先使用稳定版 0.3.1。预览包不是应用商店签名版本。
 
+## macOS Universal 预览包
+
+- 下载 `ShinjukuDuel-0.3.3-macos-universal.zip`，解压后保留完整的 `ShinjukuDuel.app`。
+- 支持 Intel 与 Apple Silicon，最低 macOS 12.0；可将 `.app` 拖到“应用程序”或用户文件夹，不需要安装 Unity。
+- 0.3.3 的 Relay/LAN 功能和协议与 Windows、Android 配套；Mac 尚无实机或跨平台联机测试。
+- 当前预览包没有 Apple Developer ID 签名和公证。首次被拦截时，先尝试打开一次，再到“系统设置 > 隐私与安全性”选择“仍要打开”。不需要关闭 Gatekeeper。
+- 详细操作、触控板按键重绑和权限修复见 [MACOS.md](MACOS.md)。
+
 ## 0.3.2-preview 局域网联机
 
 1. 两台设备连接到同一局域网。

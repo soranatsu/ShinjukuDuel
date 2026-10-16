@@ -1,6 +1,6 @@
 {
   "version": "0.3.3-preview",
-  "builtAt": "2026-10-16T18:49:10.1252360+08:00",
+  "builtAt": "2026-10-16T18:49:10.125236+08:00",
   "windowsManagedSHA256": "F228E0E3E464074D6A9E1FC3FD1EF4F3DFB85A90A4043465B24CC2E9CA8DF9EE",
   "frozenSourceFiles": 190,
   "verifiedWindowsFiles": 209,
@@ -27,5 +27,20 @@
   },
   "relayCheckCount": 406,
   "validationStatus": "passed_with_observation",
-  "report": "Docs/Verification-Network/Network-Verification-0.3.3.summary.json"
+  "report": "Docs/Verification-Network/Network-Verification-0.3.3.summary.json",
+  "macOS": {
+    "file": "ShinjukuDuel-0.3.3-macos-universal.zip",
+    "bytes": 94594244,
+    "sha256": "432fede28707746262f0756f299ab78deb1dbfaff29b55ab82318c67cc7c5969",
+    "architectures": [
+      "arm64",
+      "x86_64"
+    ],
+    "minimumMacOS": "12.0",
+    "verifiedFileHashes": 214,
+    "nativeMachOCount": 6,
+    "macRuntimeTested": false,
+    "notarized": false,
+    "developerIDSigned": false
+  }
 }

@@ -9,6 +9,7 @@
 - 伤害、技能冷却和胜负规则未因上述操作改动；本条不构成新的胜率结论。
 - 最终 Windows 构建的 Relay 两种角色各通过主机 153 项、客户端 50 项检查，共 406 项；LAN 角色与操作专项也已完成验收。AI 跳跃随机对战观测有一次未触发，独立同构建四项复测通过，未确定根因，不证明 15 秒内必跳。Android 最终 APK 已完成编译，发布附件与签名状态以发布流程核验为准，真机验证待完成。
 - Android 最终 APK 元数据已核验：`com.shinjuku.fanduel`、versionName `0.3.3`、versionCode `18`、ARM64、API 26—36；使用既有 Android Debug 证书，可覆盖同签名版本。真机验证仍待完成。
+- 增加 macOS Universal 预览包下载项，文件名为 `ShinjukuDuel-0.3.3-macos-universal.zip`，支持 Intel 与 Apple Silicon，最低 macOS 12.0。当前没有 Mac 实机、跨平台联机、Developer ID 签名或公证验证。
 
 # 0.3.2-preview 更新说明
 
