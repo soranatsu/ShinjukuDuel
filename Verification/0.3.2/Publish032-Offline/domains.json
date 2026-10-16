@@ -1,0 +1,410 @@
+{
+    "passed": true,
+    "checks": [
+        {
+            "name": "domain test fixtures available",
+            "pass": true,
+            "detail": "live game actors"
+        },
+        {
+            "name": "domain centers anchor to each caster and preserve overlap ranges",
+            "pass": true,
+            "detail": "G=(0.00, 80.05, 0.00) S=(0.00, 80.05, 24.00) casts=G(0.00, 80.05, 0.00)/S(0.00, 80.05, 24.00) counter=True"
+        },
+        {
+            "name": "Sukuna leaving his anchored domain does not collapse it",
+            "pass": true,
+            "detail": "active=True owner=True center=(0.00, 80.05, 5.00) remaining=8.14"
+        },
+        {
+            "name": "counter-domain response uses the sum of both radii",
+            "pass": true,
+            "detail": "75m=True 81m=True sum=80.0"
+        },
+        {
+            "name": "solo Void applies one 100 damage opening",
+            "pass": true,
+            "detail": "damage=100.00"
+        },
+        {
+            "name": "solo Void controls the victim without freezing cooldown clocks",
+            "pass": true,
+            "detail": "control-only preparation contract"
+        },
+        {
+            "name": "victim action cannot cancel Gojo preparation",
+            "pass": true,
+            "detail": "wrong caller ignored"
+        },
+        {
+            "name": "first melee commit does not release the 4.5s preparation control",
+            "pass": true,
+            "detail": "dash=False control=3.64 melee=26.00"
+        },
+        {
+            "name": "Void control ends on its own timer and then allows dodge",
+            "pass": true,
+            "detail": "control=0.00 dash=True"
+        },
+        {
+            "name": "natural Void expiry causes no burnout",
+            "pass": true,
+            "detail": "burnout=0.00"
+        },
+        {
+            "name": "solo Shrine applies one in-range opening hit",
+            "pass": true,
+            "detail": "expanded=True loss=100.00 remaining=8.49"
+        },
+        {
+            "name": "re-entry does not replay Shrine opening damage",
+            "pass": true,
+            "detail": "health=1900.00 initialLoss=100.00"
+        },
+        {
+            "name": "out-of-range Shrine does not apply opening hit",
+            "pass": true,
+            "detail": "expanded=True loss=0.00"
+        },
+        {
+            "name": "X blocks the solo Shrine opening",
+            "pass": true,
+            "detail": "loss=0.00 shield=60.00"
+        },
+        {
+            "name": "counter-domain has no second Shrine opening hit",
+            "pass": true,
+            "detail": "first=100.00 afterClash=100.00 clash=True"
+        },
+        {
+            "name": "Gojo domain grounded Light receives configured melee multiplier",
+            "pass": true,
+            "detail": "damage=26.00"
+        },
+        {
+            "name": "Gojo domain airborne Light keeps 1.5x melee multiplier",
+            "pass": true,
+            "detail": "damage=39.00"
+        },
+        {
+            "name": "Gojo domain Black Flash receives configured melee multiplier",
+            "pass": true,
+            "detail": "damage=93.60"
+        },
+        {
+            "name": "cooldown fixture uses real casts and healing",
+            "pass": true,
+            "detail": "E and Q-heal clocks primed"
+        },
+        {
+            "name": "Void controls the victim while all skill, domain, heal and own-domain clocks progress",
+            "pass": true,
+            "detail": "E=0.301/0.301 C=0.301 heal=0.301/0.301 Void=0.301"
+        },
+        {
+            "name": "R charge remains preparation without consuming time stop",
+            "pass": true,
+            "detail": "charge=18%"
+        },
+        {
+            "name": "committed domain R does not cancel preparation control",
+            "pass": true,
+            "detail": "control=2.26"
+        },
+        {
+            "name": "target can dodge after full control duration expires",
+            "pass": true,
+            "detail": "dash=True earlier R damage=220.33"
+        },
+        {
+            "name": "counter-domain clears preparation without another opening",
+            "pass": true,
+            "detail": "opening=100.00"
+        },
+        {
+            "name": "ordinary melee remains dodgeable after domain clash",
+            "pass": true,
+            "detail": "dash=True melee=True damage=0.00"
+        },
+        {
+            "name": "normal melee damage remains real during clash",
+            "pass": true,
+            "detail": "started=True damage=72.00 dodge=0.00 distance=6.70"
+        },
+        {
+            "name": "normal skill damage remains real during clash",
+            "pass": true,
+            "detail": "started=True hpDamage=22.00 score=44.00 posG=(0.00, 80.04, 0.00) posS=(0.00, 80.17, 2.21) stunG=0.00"
+        },
+        {
+            "name": "healing does not erase Shrine break progress",
+            "pass": true,
+            "detail": "before=44.00 after=44.00"
+        },
+        {
+            "name": "140 actual non-domain damage breaks Shrine after real HP loss",
+            "pass": true,
+            "detail": "started=True Fdamage=93.75 score=137.75 posG=(0.00, 80.04, 0.00) posS=(0.00, 80.04, 7.46)"
+        },
+        {
+            "name": "Shrine break applies only real damage and at most configured residual control",
+            "pass": true,
+            "detail": "control=2.63 hp=1906.25 skillDamage=93.75 totalDamage=93.75"
+        },
+        {
+            "name": "Sukuna actual HP damage also credits 50 percent to the Void barrier",
+            "pass": true,
+            "detail": "body=40 barrier=20"
+        },
+        {
+            "name": "barrier credit uses guard-reduced real damage",
+            "pass": true,
+            "detail": "body=20 barrier=10"
+        },
+        {
+            "name": "healing does not rewind actual-hit qualification or barrier progress",
+            "pass": true,
+            "detail": "score=60"
+        },
+        {
+            "name": "domain damage cannot qualify as an active body hit",
+            "pass": true,
+            "detail": "domain tag excluded"
+        },
+        {
+            "name": "zero-HP Void remains active without a Sukuna body hit",
+            "pass": true,
+            "detail": "passive erosion cannot finish the break"
+        },
+        {
+            "name": "the next real body hit begins the normal break window",
+            "pass": true,
+            "detail": "active hit qualifies"
+        },
+        {
+            "name": "qualified Void break burns out only Gojo",
+            "pass": true,
+            "detail": "burnout=3.27"
+        },
+        {
+            "name": "solo Void direct body damage breaks from a real R hit",
+            "pass": true,
+            "detail": "started=True actual=184.95 directAfter=0.00/120.00"
+        },
+        {
+            "name": "actual Shrine break enters burnout without synthetic bonus damage",
+            "pass": true,
+            "detail": "started=True hpLoss=93.75 expected=93.75 burnout=2.71"
+        },
+        {
+            "name": "post-break residual stun still blocks Q",
+            "pass": true,
+            "detail": "stun=2.38"
+        },
+        {
+            "name": "Q heals after Shrine break while burnout remains",
+            "pass": true,
+            "detail": "healed=93.75 burnout=2.71"
+        },
+        {
+            "name": "burnout still blocks E/F/R/C after Q recovery",
+            "pass": true,
+            "detail": "E=False F=False R=False C=False"
+        },
+        {
+            "name": "Shrine emits environmental slash marks and removes them on expiry",
+            "pass": true,
+            "detail": "emitted=35"
+        },
+        {
+            "name": "standalone Shrine deals 70/s for its full lifetime",
+            "pass": true,
+            "detail": "damage=595.00"
+        },
+        {
+            "name": "guard halves standalone Shrine body damage",
+            "pass": true,
+            "detail": "damage=297.50"
+        },
+        {
+            "name": "automatic erosion alone cannot break Void",
+            "pass": true,
+            "detail": "damage=139.66 expected~140.00 emptyButActive=True"
+        },
+        {
+            "name": "no-hit clash retains Void until natural expiry and guard halves the remainder",
+            "pass": true,
+            "detail": "damage=69.89 expected~70.00 emptyButActive=True"
+        },
+        {
+            "name": "same-frame dual break is atomic",
+            "pass": true,
+            "detail": "delay=0.017 gojoExtra=0.00 sukunaActual=52.50"
+        },
+        {
+            "name": "0.2 second dual-break window is honored",
+            "pass": true,
+            "detail": "delay=0.217 gojoExtra=0.00 sukunaActual=52.50"
+        },
+        {
+            "name": "domain clocks remain independent and natural Shrine expiry adds no control or opening",
+            "pass": true,
+            "detail": "Void remaining=1.34 burns=0.00/0.00"
+        },
+        {
+            "name": "a genuinely broken barrier still burns out when natural expiry is nearby",
+            "pass": true,
+            "detail": "burnout=3.33 Shrine remaining=5.30"
+        },
+        {
+            "name": "Gojo solo domain grants only its owner sure-hit inside boundary",
+            "pass": true,
+            "detail": "inside radius"
+        },
+        {
+            "name": "Gojo sure-hit ends immediately outside boundary",
+            "pass": true,
+            "detail": "outside radius"
+        },
+        {
+            "name": "clash removes both sure-hit grants",
+            "pass": true,
+            "detail": "both domains active"
+        },
+        {
+            "name": "pending break grants no sure-hit",
+            "pass": true,
+            "detail": "arbitration window"
+        },
+        {
+            "name": "expiry removes all sure-hit grants",
+            "pass": true,
+            "detail": "expired"
+        },
+        {
+            "name": "Sukuna solo domain grants only its owner sure-hit inside boundary",
+            "pass": true,
+            "detail": "inside radius"
+        },
+        {
+            "name": "Sukuna sure-hit ends immediately outside boundary",
+            "pass": true,
+            "detail": "outside radius"
+        },
+        {
+            "name": "clash removes both sure-hit grants",
+            "pass": true,
+            "detail": "both domains active"
+        },
+        {
+            "name": "pending break grants no sure-hit",
+            "pass": true,
+            "detail": "arbitration window"
+        },
+        {
+            "name": "expiry removes all sure-hit grants",
+            "pass": true,
+            "detail": "expired"
+        },
+        {
+            "name": "ordinary Blue remains a real flying projectile through a building",
+            "pass": true,
+            "detail": "cast=True projectile=False z=21.83"
+        },
+        {
+            "name": "ordinary Blue damages the target behind the building",
+            "pass": true,
+            "detail": "damage=37.93"
+        },
+        {
+            "name": "ordinary Sukuna E penetrates the building and damages its target",
+            "pass": true,
+            "detail": "damage=36.12"
+        },
+        {
+            "name": "Gojo domain E curves from a mis-aimed cast to hit a moving target",
+            "pass": true,
+            "detail": "started=True skillDamage=43.14 totalDamage=43.14"
+        },
+        {
+            "name": "Gojo domain Q curves from a mis-aimed cast to hit a moving target",
+            "pass": true,
+            "detail": "started=True skillDamage=71.45 totalDamage=71.45"
+        },
+        {
+            "name": "Gojo domain R curves from a mis-aimed cast to hit a moving target",
+            "pass": true,
+            "detail": "started=True skillDamage=182.98 totalDamage=182.98"
+        },
+        {
+            "name": "Sukuna domain E curves from a mis-aimed cast to hit a moving target",
+            "pass": true,
+            "detail": "started=True skillDamage=41.06 totalDamage=93.56"
+        },
+        {
+            "name": "Sukuna domain Q curves from a mis-aimed cast to hit a moving target",
+            "pass": true,
+            "detail": "started=True skillDamage=81.97 totalDamage=151.97"
+        },
+        {
+            "name": "Sukuna domain R curves from a mis-aimed cast to hit a moving target",
+            "pass": true,
+            "detail": "started=True skillDamage=184.34 totalDamage=271.84"
+        },
+        {
+            "name": "Red impulse pushes along incoming direction and upward",
+            "pass": true,
+            "detail": "cast=True dz=1.12 velocity=(0.00, 17.29, 66.77)"
+        },
+        {
+            "name": "NPC Shrine captures difficulty 0",
+            "pass": true,
+            "detail": "lifetime=7.00 break=84"
+        },
+        {
+            "name": "NPC Shrine captures difficulty 1",
+            "pass": true,
+            "detail": "lifetime=8.50 break=105"
+        },
+        {
+            "name": "NPC Shrine captures difficulty 2",
+            "pass": true,
+            "detail": "lifetime=10.50 break=137"
+        },
+        {
+            "name": "NPC Void captures difficulty 0",
+            "pass": true,
+            "detail": "barrier=162 direct=96 control=3.0"
+        },
+        {
+            "name": "NPC Void captures difficulty 1",
+            "pass": true,
+            "detail": "barrier=216 direct=120 control=4.0"
+        },
+        {
+            "name": "NPC Void captures difficulty 2",
+            "pass": true,
+            "detail": "barrier=297 direct=156 control=5.0"
+        },
+        {
+            "name": "highest NPC Void still breaks before its natural expiry after an actual attack",
+            "pass": true,
+            "detail": "elapsed=4.777 burnout=3.32"
+        },
+        {
+            "name": "player Shrine breaks at 140 before domain reduction, difficulty 0",
+            "pass": true,
+            "detail": "survived139=True hpDamage=70.00 burnout=3.24"
+        },
+        {
+            "name": "player Shrine breaks at 140 before domain reduction, difficulty 1",
+            "pass": true,
+            "detail": "survived139=True hpDamage=70.00 burnout=3.25"
+        },
+        {
+            "name": "player Shrine breaks at 140 before domain reduction, difficulty 2",
+            "pass": true,
+            "detail": "survived139=True hpDamage=70.00 burnout=3.25"
+        }
+    ]
+}

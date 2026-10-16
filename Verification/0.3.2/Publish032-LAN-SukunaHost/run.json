@@ -1,0 +1,36 @@
+{
+  "scenario": "Publish032-LAN-SukunaHost",
+  "complete": true,
+  "passed": true,
+  "runnerPid": 46896,
+  "build": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\ShinjukuDuel.exe",
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "hostRole": "Sukuna",
+  "hostPort": 7914,
+  "clientPort": 7914,
+  "impaired": false,
+  "domainOnly": false,
+  "started": "2026-10-16T14:43:17.9513930+08:00",
+  "processes": [
+    45036,
+    10572
+  ],
+  "results": [
+    {
+      "mode": "host",
+      "checks": 149,
+      "complete": true,
+      "failures": [],
+      "passed": true
+    },
+    {
+      "mode": "client",
+      "checks": 46,
+      "complete": true,
+      "failures": [],
+      "passed": true
+    }
+  ],
+  "managedSHA256": "477E6375DACD7A8A2CC10FBC6F6450D45F0F86960BE46393D32566EB2E46BE74",
+  "finished": "2026-10-16T14:44:54.3312063+08:00"
+}

@@ -2,9 +2,10 @@
 
 基于 Unity 制作的第一人称单人人机对战游戏。选择五条悟或两面宿傩，在可破坏的城市街区中使用近战、术式、领域和防御技能进行战斗。
 
-**当前版本：0.3.1 · 2026-10-16**
+**稳定版：0.3.1 · 2026-10-16**  
+**预览版：0.3.2-preview · 联机功能预览**
 
-公开发布的 0.3.1 是离线单人版本；联机功能仍在开发，不属于本次发布包。
+公开发布的 0.3.1 是稳定的离线单人版本。0.3.2-preview 已提供局域网两人联机预览；实际验证范围与已知限制见 [NETWORK.md](NETWORK.md)。
 
 ## 下载与安装
 
@@ -12,8 +13,12 @@
 | --- | --- | --- |
 | Windows x64 | [下载 Windows ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.1/ShinjukuDuel-0.3.1-windows-x64.zip) | 完整解压后运行 `ShinjukuDuel.exe`，保留旁边的数据目录和 DLL，无需安装 Unity。 |
 | Android ARM64 | [下载安卓 APK](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.1/ShinjukuDuel-0.3.1-android-arm64.apk) | Android 8.0 及以上，下载后安装，横屏游玩。 |
+| Windows x64（0.3.2-preview） | [下载 Windows ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.2-preview/ShinjukuDuel-0.3.2-windows-x64.zip) | 联机预览包；完整解压后运行 `ShinjukuDuel.exe`。 |
+| Android ARM64（0.3.2-preview） | [下载安卓 APK](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.2-preview/ShinjukuDuel-0.3.2-android-arm64.apk) | 联机预览包；Android 8.0 及以上，横屏游玩。 |
 
-[全部发布文件](https://github.com/soranatsu/ShinjukuDuel/releases/latest) · [安装与操作说明](INSTALL.md) · [更新说明](CHANGELOG.md) · [SHA-256 校验](SHA256SUMS.txt)
+[全部发布文件](https://github.com/soranatsu/ShinjukuDuel/releases/latest) · [安装与操作说明](INSTALL.md) · [更新说明](CHANGELOG.md) · [LAN 联机指南](LAN.md) · [Relay 状态](RELAY.md) · [NETWORK 验证说明](NETWORK.md) · [SHA-256 校验](SHA256SUMS.txt)
+
+[0.3.2-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.2-preview)
 
 GitHub 自动生成的 `Source code` ZIP/TAR 是本仓库的说明文档快照。游玩请下载上表中对应平台的文件。
 
@@ -99,6 +104,12 @@ R 键短按释放，长按蓄力，最高达到 **200% 伤害倍率**。蓄力�
 
 首页和暂停菜单均可调整音量、按键、视角灵敏度、镜头动态和伤害飘字。手机和平板使用左侧摇杆、右侧技能按钮，可以拖动位置并缩放至 70%—160%，分别保存布局。
 
+### 0.3.2-preview 联机预览
+
+主界面进入“联机对战”后，可以选择局域网创建或加入。创建者先选择 Gojo 或 Sukuna 并创建房间；加入者输入主机 IP 和端口后加入，再选择另一角色。双方都点击准备后才会开始对战。房间内显示的地址可用于同一局域网设备连接，Android 端可手动输入地址。
+
+Relay 云房间入口保留在预览界面，但当前云项目尚未关联，不能使用 Relay 创建或加入；请使用局域网流程。预览版主菜单和暂停菜单提供“退出游戏”按钮，浏览器 WebGL 版本无法关闭浏览器标签页，会显示相应提示。
+
 **快来打一场酣畅淋漓的新宿决战吧！**
 
 ## 默认键位
@@ -115,7 +126,7 @@ R 键短按释放，长按蓄力，最高达到 **200% 伤害倍率**。蓄力�
 
 ## 验证范围
 
-Windows 版已完成构建与相关运行检查。Android 版已完成构建、包信息和签名核对，但尚未进行安卓真机性能、触控、发热和兼容性验收。当前 APK 使用既有 Android Debug 证书，属于直接安装的测试构建，并非应用商店签名版本。
+Windows 0.3.2-preview 和 Android 预览包已生成供联机流程检查；本页不宣称所有自动回归或联机场景全部通过。Android 预览包目标为 ARM64、API 26—36，尚未进行真机性能、触控、发热和兼容性验收。当前 APK 使用既有 Android Debug 证书，属于直接安装的测试构建，并非应用商店签名版本。
 
 本仓库用于保存发布包说明，安装包位于 Releases。源工程、模型原件、私人照片、开发工具和历史版本归档不随仓库上传。
 

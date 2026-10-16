@@ -1,0 +1,36 @@
+{
+  "scenario": "Publish032-Domain-GojoHost",
+  "complete": true,
+  "passed": true,
+  "runnerPid": 10644,
+  "build": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\ShinjukuDuel.exe",
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "hostRole": "Gojo",
+  "hostPort": 7918,
+  "clientPort": 7918,
+  "impaired": false,
+  "domainOnly": true,
+  "started": "2026-10-16T14:45:21.0037001+08:00",
+  "processes": [
+    13024,
+    46148
+  ],
+  "results": [
+    {
+      "failures": [],
+      "checks": 18,
+      "passed": true,
+      "complete": true,
+      "mode": "host"
+    },
+    {
+      "failures": [],
+      "checks": 6,
+      "passed": true,
+      "complete": true,
+      "mode": "client"
+    }
+  ],
+  "managedSHA256": "477E6375DACD7A8A2CC10FBC6F6450D45F0F86960BE46393D32566EB2E46BE74",
+  "finished": "2026-10-16T14:45:34.4068094+08:00"
+}

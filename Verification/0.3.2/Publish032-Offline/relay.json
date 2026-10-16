@@ -1,0 +1,35 @@
+{
+    "passed": true,
+    "checks": [
+        {
+            "name": "network root available",
+            "detail": "NetworkSession exists",
+            "pass": true
+        },
+        {
+            "name": "cloud project explicitly unconfigured",
+            "detail": "",
+            "pass": true
+        },
+        {
+            "name": "missing project fails promptly",
+            "detail": "连接失败",
+            "pass": true
+        },
+        {
+            "name": "actionable missing project error",
+            "detail": "创建房间失败：Unity 项目尚未配置或初始化失败，请在 Project Settings > Services 中配置 Project ID 后重试。原始错误：尚未关联 Unity 云项目（Project ID 为空）。请在 Unity 的 Project Settings > Services 中创建或关联项目；局域网对战可直接使用。",
+            "pass": true
+        },
+        {
+            "name": "failed cloud attempt leaves no transport",
+            "detail": "连接失败",
+            "pass": true
+        },
+        {
+            "name": "LAN works after cloud preflight failure",
+            "detail": "房间已创建，等待另一位玩家",
+            "pass": true
+        }
+    ]
+}

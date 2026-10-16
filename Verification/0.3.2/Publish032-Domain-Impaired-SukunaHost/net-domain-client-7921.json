@@ -1,0 +1,299 @@
+{
+    "mode": "client",
+    "output": "G:\\Application\\Steam\\Games\\Gojo\\Docs\\Verification-Network\\net-domain-client-7921.json",
+    "epoch": 1,
+    "complete": true,
+    "stages": [
+        {
+            "name": "clash-break-sukuna",
+            "pass": true,
+            "detail": "snapshotWait=0.008s; gojo=True,sukuna=False,gojoHp=1844.6,sukunaHp=1900.6; controlSeen=True"
+        },
+        {
+            "name": "clash-break-gojo",
+            "pass": true,
+            "detail": "snapshotWait=0.033s; gojo=False,sukuna=True,gojoHp=1868.9,sukunaHp=2000.0; stageAttackSeen=True"
+        },
+        {
+            "name": "void-control-x",
+            "pass": true,
+            "detail": "snapshotWait=0.008s; gojo=True,sukuna=False,gojoHp=2000.0,sukunaHp=1900.0; controlSeen=True; released=True"
+        },
+        {
+            "name": "shrine-barrier-x",
+            "pass": true,
+            "detail": "snapshotWait=0.242s; gojo=False,sukuna=True,gojoHp=1882.5,sukunaHp=2000.0; barrierHealthDelta=False"
+        }
+    ],
+    "checks": [
+        {
+            "name": "handshake",
+            "detail": "已连接，请选择角色并准备",
+            "pass": true
+        },
+        {
+            "name": "match",
+            "detail": "epoch=1 slot=0",
+            "pass": true
+        },
+        {
+            "name": "clash-break-sukuna.snapshot",
+            "detail": "snapshotWait=0.008s; gojo=True,sukuna=False,gojoHp=1844.6,sukunaHp=1900.6; controlSeen=True",
+            "pass": true
+        },
+        {
+            "name": "clash-break-gojo.snapshot",
+            "detail": "snapshotWait=0.033s; gojo=False,sukuna=True,gojoHp=1868.9,sukunaHp=2000.0; stageAttackSeen=True",
+            "pass": true
+        },
+        {
+            "name": "void-control-x.snapshot",
+            "detail": "snapshotWait=0.008s; gojo=True,sukuna=False,gojoHp=2000.0,sukunaHp=1900.0; controlSeen=True; released=True",
+            "pass": true
+        },
+        {
+            "name": "shrine-barrier-x.snapshot",
+            "detail": "snapshotWait=0.242s; gojo=False,sukuna=True,gojoHp=1882.5,sukunaHp=2000.0; barrierHealthDelta=False",
+            "pass": true
+        }
+    ],
+    "lastDomain": {
+        "epoch": 1,
+        "sequence": 1179,
+        "active": true,
+        "clashing": false,
+        "clashElapsed": 2.2671892642974854,
+        "clashWindow": 1.5,
+        "breakDeadlineRemaining": 0.0,
+        "controlVictimSlot": 255,
+        "controlRemaining": 0.0,
+        "gojo": {
+            "active": false,
+            "ownerSlot": 0,
+            "center": {
+                "x": 1.100000023841858,
+                "y": 0.07999999821186066,
+                "z": 0.0
+            },
+            "radius": 0.0,
+            "remaining": 0.0,
+            "damageTaken": 0.0,
+            "directDamageTaken": 0.0,
+            "damageLimit": 120.0,
+            "barrierHp": 0.0,
+            "barrierMaxHp": 216.0,
+            "pendingBreak": false
+        },
+        "sukuna": {
+            "active": true,
+            "ownerSlot": 1,
+            "center": {
+                "x": 1.100000023841858,
+                "y": 0.07999999821186066,
+                "z": 0.0
+            },
+            "radius": 56.0,
+            "remaining": 6.23280668258667,
+            "damageTaken": 0.0,
+            "directDamageTaken": 0.0,
+            "damageLimit": 140.0,
+            "barrierHp": 0.0,
+            "barrierMaxHp": 0.0,
+            "pendingBreak": false
+        }
+    },
+    "slot0": {
+        "epoch": 1,
+        "sequence": 258,
+        "slot": 0,
+        "position": {
+            "x": -1.100000023841858,
+            "y": 0.07999999821186066,
+            "z": 0.0
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": 0.7071068286895752,
+            "z": 0.0,
+            "w": 0.7071067094802856
+        },
+        "velocity": {
+            "x": 0.0,
+            "y": -1.2000062465667725,
+            "z": 0.0
+        },
+        "horizontalVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "verticalVelocity": -1.2000062465667725,
+        "externalVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "aimDirection": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "health": 1882.5,
+        "alive": true,
+        "attacking": false,
+        "attack": 5,
+        "actionProgress": 0.0,
+        "actionDuration": 0.25,
+        "stunRemaining": 0.0,
+        "burnoutRemaining": 0.0,
+        "dodgeRemaining": 0.0,
+        "dodgeInvulnerabilityRemaining": 0.0,
+        "dashCooldownRemaining": 0.0,
+        "dashVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "healCooldownRemaining": 0.0,
+        "guardHeld": false,
+        "barrierActive": false,
+        "barrierRemaining": 0.0,
+        "barrierShield": 0.0,
+        "barrierCooldownRemaining": 27.98303985595703,
+        "domainFreeze": false,
+        "grounded": true,
+        "jumpQueued": false,
+        "jumpInputHeld": false,
+        "hoverQueued": false,
+        "airHorizontalLocked": false,
+        "airJumpsRemaining": 1,
+        "hoverBudget": 0.23999999463558197,
+        "hovering": false,
+        "chargingUltimate": false,
+        "ultimateChargeProgress": 0.0,
+        "ultimateChargeDamageTaken": 0.0,
+        "cooldowns": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "projectile": {
+            "active": false,
+            "attack": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "distance": 0.0,
+            "damage": 0.0,
+            "sureHit": false
+        },
+        "ackInputSequence": 1924
+    },
+    "slot1": {
+        "epoch": 1,
+        "sequence": 258,
+        "slot": 1,
+        "position": {
+            "x": 1.100000023841858,
+            "y": 0.07999999821186066,
+            "z": 0.0
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": -0.7071068286895752,
+            "z": 0.0,
+            "w": 0.7071067094802856
+        },
+        "velocity": {
+            "x": 0.0,
+            "y": -1.2000062465667725,
+            "z": 0.0
+        },
+        "horizontalVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "verticalVelocity": -1.2000062465667725,
+        "externalVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "aimDirection": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "health": 2000.0,
+        "alive": true,
+        "attacking": false,
+        "attack": 5,
+        "actionProgress": 0.0,
+        "actionDuration": 0.25,
+        "stunRemaining": 0.0,
+        "burnoutRemaining": 0.0,
+        "dodgeRemaining": 0.0,
+        "dodgeInvulnerabilityRemaining": 0.0,
+        "dashCooldownRemaining": 0.0,
+        "dashVelocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "healCooldownRemaining": 0.0,
+        "guardHeld": false,
+        "barrierActive": false,
+        "barrierRemaining": 0.0,
+        "barrierShield": 0.0,
+        "barrierCooldownRemaining": 0.0,
+        "domainFreeze": false,
+        "grounded": true,
+        "jumpQueued": false,
+        "jumpInputHeld": false,
+        "hoverQueued": false,
+        "airHorizontalLocked": false,
+        "airJumpsRemaining": 1,
+        "hoverBudget": 0.23999999463558197,
+        "hovering": false,
+        "chargingUltimate": false,
+        "ultimateChargeProgress": 0.0,
+        "ultimateChargeDamageTaken": 0.0,
+        "cooldowns": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            27.73291778564453
+        ],
+        "projectile": {
+            "active": false,
+            "attack": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "distance": 0.0,
+            "damage": 0.0,
+            "sureHit": false
+        },
+        "ackInputSequence": 1925
+    }
+}

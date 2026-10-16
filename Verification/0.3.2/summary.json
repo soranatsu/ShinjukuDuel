@@ -1,0 +1,1373 @@
+{
+  "version": "0.3.2-publish",
+  "scope": "publish local two-process 2x2 network matrix",
+  "managedSHA256": "477E6375DACD7A8A2CC10FBC6F6450D45F0F86960BE46393D32566EB2E46BE74",
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "scenarios": [
+    {
+      "name": "Publish032-Impaired-GojoHost",
+      "hostRole": "Gojo",
+      "clientRole": "Sukuna",
+      "impaired": true,
+      "complete": true,
+      "passed": true,
+      "managedSHA256": "477E6375DACD7A8A2CC10FBC6F6450D45F0F86960BE46393D32566EB2E46BE74",
+      "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "hostPort": 7910,
+      "clientPort": 7911,
+      "results": [
+        {
+          "mode": "host",
+          "complete": true,
+          "passed": true,
+          "checks": 149,
+          "failed": []
+        },
+        {
+          "mode": "client",
+          "complete": true,
+          "passed": true,
+          "checks": 46,
+          "failed": []
+        }
+      ],
+      "observationComparisons": [
+        {
+          "stage": "1:Barrier:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:Barrier:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:BlackFlash:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1928.0,
+          "clientTargetHealth": 1928.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:BlackFlash:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1928.0,
+          "clientTargetHealth": 1928.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Domain:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1900.0,
+          "clientTargetHealth": 1900.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:Domain:1:0",
+          "hostHealth": 1900.0,
+          "clientHealth": 1900.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:E:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1956.0,
+          "clientTargetHealth": 1956.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:E:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1958.0,
+          "clientTargetHealth": 1958.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:F:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1927.0,
+          "clientTargetHealth": 1927.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:F:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1916.0,
+          "clientTargetHealth": 1916.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Heal:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:Heal:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Light:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1980.0,
+          "clientTargetHealth": 1980.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:Light:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1980.0,
+          "clientTargetHealth": 1980.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Move:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0001592636673047503
+        },
+        {
+          "stage": "1:Move:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Outcome:0:0",
+          "hostHealth": 20.0,
+          "clientHealth": 20.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 20.0,
+          "clientTargetHealth": 0.0,
+          "targetHealthDelta": -20.0,
+          "positionError": 0.0018254518509519325
+        },
+        {
+          "stage": "1:R:0:0",
+          "hostHealth": 1954.372802734375,
+          "clientHealth": 1954.372802734375,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1771.8642578125,
+          "clientTargetHealth": 1771.8642578125,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:R:1:0",
+          "hostHealth": 1952.4971923828125,
+          "clientHealth": 1952.4971923828125,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1762.4859619140625,
+          "clientTargetHealth": 1762.4859619140625,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Rubble:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 1.7157054897304315e-06
+        },
+        {
+          "stage": "1:Rubble:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:WorldBreak:0:0",
+          "hostHealth": 1954.0614013671875,
+          "clientHealth": 1954.0614013671875,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1770.3072509765625,
+          "clientTargetHealth": 1770.3072509765625,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:WorldBreak:1:0",
+          "hostHealth": 1953.4361572265625,
+          "clientHealth": 1953.4361572265625,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1767.1805419921875,
+          "clientTargetHealth": 1767.1805419921875,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "2:Outcome:1:0",
+          "hostHealth": 20.0,
+          "clientHealth": 20.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 20.0,
+          "clientTargetHealth": 0.0,
+          "targetHealthDelta": -20.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "3:Move:0:3",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 10.178487832787388
+        },
+        {
+          "stage": "3:Move:0:32",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.9563907563926475e-05
+        },
+        {
+          "stage": "3:Move:1:3",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 11.508552108433195
+        },
+        {
+          "stage": "3:Move:1:32",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        }
+      ],
+      "udp": {
+        "listenPort": 7911,
+        "serverPort": 7910,
+        "oneWayDelayMs": 70.0,
+        "jitterMs": 20.0,
+        "lossProbability": 0.03,
+        "seed": 8137,
+        "clientToServerReceived": 2411,
+        "serverToClientReceived": 6876,
+        "clientToServerDropped": 85,
+        "serverToClientDropped": 204,
+        "clientToServerDelivered": 2325,
+        "serverToClientDelivered": 6667,
+        "deliveredBytes": 4210892,
+        "elapsedSeconds": 103.675,
+        "pendingPackets": 6
+      }
+    },
+    {
+      "name": "Publish032-Impaired-SukunaHost",
+      "hostRole": "Sukuna",
+      "clientRole": "Gojo",
+      "impaired": true,
+      "complete": true,
+      "passed": true,
+      "managedSHA256": "477E6375DACD7A8A2CC10FBC6F6450D45F0F86960BE46393D32566EB2E46BE74",
+      "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "hostPort": 7916,
+      "clientPort": 7917,
+      "results": [
+        {
+          "mode": "host",
+          "complete": true,
+          "passed": true,
+          "checks": 149,
+          "failed": []
+        },
+        {
+          "mode": "client",
+          "complete": true,
+          "passed": true,
+          "checks": 46,
+          "failed": []
+        }
+      ],
+      "observationComparisons": [
+        {
+          "stage": "1:Barrier:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Barrier:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:BlackFlash:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1928.0,
+          "clientTargetHealth": 1928.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:BlackFlash:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1928.0,
+          "clientTargetHealth": 1928.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:Domain:0:0",
+          "hostHealth": 1882.499755859375,
+          "clientHealth": 1882.499755859375,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Domain:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1888.3331298828125,
+          "clientTargetHealth": 1888.3331298828125,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:E:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1956.0,
+          "clientTargetHealth": 1956.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:E:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1958.0,
+          "clientTargetHealth": 1958.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:F:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1927.0,
+          "clientTargetHealth": 1927.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:F:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1916.0,
+          "clientTargetHealth": 1916.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:Heal:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Heal:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:Light:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1980.0,
+          "clientTargetHealth": 1980.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Light:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1980.0,
+          "clientTargetHealth": 1980.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:Move:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Move:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.00026559829753714897
+        },
+        {
+          "stage": "1:Outcome:0:0",
+          "hostHealth": 20.0,
+          "clientHealth": 20.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 20.0,
+          "clientTargetHealth": 0.0,
+          "targetHealthDelta": -20.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:R:0:0",
+          "hostHealth": 1954.0589599609375,
+          "clientHealth": 1954.0589599609375,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1770.2945556640625,
+          "clientTargetHealth": 1770.2945556640625,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:R:1:0",
+          "hostHealth": 1954.06201171875,
+          "clientHealth": 1954.06201171875,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1770.31005859375,
+          "clientTargetHealth": 1770.31005859375,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:Rubble:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Rubble:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 6.78227158958754e-06
+        },
+        {
+          "stage": "1:WorldBreak:0:0",
+          "hostHealth": 1953.1171875,
+          "clientHealth": 1953.1171875,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1765.5859375,
+          "clientTargetHealth": 1765.5859375,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:WorldBreak:1:0",
+          "hostHealth": 1954.0614013671875,
+          "clientHealth": 1954.0614013671875,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1770.30712890625,
+          "clientTargetHealth": 1770.30712890625,
+          "targetHealthDelta": 0.0,
+          "positionError": 9.537907246235167e-07
+        },
+        {
+          "stage": "2:Outcome:1:0",
+          "hostHealth": 20.0,
+          "clientHealth": 20.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 20.0,
+          "clientTargetHealth": 0.0,
+          "targetHealthDelta": -20.0,
+          "positionError": 0.00015569070958724017
+        },
+        {
+          "stage": "3:Move:0:3",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 11.23454701254911
+        },
+        {
+          "stage": "3:Move:0:32",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "3:Move:1:3",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 10.431621382308412
+        },
+        {
+          "stage": "3:Move:1:32",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.1696095815398588e-05
+        }
+      ],
+      "udp": {
+        "listenPort": 7917,
+        "serverPort": 7916,
+        "oneWayDelayMs": 70.0,
+        "jitterMs": 20.0,
+        "lossProbability": 0.03,
+        "seed": 8137,
+        "clientToServerReceived": 2426,
+        "serverToClientReceived": 6932,
+        "clientToServerDropped": 81,
+        "serverToClientDropped": 211,
+        "clientToServerDelivered": 2344,
+        "serverToClientDelivered": 6718,
+        "deliveredBytes": 4215481,
+        "elapsedSeconds": 104.728,
+        "pendingPackets": 4
+      }
+    },
+    {
+      "name": "Publish032-LAN-GojoHost",
+      "hostRole": "Gojo",
+      "clientRole": "Sukuna",
+      "impaired": false,
+      "complete": true,
+      "passed": true,
+      "managedSHA256": "477E6375DACD7A8A2CC10FBC6F6450D45F0F86960BE46393D32566EB2E46BE74",
+      "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "hostPort": 7912,
+      "clientPort": 7912,
+      "results": [
+        {
+          "mode": "host",
+          "complete": true,
+          "passed": true,
+          "checks": 149,
+          "failed": []
+        },
+        {
+          "mode": "client",
+          "complete": true,
+          "passed": true,
+          "checks": 46,
+          "failed": []
+        }
+      ],
+      "observationComparisons": [
+        {
+          "stage": "1:Barrier:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:Barrier:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:BlackFlash:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1928.0,
+          "clientTargetHealth": 1928.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:BlackFlash:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1928.0,
+          "clientTargetHealth": 1928.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Domain:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1900.0,
+          "clientTargetHealth": 1900.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:Domain:1:0",
+          "hostHealth": 1900.0,
+          "clientHealth": 1900.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:E:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1956.0,
+          "clientTargetHealth": 1956.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:E:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1958.0,
+          "clientTargetHealth": 1958.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:F:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1927.0,
+          "clientTargetHealth": 1927.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:F:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1916.0,
+          "clientTargetHealth": 1916.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Heal:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:Heal:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Light:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1928.0,
+          "clientTargetHealth": 1928.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:Light:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1980.0,
+          "clientTargetHealth": 1980.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Move:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 1.0013591409432995e-05
+        },
+        {
+          "stage": "1:Move:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Outcome:0:0",
+          "hostHealth": 20.0,
+          "clientHealth": 20.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 20.0,
+          "clientTargetHealth": 0.0,
+          "targetHealthDelta": -20.0,
+          "positionError": 0.013494968414314868
+        },
+        {
+          "stage": "1:R:0:0",
+          "hostHealth": 1953.7496337890625,
+          "clientHealth": 1953.7496337890625,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1768.748046875,
+          "clientTargetHealth": 1768.748046875,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:R:1:0",
+          "hostHealth": 1954.0615234375,
+          "clientHealth": 1954.0615234375,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1770.3074951171875,
+          "clientTargetHealth": 1770.3074951171875,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Rubble:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.3914854983992757e-06
+        },
+        {
+          "stage": "1:Rubble:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:WorldBreak:0:0",
+          "hostHealth": 1954.3748779296875,
+          "clientHealth": 1954.3748779296875,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1771.8741455078125,
+          "clientTargetHealth": 1771.8741455078125,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:WorldBreak:1:0",
+          "hostHealth": 1953.749267578125,
+          "clientHealth": 1953.749267578125,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1768.74658203125,
+          "clientTargetHealth": 1768.74658203125,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "2:Outcome:1:0",
+          "hostHealth": 20.0,
+          "clientHealth": 20.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 20.0,
+          "clientTargetHealth": 0.0,
+          "targetHealthDelta": -20.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "3:Move:0:3",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 9.898153252855058
+        },
+        {
+          "stage": "3:Move:0:32",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 1.4781959414960892e-05
+        },
+        {
+          "stage": "3:Move:1:3",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 8.628310432330116
+        },
+        {
+          "stage": "3:Move:1:32",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        }
+      ],
+      "udp": {
+        "mode": "direct local transport; no udp-report.json"
+      }
+    },
+    {
+      "name": "Publish032-LAN-SukunaHost",
+      "hostRole": "Sukuna",
+      "clientRole": "Gojo",
+      "impaired": false,
+      "complete": true,
+      "passed": true,
+      "managedSHA256": "477E6375DACD7A8A2CC10FBC6F6450D45F0F86960BE46393D32566EB2E46BE74",
+      "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "hostPort": 7914,
+      "clientPort": 7914,
+      "results": [
+        {
+          "mode": "host",
+          "complete": true,
+          "passed": true,
+          "checks": 149,
+          "failed": []
+        },
+        {
+          "mode": "client",
+          "complete": true,
+          "passed": true,
+          "checks": 46,
+          "failed": []
+        }
+      ],
+      "observationComparisons": [
+        {
+          "stage": "1:Barrier:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Barrier:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:BlackFlash:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1928.0,
+          "clientTargetHealth": 1928.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:BlackFlash:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1928.0,
+          "clientTargetHealth": 1928.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:Domain:0:0",
+          "hostHealth": 1897.6666259765625,
+          "clientHealth": 1897.6666259765625,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Domain:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1900.0,
+          "clientTargetHealth": 1900.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:E:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1956.0,
+          "clientTargetHealth": 1956.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:E:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1958.0,
+          "clientTargetHealth": 1958.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:F:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1927.0,
+          "clientTargetHealth": 1927.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:F:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1916.0,
+          "clientTargetHealth": 1916.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:Heal:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Heal:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:Light:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1980.0,
+          "clientTargetHealth": 1980.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Light:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1928.0,
+          "clientTargetHealth": 1928.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 2.388837865275353e-07
+        },
+        {
+          "stage": "1:Move:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Move:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.00017237663333449785
+        },
+        {
+          "stage": "1:Outcome:0:0",
+          "hostHealth": 20.0,
+          "clientHealth": 20.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 20.0,
+          "clientTargetHealth": 0.0,
+          "targetHealthDelta": -20.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:R:0:0",
+          "hostHealth": 1954.0618896484375,
+          "clientHealth": 1954.0618896484375,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1770.3094482421875,
+          "clientTargetHealth": 1770.3094482421875,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:R:1:0",
+          "hostHealth": 1954.3748779296875,
+          "clientHealth": 1954.3748779296875,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1771.87451171875,
+          "clientTargetHealth": 1771.87451171875,
+          "targetHealthDelta": 0.0,
+          "positionError": 4.770699320310986e-07
+        },
+        {
+          "stage": "1:Rubble:0:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:Rubble:1:0",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 5.463262376458109e-06
+        },
+        {
+          "stage": "1:WorldBreak:0:0",
+          "hostHealth": 1954.057861328125,
+          "clientHealth": 1954.057861328125,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1770.2890625,
+          "clientTargetHealth": 1770.2890625,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "1:WorldBreak:1:0",
+          "hostHealth": 1954.3748779296875,
+          "clientHealth": 1954.3748779296875,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 1771.8743896484375,
+          "clientTargetHealth": 1771.8743896484375,
+          "targetHealthDelta": 0.0,
+          "positionError": 9.537907246235167e-07
+        },
+        {
+          "stage": "2:Outcome:1:0",
+          "hostHealth": 20.0,
+          "clientHealth": 20.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 20.0,
+          "clientTargetHealth": 0.0,
+          "targetHealthDelta": -20.0,
+          "positionError": 0.17034931574852683
+        },
+        {
+          "stage": "3:Move:0:3",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 8.626179834425425
+        },
+        {
+          "stage": "3:Move:0:32",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 0.0
+        },
+        {
+          "stage": "3:Move:1:3",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 9.901362027522168
+        },
+        {
+          "stage": "3:Move:1:32",
+          "hostHealth": 2000.0,
+          "clientHealth": 2000.0,
+          "healthDelta": 0.0,
+          "hostTargetHealth": 2000.0,
+          "clientTargetHealth": 2000.0,
+          "targetHealthDelta": 0.0,
+          "positionError": 1.525879633845588e-05
+        }
+      ],
+      "udp": {
+        "mode": "direct local transport; no udp-report.json"
+      }
+    }
+  ],
+  "domainRuns": [
+    "Publish032-Domain-GojoHost",
+    "Publish032-Domain-Impaired-SukunaHost"
+  ],
+  "offline": {
+    "finished": "2026-10-16T14:51:07.6126580+08:00",
+    "results": [
+      {
+        "name": "domains",
+        "passed": true,
+        "fresh": true,
+        "exitCode": 0,
+        "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\DomainTactics\\result.json",
+        "checks": 81
+      },
+      {
+        "name": "projectiles",
+        "passed": true,
+        "fresh": true,
+        "exitCode": 0,
+        "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\ProjectileRuntime\\result.json",
+        "checks": 70
+      },
+      {
+        "name": "air",
+        "passed": true,
+        "fresh": true,
+        "exitCode": 0,
+        "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\AirMovementRuntime\\result.json",
+        "checks": 9
+      },
+      {
+        "name": "mobile",
+        "passed": true,
+        "fresh": true,
+        "exitCode": 0,
+        "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\Smoke\\hotfix-mobile-result.json",
+        "checks": 14
+      },
+      {
+        "name": "jump",
+        "passed": true,
+        "fresh": true,
+        "exitCode": 0,
+        "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\AiJumpRuntime\\result.json",
+        "checks": 4
+      },
+      {
+        "name": "tutorial",
+        "passed": true,
+        "fresh": true,
+        "exitCode": 0,
+        "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\UIRuntime\\tutorial-result.json",
+        "checks": 0
+      },
+      {
+        "name": "relay",
+        "passed": true,
+        "fresh": true,
+        "exitCode": 0,
+        "source": "C:\\Users\\sora\\AppData\\LocalLow\\Shinjuku Fan Project\\新宿决战\\relay-preflight-result.json",
+        "checks": 6
+      }
+    ],
+    "build": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\ShinjukuDuel.exe",
+    "passed": true,
+    "tutorialDetail": {
+      "passed": true,
+      "failures": 0,
+      "failureFile": "tutorial-failures.txt",
+      "mode": "tutorial"
+    },
+    "tutorialChecks": "93 internal checks (runner JSON reports checks=0)",
+    "totalJsonChecks": 184
+  },
+  "limitations": [
+    "本机双进程测试，不是真实异地或跨设备测试",
+    "position/HP为各stage末端样本，不是连续帧手感或竞技公平证明",
+    "无 Android 真机联机证据",
+    "无真实 Relay/云项目连接证据"
+  ],
+  "history": [
+    "Network-Verification-0.3.2.summary.json"
+  ],
+  "observationMetricNote": "stage末端位置差来自非同时样本，不能估计连续帧prediction error、网络latency或竞技手感"
+}

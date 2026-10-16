@@ -1,0 +1,328 @@
+{
+  "managedSHA256": "477E6375DACD7A8A2CC10FBC6F6450D45F0F86960BE46393D32566EB2E46BE74",
+  "protocol": "shinjuku-lan-032-v2",
+  "date": "2026-10-16T14:41:13.3542492+08:00",
+  "sourceSnapshot": "G:\\Application\\Steam\\Games\\Gojo\\Docs\\Backups\\Release-0.3.2-publish-20261016",
+  "files": [
+    {
+      "path": "Assets/Scripts/AIBrain.cs",
+      "sha256": "FC4420141F253B71E1B27F222127E41A557DF4B606F64B6FE0318CF86DF047E1"
+    },
+    {
+      "path": "Assets/Scripts/BattleAudio.cs",
+      "sha256": "B6E308C4705D93B1AE3B0D527FCFBD506278633BED4F98B93CBDF42912259F8B"
+    },
+    {
+      "path": "Assets/Scripts/BattleVfx.cs",
+      "sha256": "77B0A06248C9E22657028919056B702BD0EDF6AD767C4C9F720CB1E8F15FD337"
+    },
+    {
+      "path": "Assets/Scripts/CameraRig.cs",
+      "sha256": "FF0E984964688F4AA78AC2A1E88EC4A539D4A81C5343A57ACF880F3BD567A727"
+    },
+    {
+      "path": "Assets/Scripts/CityAtmosphere.cs",
+      "sha256": "9C442678803F28CD34157B0DF8812CC13237AB9077DE70F7EAC02828058E3635"
+    },
+    {
+      "path": "Assets/Scripts/CitySky.cs",
+      "sha256": "2ECAD9454A4192ADEAA5669AE66D7D38D318916A82284D6A722332348DDFB1A2"
+    },
+    {
+      "path": "Assets/Scripts/Combatant.cs",
+      "sha256": "186058B72BA126E29C6EFB403BB30C2DCD606C983FEFE8BCA1EB743126115A31"
+    },
+    {
+      "path": "Assets/Scripts/CombatFloatText.cs",
+      "sha256": "B83BBFA546306CC80A364A4CA9574804A85691124103AE00535B9BE74A729061"
+    },
+    {
+      "path": "Assets/Scripts/CombatRules.cs",
+      "sha256": "EC6B176F64509CD86B51F143F46EE2CD753213E80EA7015C3A99C105E7C62895"
+    },
+    {
+      "path": "Assets/Scripts/CombatTypes.cs",
+      "sha256": "058AE6A09734AC6C449D8E2FAEBFA082B53C73A1F1618687F26CB31B63A56D6D"
+    },
+    {
+      "path": "Assets/Scripts/DestructibleBlock.cs",
+      "sha256": "9B1F3ADC8F0B1CF6E87DBE2388F0EFAB310FDA571390BB57FF7E65CA5E396119"
+    },
+    {
+      "path": "Assets/Scripts/DomainSystem.cs",
+      "sha256": "830D0543FDE2FDC410C9DA999E65DA302B9D50B92F8EA9034F304CEA7FFB95D4"
+    },
+    {
+      "path": "Assets/Scripts/EnemyOutline.cs",
+      "sha256": "0780D76683E36AC6D9C8003B7DC139C299666CA202789819B16A48D1500F8E1E"
+    },
+    {
+      "path": "Assets/Scripts/FighterVisual.cs",
+      "sha256": "0E6F234A724EC222B9A37CE7973B34B9727477252966FFFF27BFCF7BCD4C62CD"
+    },
+    {
+      "path": "Assets/Scripts/FirstPersonHands.cs",
+      "sha256": "30EEA5D7F0F2A40B54FA66857537236DF9D7F8B05682C3C588E11DBD1F0BB22E"
+    },
+    {
+      "path": "Assets/Scripts/GameDirector.cs",
+      "sha256": "D46D7791995886467A9692F5342C9DAC2EB3E2FF8FF4725214FC44009E5F4F90"
+    },
+    {
+      "path": "Assets/Scripts/GameFonts.cs",
+      "sha256": "E710F903B43FCCE3DC0686071100234ABE0A1CC3857494EE2A65D936C81D8366"
+    },
+    {
+      "path": "Assets/Scripts/GameHud.cs",
+      "sha256": "AA4AF0D0EB397A8320837C83E0F13B2073FAB7807B7823ECA29092873BDFAFBC"
+    },
+    {
+      "path": "Assets/Scripts/GameHud.Settings.cs",
+      "sha256": "88DDFBDB6EE7A174F00BBB905F6164318EA027EA19A6532B5FEA37F415316160"
+    },
+    {
+      "path": "Assets/Scripts/GameSettings.cs",
+      "sha256": "BD780DAD789562C4DB33363D33B570A4CFEBA2D0B67EA8BD1B993FE396C134D8"
+    },
+    {
+      "path": "Assets/Scripts/MangaBackdrop.cs",
+      "sha256": "5DEEB8A66AE66D6F6890D1BD7231D1CD458438DD1AD8BB9444BCCD6F231CF310"
+    },
+    {
+      "path": "Assets/Scripts/PlayerInput.cs",
+      "sha256": "0AB5A2D2ECF4CD20ACD35437A37A0C4F248242FD991D071B709533EB9B10F3EC"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeAIEscapeTests.cs",
+      "sha256": "F78EF2F67E41F9DE150084E8FDC35B589AA9208DE639DA7701063086A228895F"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeAIJumpTests.cs",
+      "sha256": "C3130E92FB78515C493515DFE04011276BB287B98E62E45772D72EE43AA0839A"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeAirMovementTests.cs",
+      "sha256": "84E73B43170177D696F8C1CB42AFDDC9F0AA9DC5C2A412B594E60E775A823C90"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeAiTacticsTests.cs",
+      "sha256": "1E541752F8100513A4453F0147E1CC17B825C8120C92235FDA017A16E2890CE1"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeAudioTests.cs",
+      "sha256": "E9EC47FC086198BC34B0C630728BE4086457C9D5BB5C6FD63517791B614ADAC3"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeBalanceMatrixTests.cs",
+      "sha256": "0C62FBCFAB042671F168996C1740A0681B6FD26D3E90CAD382DFE514C6A3D912"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeBalanceTests.cs",
+      "sha256": "12C0734F4E9DBD714506B450F7FB047004137D1A539F47E1B8C3D00DFB6494A4"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeCityTests.cs",
+      "sha256": "271CD3E01D0A6519E3E87C3332949361CA07BEAA088DD0C165E4D46631C701D5"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeDefensiveBarrierTests.cs",
+      "sha256": "32489CE4E6CEFCF60DB4EEAC9228996A3DA7BFF7263C9B4E4EEC6F1C7D5DBCB4"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeDomainTacticsTests.cs",
+      "sha256": "D05016ABF4080CCCE754FD379ACC1F0BB9D3D7C8C1FDE77F22AFBDF8C5C66552"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeHotfixMobileTests.cs",
+      "sha256": "D7C29E28D06766528457E7AEB52321FCA95B2C6327887A19C056C81F72B7059A"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeMechanicsShowcase.cs",
+      "sha256": "44EA7039D551A761A335C65B53D767A8D0668BC3A47AA5C43474E6FF56C57202"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeModelTests.cs",
+      "sha256": "67905DDC7B4DC13412DC06B5C9B961EB94A02B85EE3E1B868592C29269238BF0"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeMovementTests.cs",
+      "sha256": "3F3DA4354BAD6C35D407CA102CF0766F0E373C8E32DF2A85AE2A31576081CC09"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeOpeningTests.cs",
+      "sha256": "9D0E1B242FD7CFF527C54D502ADB6CD524BD9EC7FC83FE96F2C6F7D3F2771025"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeOutlineTests.cs",
+      "sha256": "FCF1E385874D733D2D264FF5937A054016F5E3CAD87C8BAD1D604E00A64B7438"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeProjectileTests.cs",
+      "sha256": "F3650344FDDD2A90B37BAB13EFB762CBCCBA977CAEFFDAB0439340ED055FC136"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeSettingsTests.cs",
+      "sha256": "C1DB9E0C35AEB8F6E16044050399CEAC8DDEE18338E2181360CA88ECC6821817"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeShowcase.cs",
+      "sha256": "B21A68BDBA87DF8938E0348AAA9258972586A8211FEE9A7C4E1042B0B3C74E82"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeShowcaseAudio.cs",
+      "sha256": "8D66A1CCFA924C8C17E8D97E1FB8FA5F723DC2494F401D67D104ECD8B58F2F74"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeShrineAttackTests.cs",
+      "sha256": "92F4345C34824F67AC91994519CE3ABCFAC8A292EC28E3E18DBC307697085285"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeSmokeTests.cs",
+      "sha256": "3DB832FECD2610594E74A4BE32555544D1A7C7397783BADABF5E86D6357474A4"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeStreetDetailsTests.cs",
+      "sha256": "43ECC1DACE9249FBB8EE797901C6F362ED84A697870ADA806B4FF6E10490A657"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeStructuralCollapseTests.cs",
+      "sha256": "C3AFB08EE5D6A75EA4BE16EAD1F7EFC27F4B5947B4C5D40CBDA7E8CC1FE92D70"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeUiTests.cs",
+      "sha256": "A31738F68C653E28BB87DF9A15B87843BFB30867FA839F1E19FB2BACB1C85F2F"
+    },
+    {
+      "path": "Assets/Scripts/RuntimeVfxTests.cs",
+      "sha256": "8D7EF742AF3F9235F819E048C6DC6C02368B46F5C780CE9D57F9843581FFCF98"
+    },
+    {
+      "path": "Assets/Scripts/ShinjukuLandmarks.cs",
+      "sha256": "62E968B8F2B6EFAAD0C71EFCCB2EA9FF0BE0B48C23D3A4C527D7FED5DD0C6A56"
+    },
+    {
+      "path": "Assets/Scripts/ShinjukuStreetDetails.cs",
+      "sha256": "8A8C4A9962E03AE61CF946B4CB46DA18F43012D9E43F62EA56A6A112E5128CFE"
+    },
+    {
+      "path": "Assets/Scripts/TouchControls.cs",
+      "sha256": "7D09CF781B3C85B1C7478ED49200BE59E1FEEFB4CAAA83271084E998D1057158"
+    },
+    {
+      "path": "Assets/Scripts/TouchSmokeTests.cs",
+      "sha256": "3325970E6613E0D05EF6C799A3196EDF509880084EC2C385BE3E14CE9A1E63F4"
+    },
+    {
+      "path": "Assets/Scripts/TutorialGuide.cs",
+      "sha256": "A98E6EAF0AA7B07F3F7D4411AE72B6B7C0C4E5841E2C5F71F54764DD9ABDB729"
+    },
+    {
+      "path": "Assets/Scripts/TutorialSmokeTests.cs",
+      "sha256": "165EC60713001EE8B62A96C67EB3613D8D07F6907F0F91C61BCBB99B7F4CDB0C"
+    },
+    {
+      "path": "Assets/Scripts/WorldBuilder.cs",
+      "sha256": "0FC5D7687AA1E358CB04C8A5191B76A5F57D1D418AEC75155FEB045F8AABE27C"
+    },
+    {
+      "path": "Assets/Scripts/Networking/Combatant.Network.cs",
+      "sha256": "26E707D7FC0D172EDFC186D740F31927F7426036F001CEDB01DCF0CCF128D783"
+    },
+    {
+      "path": "Assets/Scripts/Networking/DestructibleBlock.Network.cs",
+      "sha256": "9223302E2CE76205701FF660CF8702937FF2468D1747A818DD460D4F122AC545"
+    },
+    {
+      "path": "Assets/Scripts/Networking/DomainSystem.Network.cs",
+      "sha256": "1491EC034BC4A4D82902E2D71E1B120EC14264EED9E2C39A82B9463282504D50"
+    },
+    {
+      "path": "Assets/Scripts/Networking/GameDirector.Network.cs",
+      "sha256": "03EC07EC60EC96B90FEB2EDD99FB67B5FEC02397D5CE3AD6C68B0A58E1C621AA"
+    },
+    {
+      "path": "Assets/Scripts/Networking/NetworkCombatTypes.cs",
+      "sha256": "63EBE4A782FD8DC05F11E660BDE9BF4E5742B4F406B9094366CFAAAFCDE36F1A"
+    },
+    {
+      "path": "Assets/Scripts/Networking/NetworkEffects.cs",
+      "sha256": "12329C0C71B6D972BDBA4C7815426F856FC8247D528A0BAE2534CDA3F98A2CDA"
+    },
+    {
+      "path": "Assets/Scripts/Networking/NetworkInputDriver.cs",
+      "sha256": "9F3E65DC44EF31AFD8A64156EB1B95F8E2D9D90531C1ED9412558B84AD7835EB"
+    },
+    {
+      "path": "Assets/Scripts/Networking/NetworkMenu.cs",
+      "sha256": "CF0F46B7F83859F6AA1EBA6589170C6E5D730F5FA42EBABD3E2A8A2C7A02128E"
+    },
+    {
+      "path": "Assets/Scripts/Networking/NetworkSession.cs",
+      "sha256": "1F9572A128BB4698DF158FAA709C83CE2FD3E242947045A8A56FED2432B0FFF8"
+    },
+    {
+      "path": "Assets/Scripts/Networking/NetworkStagingDtos.cs",
+      "sha256": "16C49CFCBF793802E5EADF82443F2A0249ABDA81E815F872A9EA1EC7ABFFF7D3"
+    },
+    {
+      "path": "Assets/Scripts/Networking/NetworkTestHarness.cs",
+      "sha256": "9C7A8491DDDE64EEEB76B1E21DA0E6731244B5E887DE75DC11C7137665738614"
+    },
+    {
+      "path": "Assets/Scripts/Networking/NetworkWorldSync.cs",
+      "sha256": "3AB5019539662EC8D41A266472B905A13C34CD66B8AC722FC5F7329BA2F8B79E"
+    },
+    {
+      "path": "Assets/Scripts/Networking/RelayConnector.cs",
+      "sha256": "EA9A7C551892E20973F16C77F011BDC5E24CB9EB5B2423AD60A4F34A36411C76"
+    },
+    {
+      "path": "Assets/Scripts/Networking/RuntimeMenuCapture.cs",
+      "sha256": "90AE9689CF7C81C6B022946054F64CF4A72FD6180A5E41F6E66C5D281998D38F"
+    },
+    {
+      "path": "Assets/Scripts/Networking/RuntimeNetworkDomainTests.cs",
+      "sha256": "BC29E6D17AE1AEC17BD009F3C3BD0EC93867B8F54D8435DBD9898029AEEBCDF9"
+    },
+    {
+      "path": "Assets/Scripts/Networking/RuntimeNetworkIntegrationTests.cs",
+      "sha256": "C4E2C2482AB9FFF24BCBA3851E8598DD7B697B810C7A596DA0F9F478B33D6FDC"
+    },
+    {
+      "path": "Assets/Scripts/Networking/RuntimeRelayPreflightTests.cs",
+      "sha256": "72DFAD8912EBCD4A8FC4F1C1205CE7E7FCDD19BE729AF8EF8707EA89DEF83289"
+    },
+    {
+      "path": "Assets/Editor/AndroidBuildTools.cs",
+      "sha256": "691C00E1BAEC10D85F96875DC26CC2F85D2D72590EAFAA2ED56F0FCA9AF3E55A"
+    },
+    {
+      "path": "Assets/Editor/CharacterImporter.cs",
+      "sha256": "D219D883833DCD22EB354DEEA2D48145F35A9F3BB3254C8B18E79A51A2C99E86"
+    },
+    {
+      "path": "Assets/Editor/MangaAssetImporter.cs",
+      "sha256": "D293F876E1639C6EC857612DA4DA5F907EC3FD4AD3B33AFCE25CBDD42C3FA00D"
+    },
+    {
+      "path": "Assets/Editor/ProjectTools.cs",
+      "sha256": "B2CDB8D02E9D0E1CC79B73D4BA0CEBA5ECADF11A3D90CCFFAC538F780650182A"
+    },
+    {
+      "path": "Assets/Editor/WebBuildTools.cs",
+      "sha256": "3075E9CC170AABFF4C111FAD851DEBCC47FC1FE32802EB3D1ECBB5E88ACC1DA5"
+    },
+    {
+      "path": "Packages/manifest.json",
+      "sha256": "2268F2F10FF7AAABB36B3B16853A31DD23D5727B035D6FC04A8E60E101C290CD"
+    },
+    {
+      "path": "Packages/packages-lock.json",
+      "sha256": "5A02C9EB73077E2320B1FB97A573496A29E425F98559E2B73592D6073FC23EE5"
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "sha256": "CD014805FFC3E33E01CBF49CB407B5D25F378BA48A0F2AC3CE3EFB164F381FBD"
+    }
+  ]
+}

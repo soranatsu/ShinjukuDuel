@@ -1,0 +1,50 @@
+{
+    "passed": true,
+    "checks": [
+        {
+            "name": "air movement fixtures available",
+            "pass": true,
+            "detail": "player and ground"
+        },
+        {
+            "name": "ground movement follows current input",
+            "pass": true,
+            "detail": "dx=1.94"
+        },
+        {
+            "name": "takeoff uses the current input instead of stale horizontal velocity",
+            "pass": true,
+            "detail": "dx=0.25 vx=15.00"
+        },
+        {
+            "name": "airborne reverse input does not turn horizontal velocity",
+            "pass": true,
+            "detail": "initialVx=15.00 laterVx=15.00"
+        },
+        {
+            "name": "hover keeps the captured horizontal path",
+            "pass": true,
+            "detail": "hovering=True vx=15.00"
+        },
+        {
+            "name": "second jump explicitly redirects horizontal velocity",
+            "pass": true,
+            "detail": "remaining=0 vx=-15.00"
+        },
+        {
+            "name": "air dash explicitly redirects and preserves the path",
+            "pass": true,
+            "detail": "airborne=True started=True vx=-30.00 dx=-5.50"
+        },
+        {
+            "name": "wall jump explicitly redirects through wall normal",
+            "pass": true,
+            "detail": "wallJumps=1 vx=-3.67"
+        },
+        {
+            "name": "landing restores horizontal input control",
+            "pass": true,
+            "detail": "timedOut=False dx=-2.64"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+  "finished": "2026-10-16T14:51:07.6126580+08:00",
+  "results": [
+    {
+      "name": "domains",
+      "passed": true,
+      "fresh": true,
+      "exitCode": 0,
+      "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\DomainTactics\\result.json",
+      "checks": 81
+    },
+    {
+      "name": "projectiles",
+      "passed": true,
+      "fresh": true,
+      "exitCode": 0,
+      "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\ProjectileRuntime\\result.json",
+      "checks": 70
+    },
+    {
+      "name": "air",
+      "passed": true,
+      "fresh": true,
+      "exitCode": 0,
+      "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\AirMovementRuntime\\result.json",
+      "checks": 9
+    },
+    {
+      "name": "mobile",
+      "passed": true,
+      "fresh": true,
+      "exitCode": 0,
+      "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\Smoke\\hotfix-mobile-result.json",
+      "checks": 14
+    },
+    {
+      "name": "jump",
+      "passed": true,
+      "fresh": true,
+      "exitCode": 0,
+      "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\AiJumpRuntime\\result.json",
+      "checks": 4
+    },
+    {
+      "name": "tutorial",
+      "passed": true,
+      "fresh": true,
+      "exitCode": 0,
+      "source": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\UIRuntime\\tutorial-result.json",
+      "checks": 0
+    },
+    {
+      "name": "relay",
+      "passed": true,
+      "fresh": true,
+      "exitCode": 0,
+      "source": "C:\\Users\\sora\\AppData\\LocalLow\\Shinjuku Fan Project\\新宿决战\\relay-preflight-result.json",
+      "checks": 6
+    }
+  ],
+  "build": "G:\\Application\\Steam\\Games\\Gojo\\Builds\\Release-0.3.2\\ShinjukuDuel.exe",
+  "passed": true
+}
