@@ -3,9 +3,9 @@
 基于 Unity 制作的第一人称单人人机对战游戏。选择五条悟或两面宿傩，在可破坏的城市街区中使用近战、术式、领域和防御技能进行战斗。
 
 **稳定版：0.3.1 · 2026-10-16**  
-**预览版：0.3.3-preview · Relay/LAN 联机与操作衔接预览**
+**预览版：0.3.4-preview · 大厅角色预选与换位流程预览**
 
-公开发布的 0.3.1 是稳定的离线单人版本。0.3.2-preview 链接继续保留；0.3.3-preview 增加 Relay 邀请码联机入口与操作衔接改进。实际验证范围与已知限制见 [NETWORK.md](NETWORK.md)。
+公开发布的 0.3.1 是稳定的离线单人版本。0.3.2-preview 和 0.3.3-preview 链接继续保留；0.3.4-preview 修正开房前角色预选，并保留创建 LAN/Relay 房间时的角色选择。加入已有房间后分配房主尚未选择的另一角色，可请求对方同意换位。Windows、Android 和 macOS 构建均已完成；网络验收范围与平台限制见 [NETWORK.md](NETWORK.md)。
 
 ## 下载与安装
 
@@ -18,10 +18,15 @@
 | Windows x64（0.3.3-preview） | [下载 Windows ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.3-preview/ShinjukuDuel-0.3.3-windows-x64.zip) | Relay/LAN 联机与操作衔接预览；完整解压后运行。 |
 | Android ARM64（0.3.3-preview） | [下载安卓 APK](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.3-preview/ShinjukuDuel-0.3.3-android-arm64.apk) | 配套预览包；最终 APK 已完成编译，发布附件与签名状态以发布流程核验为准，Android 真机尚未验证。 |
 | macOS Universal（0.3.3-preview） | [下载 macOS ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.3-preview/ShinjukuDuel-0.3.3-macos-universal.zip) | Intel 与 Apple Silicon 预览包；尚无 Mac 实机或跨平台联机验证，无 Developer ID 签名和公证。 |
+| Windows x64（0.3.4-preview） | [下载 Windows ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.4-preview/ShinjukuDuel-0.3.4-windows-x64.zip) | LAN/Relay 角色流程已验收，详细范围见 NETWORK.md。 |
+| Android ARM64（0.3.4-preview） | [下载安卓 APK](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.4-preview/ShinjukuDuel-0.3.4-android-arm64.apk) | versionCode 19，ARM64，API 26—36；真机尚未验证。 |
+| macOS Universal（0.3.4-preview） | [下载 macOS ZIP](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.3.4-preview/ShinjukuDuel-0.3.4-macos-universal.zip) | 原生 x86_64+arm64 架构已核验；ZIP、实机签名、公证或联机验收仍待确认。 |
 
 [全部发布文件](https://github.com/soranatsu/ShinjukuDuel/releases/latest) · [安装与操作说明](INSTALL.md) · [macOS 说明](MACOS.md) · [更新说明](CHANGELOG.md) · [LAN 联机指南](LAN.md) · [Relay 状态](RELAY.md) · [NETWORK 验证说明](NETWORK.md) · [SHA-256 校验](SHA256SUMS.txt)
 
 [0.3.3-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.3-preview) · [预览包 SHA-256](SHA256SUMS-0.3.3.txt) · [0.3.2-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.2-preview)
+
+[0.3.4-preview 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.3.4-preview) · [SHA-256 校验](SHA256SUMS-0.3.4.txt)
 
 GitHub 自动生成的 `Source code` ZIP/TAR 是本仓库的说明文档快照。游玩请下载上表中对应平台的文件。
 
@@ -131,7 +136,7 @@ Relay 云房间使用邀请码创建或加入；局域网仍支持输入主机 I
 
 ## 验证范围
 
-0.3.3-preview 最终 Windows 构建的真实 Relay 验收完成两轮，两种主机角色各通过主机 153 项、客户端 50 项检查，共 406 项；LAN 角色与操作专项也已完成验收。AI 跳跃随机对战观测有一次未触发，独立同构建四项复测通过；未确定根因，也不证明 15 秒内必跳。Android 预览包目标为 ARM64、API 26—36，最终 APK 已完成编译，发布附件与签名状态以发布流程核验为准，Android 真机性能、触控、发热和兼容性尚未验收。APK 使用既有 Android Debug 证书，属于直接安装的测试构建，并非应用商店签名版本。
+0.3.3-preview 的历史 Windows Relay 验收仍按原记录保留。0.3.4-preview 在同一 managed SHA 上新增 Windows 同机双进程 LAN 角色流程专项 58 项全部通过，并完成公网 Relay 通用集成 203 项全部通过；Relay 建房后的角色预选未作为单独专项宣称。AI 跳跃随机对战观测有一次未触发，独立同构建四项复测通过；未确定根因，也不证明 15 秒内必跳。Android 预览包目标为 ARM64、API 26—36，最终 APK 已完成编译，发布附件与签名状态以发布流程核验为准，Android 真机性能、触控、发热和兼容性尚未验收。APK 使用既有 Android Debug 证书，属于直接安装的测试构建，并非应用商店签名版本。
 
 最终 APK：`com.shinjuku.fanduel`，versionName `0.3.3`，versionCode `18`，ARM64，API 26—36；使用既有 Android Debug 证书（SHA-256 `0f3b7fc7871f6eb012258a53c85c74119d0e3c38f7ffdfd9160389af55a2048e`），可覆盖同签名版本。真机尚未验证。
 

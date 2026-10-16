@@ -1,0 +1,37 @@
+{
+  "scenario": "Release034-Roles-SukunaImpaired",
+  "complete": true,
+  "passed": true,
+  "runnerPid": 67616,
+  "build": "Builds\\Release-0.3.4\\ShinjukuDuel.exe",
+  "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+  "hostRole": "Sukuna",
+  "hostPort": 8314,
+  "clientPort": 8315,
+  "impaired": true,
+  "domainOnly": false,
+  "started": "2026-10-16T21:19:44.0832225+08:00",
+  "processes": [
+    7220,
+    62608,
+    27860
+  ],
+  "results": [
+    {
+      "passed": true,
+      "complete": true,
+      "checks": 17,
+      "failures": [],
+      "mode": "host"
+    },
+    {
+      "passed": true,
+      "complete": true,
+      "checks": 12,
+      "failures": [],
+      "mode": "client"
+    }
+  ],
+  "managedSHA256": "443DDB1F2FB48D4F8014FCD30CC7E29B2EDFC5AB76943E406947FB3659619AF3",
+  "finished": "2026-10-16T21:20:27.3970264+08:00"
+}

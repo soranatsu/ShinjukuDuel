@@ -1,14 +1,14 @@
 # macOS 使用说明
 
-0.3.3 macOS 预览包为 Universal 构建，支持 Intel 与 Apple Silicon，最低 macOS 12.0。
+0.3.4 macOS 预览包为 Universal 构建，支持 Intel 与 Apple Silicon，最低 macOS 12.0。
 
-1. 解压 `ShinjukuDuel-0.3.3-macos-universal.zip`，保留完整的 `ShinjukuDuel.app` 包内容。
+1. 解压 `ShinjukuDuel-0.3.4-macos-universal.zip`，保留完整的 `ShinjukuDuel.app` 包内容。
 2. 将 `.app` 拖到“应用程序”文件夹，或放到自己的用户文件夹中。
 3. 双击启动即可，不需要安装 Unity 或其他运行环境。
 
 鼠标左键普攻、右键格挡，中键锁定目标。触控板没有实体中键时，建议进入设置重新绑定锁定键；也可在那里调整鼠标灵敏度、音乐和音效音量。
 
-Relay 邀请码和 LAN 联机使用与 Windows/Android 相同的 0.3.3 源码协议，双方应使用同一版本。当前没有 Mac 实机或跨平台联机验证，因此相关体验仍待确认。
+Relay 邀请码和 LAN 联机使用与 Windows/Android 相同的 0.3.3 源码协议，双方应使用同一版本。0.3.4 创建房间时保留预选角色；加入已有房间后分配另一角色，可请求换位。Windows 同机双进程 LAN 角色流程和公网 Relay 通用集成已通过专项验收；macOS Universal 原生 x86_64+arm64 架构已核验；当前没有 Mac 实机或跨平台联机验证，因此 macOS 相关体验仍待确认。
 
 当前 macOS 预览包没有 Apple Developer ID 签名和公证。首次打开若被系统拦截：
 

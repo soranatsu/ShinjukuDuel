@@ -1,0 +1,67 @@
+{
+    "mode": "client",
+    "output": "C:/Users/sora/AppData/LocalLow/Shinjuku Fan Project/新宿决战\\net-test-client-8315.json",
+    "complete": true,
+    "checks": [
+        {
+            "name": "client_offline_gojo_selection",
+            "detail": "unconnected Gojo selection slot=0",
+            "pass": true
+        },
+        {
+            "name": "client_offline_sukuna_selection",
+            "detail": "unconnected Sukuna selection slot=1",
+            "pass": true
+        },
+        {
+            "name": "client_offline_preselection",
+            "detail": "final unconnected preselection slot=1",
+            "pass": true
+        },
+        {
+            "name": "handshake",
+            "detail": "已连接，请选择角色并准备",
+            "pass": true
+        },
+        {
+            "name": "client_conflict_resolved",
+            "detail": "client preselected slot was resolved to server-owned complement",
+            "pass": true
+        },
+        {
+            "name": "accept_host_observed",
+            "detail": "client observed accepted swap",
+            "pass": true
+        },
+        {
+            "name": "client_request_pending",
+            "detail": "requester observed server pending state",
+            "pass": true
+        },
+        {
+            "name": "accept_client_observed",
+            "detail": "client observed roles exchanged back",
+            "pass": true
+        },
+        {
+            "name": "client_ready_blocked",
+            "detail": "ready cannot be set while swap is pending",
+            "pass": true
+        },
+        {
+            "name": "client_ready_phase_cleared",
+            "detail": "client observed pending=false before self-response phase",
+            "pass": true
+        },
+        {
+            "name": "client_rejects_self_response_phase",
+            "detail": "opponent rejects after requester self-response check",
+            "pass": true
+        },
+        {
+            "name": "client_active_match_swap_blocked",
+            "detail": "client swap rejected during match",
+            "pass": true
+        }
+    ]
+}

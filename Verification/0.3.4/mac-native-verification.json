@@ -1,0 +1,62 @@
+{
+  "version": "0.3.4",
+  "passed": true,
+  "universalNativeFiles": [
+    {
+      "path": "Contents/Frameworks/libmono-native.dylib",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ],
+      "sha256": "bde07a4b536759b38a21b9ca080231a0b09f6c73ca43b456e3b8bf686ea615ea"
+    },
+    {
+      "path": "Contents/Frameworks/libmonobdwgc-2.0.dylib",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ],
+      "sha256": "b1e8c841c8cd66713d6c96dc6430f8cbe2735a975f816d86ab850316b4d46ae3"
+    },
+    {
+      "path": "Contents/Frameworks/libMonoPosixHelper.dylib",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ],
+      "sha256": "c7603b375e6e318d714db3402543dc4155a6b22e34b726e683b55d00c884c119"
+    },
+    {
+      "path": "Contents/Frameworks/UnityPlayer.dylib",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ],
+      "sha256": "7fbb72d299fe554e1d92d1ccfe233890ec3fcedcfdf505f83e674697dbc50cc5"
+    },
+    {
+      "path": "Contents/MacOS/新宿决战",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ],
+      "sha256": "c8066e84aa876c26050f68f0f8ad3c87e8c49205ef90484727046d823e0428ce"
+    },
+    {
+      "path": "Contents/PlugIns/lib_burst_generated.bundle",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ],
+      "sha256": "e370ac50ac9a5e73bfb94f3cd9ca00ad840c6a91efeaca22048a058f45d92b85"
+    }
+  ],
+  "bundleIdentifier": "com.shinjuku.fanduel",
+  "minimumMacOS": "12.0",
+  "executable": "新宿决战",
+  "managedSHA256": "b1a946353610debe50c30e3e49230bae5b157c4aed77c21631dbd8b6ce49bb5a",
+  "lobbyPreferencePresent": true,
+  "deviceTested": false,
+  "developerIdSigned": false,
+  "notarized": false
+}

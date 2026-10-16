@@ -1,0 +1,134 @@
+{
+  "version": "0.3.4-preview",
+  "scope": "Same-machine Windows dual-process acceptance; not physical cross-device testing",
+  "passed": true,
+  "managedSHA256": "443DDB1F2FB48D4F8014FCD30CC7E29B2EDFC5AB76943E406947FB3659619AF3",
+  "totalChecks": 261.0,
+  "scenarios": [
+    {
+      "scenario": "Release034-Roles-Gojo",
+      "complete": true,
+      "passed": true,
+      "runnerPid": 71748,
+      "build": "Builds\\Release-0.3.4\\ShinjukuDuel.exe",
+      "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "hostRole": "Gojo",
+      "hostPort": 8310,
+      "clientPort": 8310,
+      "impaired": false,
+      "domainOnly": false,
+      "started": "2026-10-16T21:19:44.2349466+08:00",
+      "processes": [
+        64880,
+        55556
+      ],
+      "results": [
+        {
+          "checks": 17,
+          "complete": true,
+          "passed": true,
+          "failures": [],
+          "mode": "host"
+        },
+        {
+          "checks": 12,
+          "complete": true,
+          "passed": true,
+          "failures": [],
+          "mode": "client"
+        }
+      ],
+      "managedSHA256": "443DDB1F2FB48D4F8014FCD30CC7E29B2EDFC5AB76943E406947FB3659619AF3",
+      "finished": "2026-10-16T21:20:22.5975628+08:00"
+    },
+    {
+      "scenario": "Release034-Roles-SukunaImpaired",
+      "complete": true,
+      "passed": true,
+      "runnerPid": 67616,
+      "build": "Builds\\Release-0.3.4\\ShinjukuDuel.exe",
+      "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "hostRole": "Sukuna",
+      "hostPort": 8314,
+      "clientPort": 8315,
+      "impaired": true,
+      "domainOnly": false,
+      "started": "2026-10-16T21:19:44.0832225+08:00",
+      "processes": [
+        7220,
+        62608,
+        27860
+      ],
+      "results": [
+        {
+          "passed": true,
+          "complete": true,
+          "checks": 17,
+          "failures": [],
+          "mode": "host"
+        },
+        {
+          "passed": true,
+          "complete": true,
+          "checks": 12,
+          "failures": [],
+          "mode": "client"
+        }
+      ],
+      "managedSHA256": "443DDB1F2FB48D4F8014FCD30CC7E29B2EDFC5AB76943E406947FB3659619AF3",
+      "finished": "2026-10-16T21:20:27.3970264+08:00"
+    },
+    {
+      "scenario": "Release034-Relay-SukunaHost",
+      "complete": true,
+      "passed": true,
+      "runnerPid": 74020,
+      "build": "Builds\\Release-0.3.4\\ShinjukuDuel.exe",
+      "buildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "sourceWindowsBuildSHA256": "DE6E689463B66EED8CF39443EB662F49413D4BE3C173B348B9F6C06AB6C75D60",
+      "managedSHA256": "443DDB1F2FB48D4F8014FCD30CC7E29B2EDFC5AB76943E406947FB3659619AF3",
+      "hostRole": "Sukuna",
+      "hostPort": 8320,
+      "clientPort": 8321,
+      "transport": "relay",
+      "relayProfiles": [
+        "relayhost033",
+        "relayclient033"
+      ],
+      "relayRunId": "Release034-Relay-SukunaHost",
+      "joinCodeFile": "Docs\\Verification-Network\\Release034-Relay-SukunaHost\\relay-joincode.txt",
+      "processes": [
+        64116,
+        70400
+      ],
+      "results": [
+        {
+          "checks": 153,
+          "resultCopy": "Docs\\Verification-Network\\Release034-Relay-SukunaHost\\relay-net-test-host-8320.json",
+          "passed": true,
+          "resultSource": "Docs\\Verification-Network\\Release034-Relay-SukunaHost\\relay-net-test-host-8320.json",
+          "complete": true,
+          "profile": "relayhost033",
+          "mode": "host",
+          "failures": []
+        },
+        {
+          "checks": 50,
+          "resultCopy": "Docs\\Verification-Network\\Release034-Relay-SukunaHost\\relay-net-test-client-8321.json",
+          "passed": true,
+          "resultSource": "Docs\\Verification-Network\\Release034-Relay-SukunaHost\\relay-net-test-client-8321.json",
+          "complete": true,
+          "profile": "relayclient033",
+          "mode": "client",
+          "failures": []
+        }
+      ],
+      "started": "2026-10-16T21:20:11.4027379+08:00",
+      "finished": "2026-10-16T21:22:16.4969262+08:00"
+    }
+  ],
+  "androidDeviceTested": false,
+  "macDeviceTested": false,
+  "macDeveloperIdSigned": false,
+  "macNotarized": false
+}

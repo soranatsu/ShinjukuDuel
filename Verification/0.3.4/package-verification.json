@@ -1,0 +1,27 @@
+{
+  "version": "0.3.4-preview",
+  "files": [
+    {
+      "name": "ShinjukuDuel-0.3.4-windows-x64.zip",
+      "bytes": 84479345,
+      "sha256": "07B26E883A3A98BA557C1E545A82E94F0F750C47DF70CC5DB9AC5E2B19A0F227"
+    },
+    {
+      "name": "ShinjukuDuel-0.3.4-android-arm64.apk",
+      "bytes": 74454263,
+      "sha256": "E221FCA3EF2B594C35CAE4C4B5D7DA65D6E81559055B59AE6AA125C5BACF0D6A"
+    },
+    {
+      "name": "ShinjukuDuel-0.3.4-macos-universal.zip",
+      "bytes": 94592465,
+      "sha256": "0E3AC19619897DDC889A2AC1B425CB71F3E27D1A00734EFD4C6B14AE79882A3C"
+    }
+  ],
+  "windowsManagedSHA256": "443DDB1F2FB48D4F8014FCD30CC7E29B2EDFC5AB76943E406947FB3659619AF3",
+  "windowsChecksPassed": 261,
+  "gameplaySourceUnchanged": true,
+  "androidDeviceTested": false,
+  "macDeviceTested": false,
+  "macDeveloperIdSigned": false,
+  "macNotarized": false
+}

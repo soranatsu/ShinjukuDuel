@@ -1,3 +1,11 @@
+# 0.3.4-preview 联机验收状态
+
+0.3.4-preview 修正开房前角色预选，并保留创建 LAN/Relay 房间时的角色选择。加入已有房间后分配房主尚未选择的另一角色，可请求对方同意换位；不改战斗规则。
+
+Windows 同机双进程 LAN 角色预选、角色互斥、分配与换位专项共 58 项全部通过；公网 Relay 双 Windows 进程通用集成 203 项全部通过。Relay 结果覆盖建房、加入、准备和对局链路，Relay 建房后的角色预选未作为单独专项宣称。两组结果使用 managed SHA `443DDB1F2FB48D4F8014FCD30CC7E29B2EDFC5AB76943E406947FB3659619AF3`。Android 0.3.4 编译产物为 ARM64、API 26—36、versionCode 19，使用既有 Android Debug 证书（SHA-256 `0f3b7fc7871f6eb012258a53c85c74119d0e3c38f7ffdfd9160389af55a2048e`），APK SHA-256 为 `E221FCA3EF2B594C35CAE4C4B5D7DA65D6E81559055B59AE6AA125C5BACF0D6A`。
+
+Android ARM64（versionCode 19）和 macOS Universal 已完成编译；macOS Universal 原生 x86_64+arm64 架构已核验。Android 真机、macOS 实机签名公证及跨设备联机仍未验证。
+
 # 0.3.3-preview 联机网络验收记录
 
 ## 0.3.3-preview 当前状态
@@ -74,5 +82,5 @@
 
 - Transport/Canonical/Delivery/Verified 早期失败批次保留在当前目录，属于历史测试夹具/观察记录，不混入本 Publish 矩阵。
 - 主机退出结束对局，没有主机迁移。
-- Publish032、Transport032 等早期批次保留为历史；本页开头的 0.3.3-preview Relay 结果来自最终 Windows 构建。所有当前网络结果仍限于本机双进程，未扩展为连续手感、真实异地、Android 真机或跨设备证明。
+- Publish032、Transport032 等早期批次保留为历史；本页开头的 0.3.3-preview Relay 结果来自最终 Windows 构建。0.3.4-preview 的 LAN 角色专项为同机双进程，Relay 通用集成为公网双 Windows 进程；结果不扩展为 Android 真机、macOS 实机或跨平台体验证明。
 - 机器可读明细：[Network-Verification-0.3.2.summary.json](Verification/0.3.2/summary.json)。

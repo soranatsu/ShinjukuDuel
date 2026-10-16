@@ -1,0 +1,16 @@
+{
+  "version": "0.3.4",
+  "package": "com.shinjuku.fanduel",
+  "versionCode": 19,
+  "architecture": "arm64-v8a",
+  "minSdk": 26,
+  "targetSdk": 36,
+  "sha256": "E221FCA3EF2B594C35CAE4C4B5D7DA65D6E81559055B59AE6AA125C5BACF0D6A",
+  "bytes": 74454263,
+  "signatureVerified": true,
+  "certificateSHA256": "0f3b7fc7871f6eb012258a53c85c74119d0e3c38f7ffdfd9160389af55a2048e",
+  "sameCertificateAs033": true,
+  "deviceTested": false,
+  "buildLog": "Logs/build-android-0.3.4.log",
+  "verifiedAt": "2026-10-16T21:38:01.6943352+08:00"
+}

@@ -1,3 +1,13 @@
+# 0.3.4-preview
+
+2026-10-16 · 联机大厅角色流程预览
+
+- 修正开房前角色卡片无法选择的问题；创建 LAN 或 Relay 房间时保留预选角色。
+- 加入已有房间后分配房主尚未选择的另一角色，可请求对方同意换位。
+- 不改战斗、伤害、技能冷却或平衡规则。
+- Windows 同机双进程 LAN 角色预选/分配/换位专项共 58 项全部通过；公网 Relay 通用集成双 Windows 进程 203 项全部通过。Relay 建房后的角色预选未作为单独专项宣称。Android ARM64（versionCode 19）和 macOS Universal 已完成编译；macOS Universal 原生 x86_64+arm64 架构已核验。
+- Android 真机未验证；macOS 无实机、跨设备联机、Developer ID 签名或公证验证。
+
 # 0.3.3-preview
 
 2026-10-16 · Relay 与操作衔接预览
