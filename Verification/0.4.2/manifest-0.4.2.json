@@ -1,0 +1,52 @@
+{
+  "version": "0.4.2",
+  "passed": true,
+  "protocol": "shinjuku-lan-042-v1",
+  "managedSHA256": "643E69CA4AEDB90252C75789AF11AC9DCD543A5AC4B5445459C3A66C87700415",
+  "generatedAt": "2026-10-18T09:20:58.393769+00:00",
+  "localGateManifestSHA256": "D2AC14645D389F5C9C7ED50C2B2F52C5DA7F105F12810D830A5778A240B19564",
+  "verificationDocumentSHA256": "0CA240F9E67FB84EE9D0693878DC942FF6166FBB32FF68F1F4EB3ACA0E3014EE",
+  "coreGroups": 17,
+  "captures": 96,
+  "relayChecksByHostRole": [
+    224,
+    224
+  ],
+  "roleSwapChecks": 41,
+  "relayLifecycleChecks": 10,
+  "continuousChecks": [
+    51,
+    43
+  ],
+  "startup": {
+    "runs": 3,
+    "meanFirstMenuMs": 2846.2,
+    "firstMenuMs": [
+      2663.8,
+      3178.7,
+      2696.0
+    ]
+  },
+  "downloads": {
+    "windows": {
+      "file": "Release-0.4.2-Windows.zip",
+      "bytes": 163042605,
+      "sha256": "B98DC3E50B36A8BD9924A47A674009D755D80798BCB5632C7D152B7C1016BB3E"
+    },
+    "android": {
+      "file": "ShinjukuDuel.apk",
+      "bytes": 99891342,
+      "sha256": "BD5101A677E53CF5C9F7A226C944FDF99EB0674679ED3B383472B67944DD8064"
+    },
+    "macOS": {
+      "file": "Release-0.4.2-macos-universal.zip",
+      "bytes": 173170623,
+      "sha256": "F989CEF779BCA9D6519C974EAB74DCB90C7A56820C948CB7CC92CCF97623361D"
+    }
+  },
+  "limits": [
+    "Relay was verified with two independent Windows processes on one computer.",
+    "Android and macOS builds and package structure were checked; physical devices were not tested.",
+    "Android uses the existing project test certificate; macOS has no Developer ID signing or notarization."
+  ]
+}

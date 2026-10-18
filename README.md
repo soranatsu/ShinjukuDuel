@@ -1,5 +1,38 @@
 # 新宿决战 · Shinjuku Duel
 
+当前稳定版：**0.4.2 · 2026-10-18**
+
+0.4.2 是当前推荐版本。Windows、Android ARM64 与 macOS Universal 使用同一版本号；联机双方必须使用同一构建与协议 `shinjuku-lan-042-v1`。
+
+## 下载与安装
+
+| 平台 | 下载 | 使用方式 |
+| --- | --- | --- |
+| Windows x64 | [Release-0.4.2-Windows.zip](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.2/Release-0.4.2-Windows.zip) | 解压后运行 `ShinjukuDuel.exe`，保留数据目录和 DLL。 |
+| Android ARM64 | [ShinjukuDuel.apk](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.2/ShinjukuDuel.apk) | 安装 APK 后横屏游玩；需允许安装外部来源应用。 |
+| macOS Universal | [Release-0.4.2-macos-universal.zip](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.2/Release-0.4.2-macos-universal.zip) | 解压后运行 Universal 包；Intel 与 Apple Silicon 共用该包。 |
+
+[0.4.2 发布页](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.4.2) · [全部发布文件](https://github.com/soranatsu/ShinjukuDuel/releases/tag/v0.4.2) · [SHA-256 校验](https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.2/SHA256SUMS.txt)
+
+## 0.4.2 当前内容
+
+- 全地图新宿街景：歌舞伎町一番街入口、分区化道路/步行街/人行道/斑马线、楼体底层店面与办公入口，以及更丰富的地标建筑和植被。
+- 广告系统覆盖大型立面广告、组合式灯箱、突出竖幅和小型门店招牌；广告图文、字体、亮度和建筑材质按街区氛围控制，减少整齐复制与无意义底座。
+- 战斗场景保留可破坏建筑、领域与高空战斗；伏魔御厨子具有可站立实体，领域持续期间不会无故消失。
+- 五条悟与宿傩的技能追踪、射程、伤害、领域耐久、准心反馈、低难度近身 AI 和技能教程按 0.4.x 规则整理。
+- 技能语音仅做无声段裁切，不对原始人声加速；人声与背景音乐分开调节，并统一游戏内人声响度。
+- LAN/Relay 房间、战斗特效、结算界面和离房清理已纳入同版本联机流程；合成茈伤害为 140，联机双方需使用相同版本。
+
+## 验证边界
+
+Windows 发布包、Android/macOS 构建元数据与静态检查按 0.4.2 发布门禁验证。Android 和 macOS 的构建检查不等同于实体设备上的性能、触控、发热、签名公证或兼容性结论。Relay 联机验收以同一台电脑上的双进程验证为边界，不宣称两台真实设备或公网长期稳定性。
+
+详见 [0.4.2 验证记录](Verification/0.4.2/Verification-0.4.2.md) 与 [0.4.2 发布说明](Docs/GitHubRelease-0.4.2.md)。
+
+## 历史版本说明（0.3.x）
+
+以下内容保留旧版 0.3.x 的机制、安装、联机和验证记录，仅用于追溯；当前下载、版本状态和验证边界以本页顶部的 0.4.2 为准。
+
 基于 Unity 制作的第一人称单人人机对战游戏。选择五条悟或两面宿傩，在可破坏的城市街区中使用近战、术式、领域和防御技能进行战斗。
 
 **稳定版：0.3.1 · 2026-10-16**  
@@ -159,3 +192,4 @@ Relay 云房间使用邀请码创建或加入；局域网仍支持输入主机 I
 这是《咒术回战》同人游戏，非官方作品。当前角色采用用户提供的 Tripo02 模型；模型来源声明不等于角色 IP、音乐或漫画素材的公开分发授权。项目尚未建立这些素材的完整公开传播授权记录。
 
 仓库不为第三方素材另行授予使用或再分发许可。原有来源和许可文件保留在 Windows 包内，当前素材说明见 [CREDITS.md](CREDITS.md)。
+
