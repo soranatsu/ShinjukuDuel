@@ -1,74 +1,87 @@
 {
   "product": "ShinjukuDuel",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "date": "2026-10-19",
   "repository": "https://github.com/soranatsu/ShinjukuDuel",
-  "releaseTag": "v0.4.3",
+  "releaseTag": "v0.4.4",
   "website": "https://soranatsu.itch.io/shinjuku-duel",
   "pricing": "free",
-  "networkProtocol": "shinjuku-lan-043-v1-fixed60",
+  "networkProtocol": "shinjuku-lan-044-v1-fixed60",
   "platforms": {
     "windows": {
-      "file": "ShinjukuDuel-0.4.3-windows-x64.zip",
-      "bytes": 163623310,
-      "sha256": "6231A785DBC44768DB69BA8366767D2D770BFB8F2D2D12B32D1EB0FC189C6613",
-      "url": "https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.3/ShinjukuDuel-0.4.3-windows-x64.zip",
+      "file": "ShinjukuDuel-0.4.4-windows-x64.zip",
+      "bytes": 163617102,
+      "sha256": "B002DCF5711693A56B8B6E81F4FB9A173C655351419B42710F7CB8A60DFED8AD",
+      "url": "https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.4/ShinjukuDuel-0.4.4-windows-x64.zip",
       "architecture": "x86_64",
-      "revision": "networkfix4",
-      "entryPoint": "ShinjukuDuel.exe",
-      "regressionChecks": 127,
-      "directRelayChecks": 51
-    },
-    "macos": {
-      "file": "ShinjukuDuel-0.4.3-macos-universal.zip",
-      "bytes": 173196634,
-      "sha256": "F7742F5A6C8DB27E4FD982E6BFC229E6A36F9AEE6864C8318F479232EA9EA857",
-      "url": "https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.3/ShinjukuDuel-0.4.3-macos-universal.zip",
-      "architectures": [
-        "arm64",
-        "x86_64"
-      ],
-      "nativeMachOCount": 6,
-      "minOS": "12.0",
-      "macRuntimeTested": false,
-      "notarized": false
+      "sourceBuild": "Builds/Release-0.4.4-candidate3",
+      "assemblySHA256": "6D2D9079B7E5AB4915C913C1BBDD6C8D1091A250FB533BA74CF21E8DB525BCF6",
+      "archiveFilesVerified": 225
     },
     "android": {
-      "file": "ShinjukuDuel-0.4.3-android-arm64.apk",
-      "bytes": 100048802,
-      "sha256": "E8AEFB45E31BB19BF9E3FE64183E26BC0B0F0096EE14A8485D0BEEA643AB264F",
-      "url": "https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.3/ShinjukuDuel-0.4.3-android-arm64.apk",
+      "file": "ShinjukuDuel-0.4.4-android-arm64.apk",
+      "bytes": 100054386,
+      "sha256": "68B56E78142CB87730ABF18C7D8A125F9096011AE5E7BC566022C4784E69B8C0",
+      "url": "https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.4/ShinjukuDuel-0.4.4-android-arm64.apk",
       "architecture": "arm64-v8a",
-      "revision": "networkfix3",
-      "versionCode": 32,
+      "versionCode": 33,
       "minSdk": 26,
       "targetSdk": 36,
       "signatureVerified": true,
+      "sameSignerAs043": true,
       "alignment16KiBVerified": true,
-      "signerSHA256": "0f3b7fc7871f6eb012258a53c85c74119d0e3c38f7ffdfd9160389af55a2048e"
+      "physicalDeviceTested": false
+    },
+    "macos": {
+      "file": "ShinjukuDuel-0.4.4-macos-universal.zip",
+      "bytes": 173197458,
+      "sha256": "A7BAFFBCD0DF1DCE776D5063501ED4274B54772FF4B2958FAA83F2B0D29A7719",
+      "url": "https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.4/ShinjukuDuel-0.4.4-macos-universal.zip",
+      "architectures": [
+        "x86_64",
+        "arm64"
+      ],
+      "nativeMachOCount": 6,
+      "minOS": "12.0",
+      "permissionsVerified": true,
+      "macRuntimeTested": false,
+      "notarized": false
     },
     "web": {
-      "file": "ShinjukuDuel-0.4.3-web.zip",
-      "bytes": 121954016,
-      "sha256": "53D2079008550DB8C756319BBFD9AB964B099A42E1353C4A8AD61923D55562CC",
-      "url": "https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.3/ShinjukuDuel-0.4.3-web.zip",
-      "revision": "networkfix3",
+      "file": "ShinjukuDuel-0.4.4-web.zip",
+      "bytes": 121956374,
+      "sha256": "BFF13C0C27E0863C644B82015BAF92E43CA11F802E047DF0F85BB71869202645",
+      "url": "https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.4/ShinjukuDuel-0.4.4-web.zip",
+      "sourceBuild": "Builds/Web/Release-0.4.4-candidate1",
       "entryPoint": "index.html",
-      "threads": false,
       "compression": "Gzip with decompression fallback",
+      "threads": false,
       "mobileTouch": true
     }
   },
-  "verification": {
-    "windowsAndroidPhysicalLanUserConfirmed": true,
-    "windowsAndroidPhysicalRemoteNoProxyUserConfirmed": true,
-    "physicalEvidenceType": "user feedback on 2026-10-19",
-    "macRuntimeTested": false,
-    "allNetworksGuaranteed": false
-  },
-  "knownIssues": [
-    "0.4.3 网页版点击“联机对战”可能发生 WebAssembly null function 崩溃；暂用 Windows / Android 安装版联机，修复安排在 0.4.4。",
-    "锁定目标且高于对手时，可能持续移动至对手正上方并踩头；修复安排在 0.4.4。"
+  "resolvedIssues": [
+    "Web network menu null-function crash",
+    "Overhead lock heading and standing on opponent head"
   ],
-  "nextPlannedVersion": "0.4.4"
+  "verification": {
+    "headSpacingChecks": 21,
+    "movementChecks": 10,
+    "airMovementChecks": 16,
+    "reconciliationChecks": 127,
+    "nativeLanChecks": 217,
+    "nativeRelayChecks": 63,
+    "webRelayHostChecks": 34,
+    "webRelayClientChecks": 30,
+    "finalWebMenuPassed": true,
+    "newAndroidPhysicalTest": false,
+    "macRuntimeTested": false,
+    "previousPhysicalWindowsAndroidNoProxyUserConfirmationVersion": "0.4.3",
+    "allNetworksGuaranteed": false,
+    "headSpacingControlledStepRates": [
+      30,
+      60,
+      120
+    ],
+    "headSpacingScope": "Real CharacterController with controlled 1/fps motion steps; no rendered FPS benchmark"
+  }
 }

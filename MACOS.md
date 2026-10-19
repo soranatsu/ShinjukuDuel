@@ -1,6 +1,6 @@
 # macOS 使用说明
 
-0.4.3 macOS 包为 Universal 构建，支持 Intel 与 Apple Silicon，最低 macOS 12.0。
+0.4.4 macOS 包为 Universal 构建，支持 Intel 与 Apple Silicon，最低 macOS 12.0。
 
 1. 解压下载的 ZIP，保留完整的 `ShinjukuDuel.app` 包内容。
 2. 将 `.app` 拖到“应用程序”文件夹，或放到自己的用户文件夹中。
@@ -8,7 +8,7 @@
 
 鼠标左键普攻、右键格挡，中键锁定目标。触控板没有实体中键时，建议进入设置重新绑定锁定键；也可在那里调整鼠标灵敏度、音乐和音效音量。
 
-Relay 邀请码和 LAN 联机使用与 Windows/Android 配套的 `shinjuku-lan-043-v1-fixed60` 协议，双方必须使用同一 0.4.3 版本。macOS 实体设备与跨平台实机联机尚未验证，构建与验包结论见本版最终清单。
+Relay 邀请码和 LAN 联机使用与 Windows/Android 配套的 `shinjuku-lan-044-v1-fixed60` 协议，双方必须使用同一 0.4.4 版本。macOS 实体设备与跨平台实机联机尚未验证，构建与验包结论见本版最终清单。
 
 当前 macOS 包没有 Apple Developer ID 签名和公证。首次打开若被系统拦截：
 
