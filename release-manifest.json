@@ -65,5 +65,10 @@
     "physicalEvidenceType": "user feedback on 2026-10-19",
     "macRuntimeTested": false,
     "allNetworksGuaranteed": false
-  }
+  },
+  "knownIssues": [
+    "0.4.3 网页版点击“联机对战”可能发生 WebAssembly null function 崩溃；暂用 Windows / Android 安装版联机，修复安排在 0.4.4。",
+    "锁定目标且高于对手时，可能持续移动至对手正上方并踩头；修复安排在 0.4.4。"
+  ],
+  "nextPlannedVersion": "0.4.4"
 }

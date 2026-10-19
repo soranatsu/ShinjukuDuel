@@ -12,3 +12,9 @@ Windows / Android MatePad 局域网及无代理远程连接已获用户实测确
 双方请使用本次 0.4.3 更新。不同网络与网页版通过“在线房间”邀请码联机；原生局域网使用主机 IPv4 和 UDP 7777。Windows 首次局域网连接可运行包内的防火墙修复工具。
 
 完整操作和验证范围见附件 `INSTALL.txt`、`RELEASE-NOTES.txt`、`manifest-0.4.3.json`；校验值见 `SHA256SUMS.txt`。素材来源记录随各平台游戏包保留。
+
+
+已知问题（0.4.4 修复）：
+
+- 0.4.3 网页版点击“联机对战”可能发生 WebAssembly null function 崩溃；暂用 Windows / Android 安装版联机，修复安排在 0.4.4。
+- 锁定目标且高于对手时，可能持续移动至对手正上方并踩头；修复安排在 0.4.4。
