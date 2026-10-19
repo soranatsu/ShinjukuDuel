@@ -1,54 +1,69 @@
 {
-  "version": "0.3.1",
-  "buildDate": "2026-10-16",
-  "buildRevision": "0.3.1-offline-hotfix-20261016",
+  "product": "ShinjukuDuel",
+  "version": "0.4.3",
+  "date": "2026-10-19",
   "repository": "https://github.com/soranatsu/ShinjukuDuel",
-  "releaseTag": "v0.3.1",
+  "releaseTag": "v0.4.3",
+  "website": "https://soranatsu.itch.io/shinjuku-duel",
+  "pricing": "free",
+  "networkProtocol": "shinjuku-lan-043-v1-fixed60",
   "platforms": {
     "windows": {
-      "architecture": "x64",
+      "file": "ShinjukuDuel-0.4.3-windows-x64.zip",
+      "bytes": 163623310,
+      "sha256": "6231A785DBC44768DB69BA8366767D2D770BFB8F2D2D12B32D1EB0FC189C6613",
+      "url": "https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.3/ShinjukuDuel-0.4.3-windows-x64.zip",
+      "architecture": "x86_64",
+      "revision": "networkfix4",
       "entryPoint": "ShinjukuDuel.exe",
-      "unityRequired": false
+      "regressionChecks": 127,
+      "directRelayChecks": 51
+    },
+    "macos": {
+      "file": "ShinjukuDuel-0.4.3-macos-universal.zip",
+      "bytes": 173196634,
+      "sha256": "F7742F5A6C8DB27E4FD982E6BFC229E6A36F9AEE6864C8318F479232EA9EA857",
+      "url": "https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.3/ShinjukuDuel-0.4.3-macos-universal.zip",
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ],
+      "nativeMachOCount": 6,
+      "minOS": "12.0",
+      "macRuntimeTested": false,
+      "notarized": false
     },
     "android": {
+      "file": "ShinjukuDuel-0.4.3-android-arm64.apk",
+      "bytes": 100048802,
+      "sha256": "E8AEFB45E31BB19BF9E3FE64183E26BC0B0F0096EE14A8485D0BEEA643AB264F",
+      "url": "https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.3/ShinjukuDuel-0.4.3-android-arm64.apk",
       "architecture": "arm64-v8a",
-      "minimumAPI": 26,
-      "targetAPI": 36,
-      "versionCode": 16,
-      "signing": "existing Android Debug certificate",
-      "signerSHA256": "0f3b7fc7871f6eb012258a53c85c74119d0e3c38f7ffdfd9160389af55a2048e",
-      "physicalDeviceTested": false
+      "revision": "networkfix3",
+      "versionCode": 32,
+      "minSdk": 26,
+      "targetSdk": 36,
+      "signatureVerified": true,
+      "alignment16KiBVerified": true,
+      "signerSHA256": "0f3b7fc7871f6eb012258a53c85c74119d0e3c38f7ffdfd9160389af55a2048e"
+    },
+    "web": {
+      "file": "ShinjukuDuel-0.4.3-web.zip",
+      "bytes": 121954016,
+      "sha256": "53D2079008550DB8C756319BBFD9AB964B099A42E1353C4A8AD61923D55562CC",
+      "url": "https://github.com/soranatsu/ShinjukuDuel/releases/download/v0.4.3/ShinjukuDuel-0.4.3-web.zip",
+      "revision": "networkfix3",
+      "entryPoint": "index.html",
+      "threads": false,
+      "compression": "Gzip with decompression fallback",
+      "mobileTouch": true
     }
   },
   "verification": {
-    "version": "0.3.1",
-    "date": "2026-10-16",
-    "status": "TARGETED_REGRESSION_PASS",
-    "domains": 81,
-    "projectiles": 70,
-    "airMovement": 9,
-    "mobileAndChapters": 14,
-    "aiJump": 4,
-    "tutorial": 93,
-    "assertions": 271,
-    "legacyFullSmokeStatus": "FAIL - 39 retired assertions in 440 checks, audited separately",
-    "legacyAudit": "legacy-smoke-audit.json",
-    "windowsPackageFiles": 169,
-    "windowsHashMismatches": 0,
-    "androidSignature": "PASS-v2",
-    "androidPhysicalDeviceTested": false,
-    "networkStatus": "in development; not part of offline 0.3.1"
-  },
-  "assets": [
-    {
-      "name": "ShinjukuDuel-0.3.1-windows-x64.zip",
-      "bytes": 82637971,
-      "sha256": "97861FF8C79D0BF237B0B65D1372930482289E71ADBB3F2A3364E9BE88C4619E"
-    },
-    {
-      "name": "ShinjukuDuel-0.3.1-android-arm64.apk",
-      "bytes": 63466914,
-      "sha256": "3C52E8FFC796EF7EE9B6308366F852AD89A413222746ECDA4428E2D1DC2AA0FA"
-    }
-  ]
+    "windowsAndroidPhysicalLanUserConfirmed": true,
+    "windowsAndroidPhysicalRemoteNoProxyUserConfirmed": true,
+    "physicalEvidenceType": "user feedback on 2026-10-19",
+    "macRuntimeTested": false,
+    "allNetworksGuaranteed": false
+  }
 }
